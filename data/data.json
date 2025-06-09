@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "nome": "Chair - Bruno Melo Mendes. CDTN/CNEN, BH, MG, Brasil",
+    "nome": "Chair - Bruno Melo Mendes. CDTN/CNEN, BH, MG, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/bmm.jpeg",
     "descricao": "Dr. Bruno Melo Mendes holds a Bachelor's degree in Biological Sciences and a Master's and PhD in Nuclear Science and Technology from the Federal University of Minas Gerais (UFMG). He is currently a researcher at the Nuclear Technology Development Center (CDTN/CNEN). His expertise lies in the nuclear field, with a focus on radiopharmacy, computational modeling (Monte Carlo), and internal dosimetry.",
     "lattes": "http://lattes.cnpq.br/7016638154017973"
   },
   {
     "id": 2,
-    "nome": "Chair - Telma C. F. Fonseca. DEN/UFMG, BH, MG, Brasil",
+    "nome": "Chair - Telma C. F. Fonseca. DEN/UFMG, BH, MG, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/telma.jpeg",
     "descricao": "Dr. Telma C. F. Fonseca is professor at the DEN/UFMG, faculty member of the PCTN/UFMG and member of WinBrasil - Women in Nuclear Association. She holds degrees in the area of computational sciences, a Master’s in Radiation Sciences from UFMG, and a PhD in Biomedical Sciences from KU Leuven (Belgium). She was a researcher at SCK-CEN in Belgium and later led the Internal Dosimetry Lab at CDTN/CNEN. Her expertise includes computational modeling, internal and external dosimetry, radiobiology, and nuclear instrumentation.",
     "lattes": "http://lattes.cnpq.br/3139727297057976",
@@ -16,9 +16,9 @@
   },
   {
     "id": 3,
-    "nome": "Luciana Carvalheira. IEN/LDRAN, RJ Brasil",
+    "nome": "Luciana Carvalheira. IEN/LDRAN, RJ, RJ, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/luciana.jpeg",
-    "descricao": "Dr. Luciana Carvalheira is a Black Brazilian scientist and singer from Rio de Janeiro, leading pioneering projects at the Institute of Nuclear Engineering and serving as a professor and vice-coordinator in postgraduate programs for Nuclear Sciences. She co-founded startups like Magtech Brasil and Radíon, driving innovation in radiochemistry and nanomaterials. Her research spans neutron activation, medical polymers, and environmental monitoring, alongside mentoring future scientists through WiN Brasil’s Helen Khoury Program. As a member of MunaN, she advocates for the inclusion of young Black women in nuclear sciences. Honored by ALERJ for empowering women and recognized as a leader by ENAP’s LideraGOV 4.0, she embodies audacity, joy, and a relentless pursuit of scientific freedom and innovation.",
+    "descricao": "Dr. Luciana Carvalheira is a Black Brazilian scientist and singer from Rio de Janeiro, leading pioneering projects at the Institute of Nuclear Engineering and serving as a professor and vice-coordinator in postgraduate programs for Nuclear Sciences. She co-founded startups like Magtech Brazil and Radíon, driving innovation in radiochemistry and nanomaterials. Her research spans neutron activation, medical polymers, and environmental monitoring, alongside mentoring future scientists through WiN Brazil’s Helen Khoury Program. As a member of MunaN, she advocates for the inclusion of young Black women in nuclear sciences. Honored by ALERJ for empowering women and recognized as a leader by ENAP’s LideraGOV 4.0, she embodies audacity, joy, and a relentless pursuit of scientific freedom and innovation.",
     "lattes": "http://lattes.cnpq.br/7980018485257440",
     "linkedin": "https://www.linkedin.com/in/lucianacarvalheira/"
   },
@@ -31,7 +31,7 @@
   },
   {
     "id": 5,
-    "nome": "Tarcisio P. R. de Campos. DEN/UFMG and CDTN, BH, MG, Brasil",
+    "nome": "Tarcisio P. R. de Campos. DEN/UFMG and CDTN, BH, MG, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/tarcisio.jpeg",
     "descricao": "Dr. Tarcisio P. R. de Campos is retired full professor from the Federal University of Minas Gerais (UFMG), currently collaborating with both UFMG and the Nuclear Technology Development Center (CDTN). He holds a degree in Engineering from UFMG, an MSc in Nuclear Engineering from UFRJ, a PhD from the University of Illinois at Urbana-Champaign, and a postdoctoral fellowship at MIT as a Fulbright Fellow. His expertise spans nuclear engineering, radiobiology, radiochemistry, radiotherapy, and the development of radioisotopes, simulators, and medical software. He has published extensively, holds 14 patents, and has supervised over 75 graduate theses. He has coordinated over 28 research projects and actively collaborates with national and international research institutions.",
     "lattes": "http://lattes.cnpq.br/2004647037137301"
@@ -46,7 +46,7 @@
   },
   {
     "id": 7,
-    "nome": "Bernardo Maranhão Dantas. IRD/CNEN and PPG IRD, RJ, Brasil",
+    "nome": "Bernardo Maranhão Dantas. IRD/CNEN and PPG IRD, RJ, RJ, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/bernardo.jpeg",
     "descricao": "Dr. Bernardo Maranhão Dantas holds a PhD in Sciences (Biology – Nuclear Biosciences) from the State University of Rio de Janeiro (1998). He is a Senior Technologist at the Brazilian National Nuclear Energy Commission (CNEN) and a faculty member of the Graduate Program at the Institute of Radiation Protection and Dosimetry, focusing on Radiation Biophysics. He has published 87 peer-reviewed articles and has supervised numerous students across undergraduate, master’s, and doctoral levels. He has led five research and development projects and currently coordinates the CNPq-certified research group “Occupational Internal Dosimetry.”",
     "lattes": "http://lattes.cnpq.br/0217815661525599",
@@ -61,7 +61,7 @@
   },
   {
     "id": 9,
-    "nome": "Nicéa Barreto. Eletronuclear, RJ, Brasil",
+    "nome": "Nicéa Barreto. Eletronuclear, RJ, RJ, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/nicea.jpg",
     "descricao": "Nicéa Barreto is specialist in business communication and people mManagement, graduate in letters (Português-English), Jornalista, Palestrante, Escrevivente e Mãe. Coordinator of Communication of Women in Nuclear Brazil (Win Brasil) and Coidealizadora of the Collective of Black Women in the Nuclear Area (MunaN). At Eletronuclear, she is Socio-Environmental Responsibility Assistant, Co-idealizer of the Women's STEM Program in Nuclear, member of the Corporate Volunteering Program and of the Electrical-Energy GT of Diligence in Human Rights of the UN Global Compact, she also serves as Deputy Coordinator of the Permanent Committee on Gender, Race and Diversity. She is co-author of the book of the Evaristo Conceição Prize for Black Women's Literature by Metanoia Editora and Cofounder of Indisciplinar - Linguagem e Inclusão.",
     "linkedin": "https://www.linkedin.com/in/niceabarreto/"
@@ -96,21 +96,21 @@
   },
   {
     "id": 14,
-    "nome": "Marina Bicalho Silveira. CDTN/CNEN, BH, MG, Brasil",
+    "nome": "Marina Bicalho Silveira. CDTN/CNEN, BH, MG, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/marina.jpeg",
     "descricao": "Dr. Marina Bicalho Silveira is an Industrial Pharmacist (UFMG, 2007) with an M.Sc. (2010) and Ph.D. (2016) in Radiation Science & Technology (CNEN). Specialized in Radiopharmacy (SBRAFH, 2023), she works as a Senior Technologist at CDTN/CNEN, leading Quality Assurance for PET radiopharmaceutical production. Her expertise covers GMP, regulatory compliance, and R&D of novel radiopharmaceuticals, including preclinical studies. She also serves as a Professor in CDTN’s Graduate Program, bridging industry and academia.",
     "linkedin": "https://www.linkedin.com/in/marina-bicalho-silveira-6bb2129b/"
   },
   {
     "id": 15,
-    "nome": "Rita Sebastiao. UFMG, BH, MG, Brasil",
+    "nome": "Rita Sebastiao. UFMG, BH, MG, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/rita.jpeg",
     "descricao": "Dr. Rita C. O. Sebastião is a full professor at Universidade Federal de Minas Gerais (UFMG) with experience in Chemistry, working mainly on the topics: inverse problems, artificial neural networks, nuclear magnetic resonance, thermal decomposition, chemical kinetics, combustion processes, and thermodynamics. Extensive experience in education, research, and extension, especially in projects aiming for the popularization of science, educational innovation, and entrepreneurship, connecting the university to basic education. Experience in developing and managing projects on socio-environmental sustainability and education. She is currently a member of the Postgraduate Program in Chemistry (PPGQUI), Postgraduate Program in Technological Innovation (PPGIT)  and Professional Master’s in Technological Innovation and Intellectual Property (MPITPI) at UFMG.",
     "linkedin": "https://www.linkedin.com/in/rita-sebastiao-1a7104246/"
   },
   {
     "id": 16,
-    "nome": "Ana Carolina Costa da Silva. Siemens Healthineers",
+    "nome": "Ana Carolina Costa da Silva. Siemens Healthineers, SP, SP, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ana.jpeg",
     "descricao": "Dr. Ana holds a PhD and Master's degree from the Institute of Energetic and Nuclear Research (IPEN/USP), with extensive experience in radiodiagnostics for over 10 years. Graduated in Physics and Radiology Technology, with a postgraduate degree in Imaging. Specialist in PACS, RIS, and 3D Workstation solutions for computed tomography, magnetic resonance, and nuclear medicine. Currently working as the Collaboration Manager CT Latin America at Siemens Healthineers. Research focus on Computed Tomography, Artificial Intelligence, Radiomics, Quality Control, and Nanotechnology.",
     "linkedin": "https://www.linkedin.com/in/ana-carolina-costa-da-silva-7b2251b8/"
@@ -124,28 +124,28 @@
   },
   {
     "id": 18,
-    "nome": "Emerson Bernardes Soares. IPEN/CNEN SP, Brasil",
+    "nome": "Emerson Bernardes Soares. IPEN/CNEN SP, SP, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/emerson.jpeg",
     "descricao": "Dr. Emerson Soares Bernardes is a pharmacist and researcher with over two decades of experience in immunology, molecular biology, and nuclear medicine. He served as Manager of the Radiopharmacy Center at the Nuclear and Energy Research Institute (IPEN), where he led pioneering projects in the development of radiopharmaceuticals. He currently holds a position as a Visiting Researcher at Erasmus Medical Center in the Netherlands, contributing to innovation initiatives and patent development. His career is distinguished by the integration of scientific research, strategic management, and entrepreneurship.",
     "linkedin": "https://www.linkedin.com/in/emerson-bernardes-519bab32/"
   },
   {
     "id": 19,
-    "nome": "Talita de Oliveira Santos. CDTN/CNEN, BH, MG, Brasil",
+    "nome": "Talita de Oliveira Santos. CDTN/CNEN, BH, MG, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/talita.jpeg",
     "descricao": "Dr. Talita de Oliveira Santos holds a degree in Radiology Technology from the Federal Center for Technological Education of Minas Gerais (2007), a master's degree in Nuclear Sciences and Techniques from the Federal University of Minas Gerais (2010) and a PhD in Nuclear Sciences and Techniques from the Federal University of Minas Gerais (2015). She is currently an adjunct professor at the Federal University of Minas Gerais and a collaborator of the National Commission for Nuclear Energy. She has experience in Physics, with an emphasis on Radiation Physics, working mainly on the following topics: natural radioactivity, application of radiation to the environment, nuclear instrumentation and radioprotection.",
     "lattes": "http://lattes.cnpq.br/5267562662055432"
   },
   {
     "id": 20,
-    "nome": "Ricardo Gomes Passos. CDTN/CNEN, BH, MG, Brasil",
+    "nome": "Ricardo Gomes Passos. CDTN/CNEN, BH, MG, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ricardo.jpeg",
     "descricao": "Dr. Ricardo Gomes Passos is environmental engineer. master and doctor in saneamento, environment and water resources. researcher at the Nuclear Technology Development Center / National Nuclear Energy Commission (CDTN/CNEN). Coordinator of the CDTN Natural Radioactivity Laboratory (LRN/CDTN). It carries out research in the areas of environmental radiological monitoring, natural radioactivity, radioactivity and isotopic hydrology. Professor of the Post-Graduation Program in Science and Technology of Radiations, Mines and Materials of CDTN/CNEN.",
     "scholar google": "https://scholar.google.com/citations?user=ndFwN8sAAAAJ&hl=pt-BR"
   },
   {
     "id": 21,
-    "nome": "Maria Jose Neves. CDTN/CNEN, BH, MG, Brasil",
+    "nome": "Maria Jose Neves. CDTN/CNEN, BH, MG, Brazil",
     "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/maze.jpeg",
     "descricao": "Dr. Maria José Neves is a Senior Researcher at the Brazilian National Nuclear Energy Commission (CNEN), based at the Centre for the Development of Nuclear Technology (CDTN), where she leads the Radiobiology Laboratory. She holds a Bachelor's degree in Medical Biological Sciences from the Faculty of Medicine of Ribeirão Preto, University of São Paulo (USP-RP), as well as a Master's and Ph.D. in Physiology from the same institution, with a focus on metabolism. She completed her postdoctoral training in Biochemistry at the Katholieke Universiteit Leuven (KUL), Belgium. Her main research interests include cancer cell metabolism and the biological effects of ionizing radiation.",
     "lattes": "http://lattes.cnpq.br/8729804605264119"
