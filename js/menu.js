@@ -92,8 +92,8 @@ const NavMenu = () => {
         <li style={styles.navSeparator}>|</li>
         {/* <li style={styles.navItem}><a href="./abstracts.html" style={styles.navLink}>ABSTRACTS</a></li>
         <li style={styles.navSeparator}>|</li> */}
-        {/*<li style={styles.navItem}><a href="/panelists.html" style={styles.navLink}>PANELISTS</a></li>
-        <li style={styles.navSeparator}>|</li>*/}
+        <li style={styles.navItem}><a href="/panelists.html" style={styles.navLink}>PANELISTS</a></li>
+        <li style={styles.navSeparator}>|</li>
         <li style={styles.navItem}><a href="/#invited-speakers" style={styles.navLink}>INVITED SPEAKERS</a></li>
         <li style={styles.navSeparator}>|</li>
          <li style={styles.navItem}><a href="/#committee" style={styles.navLink}>COMMITTEE</a></li>
