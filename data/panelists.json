@@ -11,7 +11,7 @@
         "title": "Neutrons, Knowledge, and New Generations: How Brazil's Argonauta Reactor is Shaping the Future of Radiochemistry and Its Impact on Global Dosimetry Challenges",
         "description": "For over 60 years, Brazil's Argonauta research reactor has addressed hands-on education in physics and engineering of reactors, and radiochemistry. As a hub for RD&I, Argonauta drives partnerships with institutions like IME, UFRJ and startups in radiotracer technologies. Modernization efforts, including fuel improvements and new radioisotopes production, exemplify its commitment to advancing radiation science nuclear applications worldwide."
       },
-      "isWinner": true
+      "isWinner": false
     },
     {
       "author": "Thiago Viana Miranda Lima. DRNM, Luzerner Kantonsspital and University of Lucerne, Switzerland",
@@ -151,29 +151,29 @@
       "isWinner": false
     },
     {
-  "author": "Isabel Dregely. Fachhochschule Technikum Vienna, Vienna, Austria",
-  "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/isabel.jpeg",
-  "socialMedia": {
-    "linkedin": "https://www.linkedin.com/in/isabel-dregely-41431644/"
-  },
-  "project": {
-    "title": "AI in Medical Imaging, with a focus on PET",
-    "description": "AI in Medical Imaging, with a focus on PET: e.g., attenuation correction, increasing CT resolution using AI, and synthetic CT for PET/MR systems."
-  },
-  "isWinner": false
-},
-{
-  "author": "Emerson Bernardes Soares. IPEN/CNEN SP, Brasil",
-  "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/emerson.jpeg",
-  "socialMedia": {
-    "linkedin": "https://www.linkedin.com/in/emerson-bernardes-519bab32/"
-  },
-  "project": {
-    "title": "Advances in New PET Radiopharmaceuticals",
-    "description": "This course covers the development of novel radiopharmaceuticals."
-  },
-  "isWinner": false
-}
+      "author": "Isabel Dregely. Fachhochschule Technikum Vienna, Vienna, Austria",
+      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/isabel.jpeg",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/in/isabel-dregely-41431644/"
+      },
+      "project": {
+        "title": "AI in Medical Imaging, with a focus on PET",
+        "description": "AI in Medical Imaging, with a focus on PET: e.g., attenuation correction, increasing CT resolution using AI, and synthetic CT for PET/MR systems."
+      },
+      "isWinner": false
+    },
+    {
+      "author": "Emerson Bernardes Soares. IPEN/CNEN SP, Brasil",
+      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/emerson.jpeg",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/in/emerson-bernardes-519bab32/"
+      },
+      "project": {
+        "title": "Advances in New PET Radiopharmaceuticals",
+        "description": "This course covers the development of novel radiopharmaceuticals."
+      },
+      "isWinner": false
+    }
   ],
   "Round-tables": [
     {
