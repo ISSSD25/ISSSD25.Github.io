@@ -125,7 +125,7 @@
       },
       "isWinner": false
     },
-     {
+    {
       "author": "Dra Silvia S Hidalgo Tobón",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/silvia.jpg",
       "socialMedia": {
@@ -137,7 +137,7 @@
       },
       "isWinner": false
     },
-   
+  
     {
       "author": "Marina Bicalho Silveira. CDTN/CNEN, BH, MG, Brasil",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/marina.jpeg",
@@ -208,7 +208,7 @@
         "linkedin": "https://www.linkedin.com/in/ana-carolina-costa-da-silva-7b2251b8/"
       },
       "project": {
-         "title": "Tech IA",
+          "title": "Tech IA",
         "description": "TEch ia"
       },
       "isWinner": false
@@ -234,7 +234,7 @@
       "project": {
             "title": "radon",
         "description": "radon."
-       },
+      },
       "isWinner": false
     },
     {
@@ -246,7 +246,7 @@
       "project": {
             "title": "Diversidade, inclusão e linguagem: construindo pontes na ciência",
         "description": "As palavras que usamos na comunicação científica podem abrir portas ou criar barreiras. Neste sentido, exploraremos estratégias para tornar a ciência mais acessível, inclusiva e conectada com a sociedade."
-       },
+      },
       "isWinner": false
     }
   ]
