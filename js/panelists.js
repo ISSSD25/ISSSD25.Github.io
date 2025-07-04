@@ -279,8 +279,8 @@ const NonWinnerCard = (props) => {
                                     </svg>
                                 </button> */}
 
-                                <button className="modern-btn profile-btn">
-                                    View Full Profile
+                                <button className="modern-btn profile-btn" onClick={openModal}>
+                                    View Full Resume
                                     <svg viewBox="0 0 24 24">
                                         <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
                                     </svg>
