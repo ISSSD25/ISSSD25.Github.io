@@ -90,7 +90,7 @@
   {
     "id": 13,
     "nome": "Maria Jose Neves. CDTN/CNEN, BH, Brazil",
-    "avatar": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/maze.jpeg",
+    "avatar": "../img/img_convidados/maze.jpeg",
     "descricao": "Dr. Maria José Neves is a Senior Researcher at the Brazilian National Nuclear Energy Commission (CNEN), based at the Centre for the Development of Nuclear Technology (CDTN), where she leads the Radiobiology Laboratory. She holds a Bachelor's degree in Medical Biological Sciences from the Faculty of Medicine of Ribeirão Preto, University of São Paulo (USP-RP), as well as a Master's and Ph.D. in Physiology from the same institution, with a focus on metabolism. She completed her postdoctoral training in Biochemistry at the Katholieke Universiteit Leuven (KUL), Belgium. Her main research interests include cancer cell metabolism and the biological effects of ionizing radiation.",
     "lattes": "http://lattes.cnpq.br/8729804605264119"
   },
