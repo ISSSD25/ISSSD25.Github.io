@@ -119,7 +119,7 @@
     },
     {
       "author": "Maria Jose Neves. CDTN/CNEN, BH, MG, Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/maze.jpeg",
+      "profileImg": "../img/img_convidados/maze.jpeg",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/8729804605264119"
       },
