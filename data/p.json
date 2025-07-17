@@ -1,203 +1,92 @@
-[
+
+  "Round-tables": [
     {
-      "evento": "Slide 3",
-      "tabela": [
-        {
-          "atividade": "CURSO 1",
-          "hora": "8:00 - 12:00",
-          "tema": "Desenvolvimentos de Radiofármacos PET\n  Introdução aos radiofármacos emissores de pósitrons, como são produzidos e utilizados, com abordagem geral sobre a obtenção e importância destes compostos para a medicina nuclear. Este curso traz informações sobre novas tecnologias desenvolvidas na Unidade de Pesquisa e Produção de Radiofármacos de CDTN, estado da arte e contribuição para o avanço da medicina nuclear no país, com impacto no diagnóstico e qualidade de vida dos pacientes.",
-          "palestrante": "Dra. Marina Bicalho Silveira CDTN/CNEN       Dra. Isabel Dregely  Fh Technikuk Wien-Austria Dr. Emerson Bernardes  CDTN/IPEN",
-          "idioma": "PT",
-          "local": "Auditório 1"
-        },
-        {
-          "atividade": "CURSO 2",
-          "hora": "8:00 - 12:00",
-          "tema": "Introduction to radiation detectors  Throughout the course, we will explore different types of radiation detectors, their operating principles, and criteria for their proper selection and use. The goal is to provide students with a solid foundation that enables them to identify the most suitable equipment for each situation and use it efficiently, maximizing both measurement accuracy and radiological protection.",
-          "palestrante": "Dr. Marco Antonio Polo Labarrios  UAM/Mexico",
-          "idioma": "ES",
-          "local": "Auditório 2"
-        }
-      ]
+      "author": "Luciana Carvalheira. IEN/LDRAN, RJ Brasil",
+      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/luciana.jpeg",
+      "socialMedia": {
+        "lattes": "http://lattes.cnpq.br/7980018485257440",
+        "linkedin": "https://www.linkedin.com/in/lucianacarvalheira/"
+      },
+      "project": {
+        "title": "Leadership in Scientific and Technological Research",
+        "description": "This roundtable will convene leading experts to explore the pivotal role of leadership in advancing nuclear scientific and technological research. The discussion will address key challenges, including regulatory frameworks, ethical considerations, nuclear applications, diversity and inclusion, effective communication, and the integration of the next generation into the global nuclear sector. By examining how leadership drives innovation, navigates complex challenges, and shapes the future of nuclear science and technology, this session aims to foster meaningful dialogue. Participants will gain insights into emerging technologies, explore strategic leadership approaches, and strengthen collaboration among researchers, policymakers, and industry leaders."
+      },
+      "isWinner": false
     },
     {
-      "evento": "Slide 4",
-      "tabela": [
-        {
-          "atividade": "CURSO 3",
-          "hora": "13:00 – 17:00",
-          "tema": "Importancia de la física en una imagen por resonancia magnética en el diagnóstico clínico.  Se presentarán las bases de la física de una imagen por resonancia magnética y su relación con el radio diagnóstico. La seguridad en resonancia magnética que evita complicaciones y accidentes que con la continua capacitación disminuyen notablemente. Así como las técnicas nuevas que están incluyendo inteligencia artificial para un mejor diagnóstico por imagen.",
-          "palestrante": "Dra Silvia S Hidalgo Tobón Coordinadora de la Especialización en Física Médica Universidad Autónoma Metropolitana – Iztapalapa          Msc. Jaime Torres Juárez UAM-Mexico",
-          "idioma": "ES",
-          "local": "Auditório 1"
-        },
-        {
-          "hora": "13:00 – 17:00",
-          "tema": "Solid State Dosimetry: Principles and Applications & OSL Advanced Materials",
-          "palestrante": "Dra. Ivonne Berenice Lozano Rojas - CICATA-Legaria\n Dra. Alida Tamar-Gabor ICIBNS-Romania",
-          "idioma": "PT/ ES",
-          "local": "Auditório 2",
-          "data": "22/09/2025 – Segunda Feira"
-        }
-      ]
+      "author": "Rita Sebastiao. UFMG, BH, MG, Brasil",
+      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/rita.jpeg",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/in/rita-sebastiao-1a7104246/"
+      },
+      "project": {
+        "title": "Tech IA",
+        "description": "TEch ia"
+      },
+      "isWinner": false
     },
     {
-      "evento": "Slide 6",
-      "tabela": [
-        {
-          "atividade": "Roundtable",
-          "hora": "",
-          "tema": "Technology - AI",
-          "palestrante": "",
-          "idioma": "",
-          "local": ""
-        },
-        {
-          "atividade": "Roundtable",
-          "hora": "16:00",
-          "tema": "Radon in the environment: Tracer Applications and Public Health Risks",
-          "palestrante": "Dra. Talita Santos e Dr. Ricardo Passos",
-          "idioma": "PT",
-          "local": "Auditório 2"
-        }
-      ]
+      "author": "Ana Carolina Costa da Silva. Siemens Healthineers",
+      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ana.jpeg",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/in/ana-carolina-costa-da-silva-7b2251b8/"
+      },
+      "project": {
+          "title": "Tech IA",
+        "description": "TEch ia"
+      },
+      "isWinner": false
     },
     {
-      "evento": "Slide 7",
-      "tabela": [
-        {
-          "atividade": "Roundtable",
-          "hora": "16:00 – 16:30",
-          "tema": "Diversidade, inclusão e linguagem: construindo pontes na ciência As palavras que usamos na comunicação científica podem abrir portas ou criar barreiras. Neste sentido, exploraremos estratégias para tornar a ciência mais acessível, inclusiva e conectada com a sociedade.",
-          "palestrante": "Nicéia Barreto e Robson Ribeiro Eletronuclear",
-          "idioma": "PT",
-          "local": "Auditório 1"
-        },
-        {
-          "atividade": "Roundtable",
-          "hora": "16:30 – 17:00",
-          "tema": "Leadership in Scientific and Technological Research  This roundtable will convene leading experts to explore the pivotal role of leadership in advancing nuclear scientific and technological research. The discussion will address key challenges, including regulatory frameworks, ethical considerations, nuclear applications, diversity and inclusion, effective communication, and the integration of the next generation into the global nuclear sector. By examining how leadership drives innovation, navigates complex challenges, and shapes the future of nuclear science and technology, this session aims to foster meaningful dialogue. Participants will gain insights into emerging technologies, explore strategic leadership approaches, and strengthen collaboration among researchers, policymakers, and industry leaders.",
-          "palestrante": "Dra. Luciana Carvalheira (IEN/CNEN)           Convidadas:  Adriana Marques - Agência Nacional de Água – ANA Anna Letícia Barbosa de Sousa - CNEN",
-          "idioma": "PT",
-          "local": "Auditório 2"
-        }
-      ]
+      "author": "Talita de Oliveira Santos. CDTN/CNEN, BH, MG, Brasil",
+      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/talita.jpeg",
+      "socialMedia": {
+        "lattes": "http://lattes.cnpq.br/5267562662055432"
+      },
+      "project": {
+        "title": "radon",
+        "description": "radon."
+      },
+      "presentation":{
+        "hora": "16:00",
+        "tema": "Radon in the environment: Tracer Applications and Public Health Risks",
+        "palestrante": "Dra. Talita Santos e Dr. Ricardo Passos",
+        "idioma": "PT",
+        "local": "Auditório 2",
+        "data": "22/09/2025 – Segunda Feira"
+      },
+      "isWinner": false
     },
     {
-      "evento": "Slide 9",
-      "tabela": [
-        {
-          "atividade": "Panelists",
-          "hora": "23/09/2025 quarta-feira manhã abertura",
-          "tema": "New technologies as a route to particle therapy: Laser-hybrid Acceleration for Radiobiology Applications - The LhARA project.  Particle therapy is a form of external beam radiotherapy that utilises ions to achieve precise (sub-mm) physical distributions of physical dose with the benefits of high LET to combat radioresistant tumours. Particle therapies are also expected to offer better normal-tissue sparing and reduce long-term side-effects in patients, where the current state-of-the-art in radiotherapy has contributed to significant improvements in the survivability of many cancers in recent years.  The LhARA project [1] is a consortium of UK universities that considers three new technologies as a means to reduce the cost, physical footprint and flexibility of particle therapies, where currently treatments, such as carbon ion therapy, are restricted to a few laboratories world-wide. The laser-hybrid method uses high-powered lasers to generate ions with kinetic energies of 10s of MeV and at high dose-rates suitable to examine high dose-rate sparing effects such as FLASH radiotherapy.",
-          "palestrante": "Dr Richard Hugtenburg. Swansea University School of Medicine, and Department of Medical Physics and Clinical Engineering, Singleton Hospital. Swansea, United Kingdom",
-          "coluna_4": "English   Dr Richard Hugtenburg is a medical physics expert and research academic at Swansea University, UK, specialising in radiotherapy physics. Dr Hugtenburg began his career in Christchurch, New Zealand, working as a medical physicist while studying for a PhD on the use of computational methods in radiation oncology. He moved to the UK in 1997 and continued to practice in radiotherapy physics; first at the Queen Elizabeth Medical Centre in Birmingham, then at Singleton Hospital in Swansea. His research examines dosimetry methods associated with emergent radiotherapy technologies, utilising Monte Carlo modelling for a diverse range of radiation physics problems, including the analysis of energy deposition in biological systems, the optimisation of dosimeters and detectors, nanoparticulates, shielding and therapy systems.",
-          "local": "main audiotorium"
-        }
-      ]
+      "author": "Ricardo Gomes Passos. CDTN/CNEN, BH, MG, Brasil",
+      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ricardo.jpeg",
+      "socialMedia": {
+        "scholar google": "https://scholar.google.com/citations?user=ndFwN8sAAAAJ&hl=pt-BR"
+      },
+      "project": {
+            "title": "radon",
+        "description": "radon."
+      },
+      "isWinner": false
     },
     {
-      "evento": "Slide 10",
-      "tabela": [
-        {
-          "atividade": "Panelists",
-          "hora": "26  /09/2025  (Indisponível  na data 24/09) Preferencialmente pela manhã em um dos primeiros horários",
-          "tema": "From dosemeter development to routine use –  Standards and Uncertainties  Radiation protection uses protection quantities (not directly measurable) and operational quantities (measured to estimate protection quantities). Standards ensure the quality of dose measurements, established by IEC and ISO, and adopted by regional organizations (CEN, CENELEC, GCC, SARSO, ARSO). Type tests for photon dosemeters use ISO 4037 reference fields; beta and neutron fields follow ISO 6980 and ISO 8529. Standards like IEC 62387 and IEC 61526 address other influencing factors such as angle, dose rate, temperature, and electromagnetic immunity. Uncertainties are calculated by combining the effects of these influences, as described in IEC TS 62461 (updated 2025). Performance is regularly checked using comparison measurements following ISO 14146 (updated 2024, includes EURADOS).",
-          "palestrante": "Dr.  Rolf  Behrens Physikalisch-Technische Bundesanstalt (PTB); GERMANY Present scientific staff at PTB in the division \"Ionizing Radiation\", departmenRt \"Radiation Protection Dosimetry\"",
-          "coluna_4": "English   Dr  Rolf  Behrens;  Dr. Rolf Behrens holds a diploma at Technical University of Braunschweig (Germany) and a doctorate (Dr. rer. nat.) in physics from the University of Jena (Germany). He is a senior scientist at the Physikalisch-Technische Bundesanstalt (PTB), Germany’s national metrology institute, where he leads the Working Group on Dosimetry for Brachytherapy and Beta Radiation Protection. Dr. Behrens is responsible for quality assurance in the Ionizing Radiation division, serves as Radiation Protection Officer for brachytherapy and beta radiation, and acts as an auditor for the German Accreditation Service (DAkkS). He heads and participates in several national and international standardization committees, including the IEC and ISO working groups on dosimetry and uncertainties, and chairs the German Committee on Radiation Protection Dosimetry. His research focuses on dosimetry of beta and photon radiation for radiation protection and brachytherapy, Monte Carlo simulations, spectrometry, Bayesian data evaluation, measurement uncertainty, and dosimetry for the lens of the eye.",
-          "local": "main audiotorium"
-        }
-      ]
-    },
-    {
-      "evento": "Slide 11",
-      "tabela": [
-        {
-          "atividade": "Panelists",
-          "hora": "24/09/2025 quarta-feira manhã",
-          "tema": "Neutrons, Knowledge, and New Generations: How Brazil’s Argonauta Reactor is Shaping the Future of Radiochemistry and Its Impact on Global Dosimetry Challenges   For over 60 years, Brazil’s Argonauta research reactor has addressed hands-on education in physics and engineering of reactors, and radiochemistry. As a hub for RD&I, Argonauta drives partnerships with institutions like IME, UFRJ and startups in radiotracer technologies. Modernization efforts, including fuel improvements and new radioisotopes production, exemplify its commitment to advancing radiation science nuclear applications worldwide.",
-          "palestrante": "Nuclear Enginnering Institute DSc. Luciana Carvalheira LDRAN | Laboratory for the development of radioisotopes obtained by neutron activation",
-          "coluna_4": "English Dr. Luciana Carvalheira is a Black Brazilian scientist and singer from Rio de Janeiro, leading pioneering projects at the Institute of Nuclear Engineering and serving as a professor and vice-coordinator in postgraduate programs for Nuclear Sciences. She co-founded startups like Magtech Brasil and Radíon, driving innovation in radiochemistry and nanomaterials. Her research spans neutron activation, medical polymers, and environmental monitoring, alongside mentoring future scientists through WiN Brasil’s Helen Khoury Program. As a member of MunaN, she advocates for the inclusion of young Black women in nuclear sciences. Honored by ALERJ for empowering women and recognized as a leader by ENAP’s LideraGOV 4.0, she embodies audacity, joy, and a relentless pursuit of scientific freedom and innovation.",
-          "local": "main audiotorium"
-        }
-      ]
-    },
-    {
-      "evento": "Slide 12",
-      "tabela": [
-        {
-          "atividade": "Panelists",
-          "hora": "26/09/2025 sexta-feira manhã",
-          "tema": "Current and future trends in Nuclear medicine Dosimetry ?   This lecture delves into the evolution of nuclear medicine dosimetry. It will explore the progression from early rudimentary methods, which relied on basic measurements and empirical estimates, to the sophisticated imaging techniques and computational models employed today. These advancements have significantly enhanced the accuracy of absorbed dose quantification, improving both safety and efficacy in treatments. The lecture will also discuss the future of dosimetry, highlighting the integration of artificial intelligence and personalized medicine. This forward-thinking approach promises even more precise dose calculations tailored to individual patient characteristics, reflecting a continuous effort to optimize therapeutic protocols and improve patient outcomes in nuclear medicine.",
-          "palestrante": "Dr. Thiago Viana Miranda Lima 1 - Department of Radiology and Nuclear Medicine, Luzerner Kantonsspital, University Teaching and Research Hospital, University of Lucerne, Switzerland 2 - Faculty of Health Sciences and Medicine, University of Lucerne, Switzerland, 3 - Department of Nuclear Medicine, Genolier Clinic, Swiss Medical Network, Switzerland",
-          "coluna_4": "English  Thiago holds a BSc in Physics with Medical Physics from UFRJ and a PhD in Medical Physics from University College London. He is the chief diagnostic medical physicist at Lucerne University Hospitals (LUKS) and research physicist at Genolier Hospital. He also lectures at the University of Lucerne. He chairs the education committee of the Swiss Society of Radiobiology and Medical Physics and represents the society in EFOMP working groups. His work focuses on dosimetry, protocol optimization, radioprotection, and research in nuclear medicine and medical imaging.",
-          "local": "main audiotorium"
-        }
-      ]
-    },
-    {
-      "evento": "Slide 13",
-      "tabela": [
-        {
-          "atividade": "Panelists",
-          "hora": "26/09/2025 sexta-feira manhã",
-          "tema": "Challenges in radioisotope decontamination and production through neutron spectral selection We present investigations into the production and decontamination of radioisotopes using a selective Spectral Resonant Selector (RSS), focusing on neutron radiative capture reactions in precursor nuclides and transmutation reactions of long-lived radioactive waste. The physical and mathematical aspects of biased Brownian motion are addressed, through which a tailored neutron spectrum can be generated to target specific nuclides. Reaction rates for both precursor nuclides and decontamination processes are presented. Two distinct neutron spectra are considered—one at low energy and another at resonance energy—allowing interaction with a broad range of target nuclides. The production of isotopes such as Sm-153, Lu-177, Re-188, Ho-166, and Yb-169 serves as representative examples of potential radionuclide generation. Additionally, the decontamination of long-lived actinides, including transuranic radionuclides and fission products, through fission or radiative capture reactions, illustrates a promising approach to nuclear waste mitigation. The specific activities and benchmark parameters of various radioisotopes under defined conditions demonstrate the effectiveness of the RSS in both radioisotope production and nuclear decontamination.",
-          "palestrante": "T.P.R Campos colaborador CDTN , UFMG and Alberto Campos UFMG",
-          "coluna_4": "English",
-          "local": "main audiotorium"
-        }
-      ]
-    },
-    {
-      "evento": "Slide 14",
-      "tabela": [
-        {
-          "atividade": "Panelists",
-          "hora": "26/09/2025 sexta-feira tarde",
-          "tema": "Diseminación de técnicas de monitoreo in vivo ocupacional en una Red de Clinicas de Medicina Nuclear   Profissionais que manipulam radiofármacos para fins de diagnóstico e terapia em medicina nuclear estão sujeitos à incorporação de radionuclídeos via inalação e ingestão. Os aspectos de proteção radiológica dessa prática são regulamentados no Brasil pela Comissão Nacional de Energia Nuclear (CNEN). A Agência Internacional de Energia Atômica (AIEA) recomenda a implantação de programas de monitoração ocupacional quando houver risco de doses efetivas anuais superiores a 1 mSv. O controle de incorporações de radionuclídeos pode ser realizado por meio de técnicas de dosimetria interna. Atualmente, no Brasil, não existem laboratórios suficientes capacitados a prestar serviços de monitoração interna para atender a toda a demanda caso essa exigência seja aplicada pela CNEN. Apresenta-se um panorama da situação atual no Brasil e as alternativas técnicas economicamente viáveis, a fim de tornar factível a implantação de programas rotineiros de monitoração interna de trabalhadores ocupacionalmente expostos a riscos significativos de exposição a radionuclídeos manipulados em medicina nuclear.",
-          "palestrante": "Dr. Bernardo Maranhão Dantas Comissão Nacional de Energia Nuclear e Docente Permanente do Programa de Pós Graduação do Instituto de Radioproteção e Dosimetria, RJ Brasil",
-          "coluna_4": "Spanhol  Bernardo Maranhão Dantas holds a PhD in Sciences (Biology – Nuclear Biosciences) from the State University of Rio de Janeiro (1998). He is a Senior Technologist at the Brazilian National Nuclear Energy Commission (CNEN) and a faculty member of the Graduate Program at the Institute of Radiation Protection and Dosimetry, focusing on Radiation Biophysics. He has published 87 peer-reviewed articles and has supervised numerous students across undergraduate, master’s, and doctoral levels. He has led five research and development projects and currently coordinates the CNPq-certified research group “Occupational Internal Dosimetry.”",
-          "local": "main audiotorium"
-        }
-      ]
-    },
-    {
-      "evento": "Slide 15",
-      "tabela": [
-        {
-          "atividade": "Panelists",
-          "hora": "26/09/2025 sexta-feira tarde",
-          "tema": "Range radiation exposure indicator  A small plastic or glass tube (with a final volume of 1.5ml or smaller) containing a solution, composed of sodium selenite and glycose, can be fixed to the surface of a material and will indicate whether it was itself exposed to moderate doses of range radiation (5 – 100 kGy) in a range irradiator contained in the source. of 60Cobalt. This type of irradiator is widely used in the irradiation of foods such as dried grains, fruits, tubers, etc., sterilization of surgical material, among other activities. Given its low cost and ease of preparation, it can be frozen and kept in stock at the time of use, which is why we consider an alternative option to confirm exposure to high-range radiation.",
-          "palestrante": "Dra. Maria Jose Neves Comissão Nacional de Energia Nuclear e Docente Permanente do Programa de Pós Graduação do Laboratório de Radiobiologia - Serviço de Radiofármacos (SERFA), BH, MG Brasil",
-          "coluna_4": "Spanhol  Maria José Neves is a Senior Researcher at the Brazilian National Nuclear Energy Commission (CNEN), based at the Centre for the Development of Nuclear Technology (CDTN), where she leads the Radiobiology Laboratory. She holds a Bachelor's degree in Medical Biological Sciences from the Faculty of Medicine of Ribeirão Preto, University of São Paulo (USP-RP), as well as a Master's and Ph.D. in Physiology from the same institution, with a focus on metabolism. She completed her postdoctoral training in Biochemistry at the Katholieke Universiteit Leuven (KUL), Belgium. Her main research interests include cancer cell metabolism and the biological effects of ionizing radiation.",
-          "local": "main audiotorium"
-        }
-      ]
-    },
-    {
-      "evento": "Slide 16",
-      "tabela": [
-        {
-          "atividade": "Panelists",
-          "hora": "26/09/2025 sexta-feira 15h30",
-          "tema": "Radiation processing with electron beams: On the feasibility of using electronic dosimeters for real-time dosimetry.    In this lecture, we will briefly introduce the radiation processing of products, a relatively new industry with wide applications and significant commercial success, primly involving gamma rays and electron beams (EB). The main features of the irradiation facilities, the doses delivered, and the regulatory requirements for the processed products will be discussed to highlight the role of dosimetry in this field. Several passive solid-state dosimeters, which are well-established in radiation processing dosimetry, will be introduced to emphasize the need for online dosimeters, whether as routine tools or for monitoring the operating conditions of EB facilities. An overview of efforts to develop online dosimeters, with a focus on electronic devices, will be provided. Subsequently, the lecture will explore the operational characteristics and the physics behind the dose and dose rate response of diodes, explaining how our group has addressed issues related to their use as real-time dosimeters in fixed and mobile EB facilities. The latest data obtained with these diodes, both as routine dosimeters and as electron beam monitors, will be presented to assess the feasibility of their application. The current status of online high-dose dosimeters and the challenges of meeting the metrological standards required in radiation processing dosimetry will also be discussed.",
-          "palestrante": "Dra. Carmen  Comissão Nacional de Energia Nuclear e Docente Permanente do  BH, MG Brasil",
-          "coluna_4": "english  She holds Bachelor's and Licentiate degrees in Physics from PUC/SP, as well as Master's and Doctorate degrees in Nuclear Instrumentation from the same university. She began her academic career at PUC/SP, where she was appointed as a Full Professor of Nuclear Physics. In 1995, she started working as a researcher at the Nuclear and Energy Research Institute (IPEN-CNEN/SP) and later completed her postdoctoral work at the Instrumentation and Experimental Particle Physics Laboratory (LIP) at the University of Coimbra. She also holds a second Doctorate in nuclear technology from IPEN-USP. She has published nearly 150 full-length articles in international journals and conference proceedings and has supervised numerous master's, doctoral, and postdoctoral students. Currently, she is a senior researcher at IPEN with over 30 years of experience in nuclear instrumentation for radiation measurement and dosimetry. Most of her research focuses on developing semiconductor-based dosimetry systems for medical and radiation processing fields. She currently serves on the Steering Committee of the National Institute of Science and Technology (INCT) project, \"Nuclear Instrumentation and Applications in Industry and Health\" (INAIS). Additionally, she is a member of the Advisory Boards of the Brazilian Society of Solid-State Dosimetry (SSD) and the Brazilian Association of Nuclear Energy (ABEN).",
-          "local": "main audiotorium"
-        }
-      ]
-    },
-    {
-      "evento": "Slide 17",
-      "tabela": [
-        {
-          "atividade": "Panelists",
-          "hora": "26/09/2025 sexta-feira tarde",
-          "tema": "titulo   resumo XXXX",
-          "palestrante": "Dr. xxxx  Nuclear e ???l",
-          "coluna_4": "english   Mar Dosimetry.”",
-          "local": "main audiotorium"
-        }
-      ]
+      "author": "Nicéa Barreto. Eletronuclear, RJ, Brasil",
+      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/nicea.jpg",
+      "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/niceabarreto/"
+      },
+      "project": {
+            "title": "Diversidade, inclusão e linguagem: construindo pontes na ciência",
+        "description": "As palavras que usamos na comunicação científica podem abrir portas ou criar barreiras. Neste sentido, exploraremos estratégias para tornar a ciência mais acessível, inclusiva e conectada com a sociedade."
+      },
+      "presentation":{
+        "hora": "16:00 – 16:30",
+        "tema": "Diversidade, inclusão e linguagem: construindo pontes na ciência\n\tAs palavras que usamos na comunicação científica podem abrir portas ou criar barreiras. Neste sentido, exploraremos estratégias para tornar a ciência mais acessível, inclusiva e conectada com a sociedade.",
+        "palestrante": "Nicéia Barreto e Robson Ribeiro Eletronuclear",
+        "idioma": "PT",
+        "local": "Auditório 1",
+        "data": "22/09/2025 – Segunda Feira"
+      },
+      "isWinner": false
     }
   ]

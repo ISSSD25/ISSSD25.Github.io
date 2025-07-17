@@ -99,16 +99,32 @@ const ResumeModal = (props) => {
 
                     <div style={{ color: '#374151', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                         <div>
-                            <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Título</h3>
+                            <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Title</h3>
                             <p>{participant.project.title || "Não informado."}</p>
                         </div>
                         <div>
-                            <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Resumo</h3>
+                            <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Resume</h3>
                             <p style={{ textAlign: 'justify' }}>{participant.project.description || "Nenhuma descrição disponível."}</p>
+                        </div>
+                        <div>
+                            <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Date</h3>
+                            <p style={{ textAlign: 'justify' }}>{participant.presentation.data || "Nenhuma data disponível."}</p>
+                        </div>
+                        <div>
+                            <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Time</h3>
+                            <p style={{ textAlign: 'justify' }}>{participant.presentation.hora || "Nenhum horário disponível."}</p>
+                        </div>
+                        <div>
+                            <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Lenguage</h3>
+                            <p style={{ textAlign: 'justify' }}>{participant.presentation.idioma || "Nenhum idioma disponível."}</p>
+                        </div>
+                        <div>
+                            <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Where</h3>
+                            <p style={{ textAlign: 'justify' }}>{participant.presentation.local || "Nenhum local disponível."}</p>
                         </div>
                          {participant.socialMedia && (
                              <div>
-                                <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Mídia Social</h3>
+                                <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Social Media</h3>
                                 <div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
                                     {renderSocialIcons()}
                                 </div>
