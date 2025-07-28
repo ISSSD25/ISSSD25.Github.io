@@ -1,21 +1,89 @@
 const { useState, useEffect } = React;
 
-// --- NOVO MODAL DE RESUMO (CORRIGIDO E MELHORADO) ---
+// --- FUNÇÕES DE RENDERIZAÇÃO REUTILIZÁVEIS ---
+
+/**
+ * Renderiza um campo de texto que suporta múltiplas linhas via '\n'.
+ * @param {string} text - O texto a ser exibido.
+ * @param {object} style - Estilos CSS para aplicar a cada linha.
+ * @param {string} className - Classe CSS para aplicar a cada linha.
+ * @returns {JSX.Element|null}
+ */
+const renderTextField = (text, style, className = "winner-title") => {
+    if (!text) return null;
+    
+    const lines = text.split('\n');
+    
+    return (
+        <div>
+            {lines.map((line, index) => (
+                <p key={index} className={className} style={style}>
+                    {line}
+                </p>
+            ))}
+        </div>
+    );
+};
+
+/**
+ * Renderiza imagens de perfil em uma grade (máximo de 2 por linha).
+ * @param {string|string[]} profileImg - URL ou array de URLs de imagens.
+ * @param {boolean} isWinner - Define o estilo da borda.
+ * @returns {JSX.Element|null}
+ */
+const renderImageGrid = (profileImg, isWinner = false) => {
+    if (!profileImg) return null;
+
+    const images = Array.isArray(profileImg) ? profileImg : [profileImg];
+    const imageRows = [];
+    const avatarWrapperStyle = {
+        width: '120px',
+        height: '120px',
+        borderRadius: '50%',
+        overflow: 'hidden',
+        border: isWinner ? '3px solid rgba(255, 215, 0, 0.7)' : '3px solid #ccc',
+        position: 'relative',
+        flexShrink: 0,
+        backgroundColor: '#f0f0f0'
+    };
+    const avatarImageStyle = {
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover'
+    };
+
+    for (let i = 0; i < images.length; i += 2) {
+        imageRows.push(images.slice(i, i + 2));
+    }
+
+    return (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center' }}>
+            {imageRows.map((row, rowIndex) => (
+                <div key={rowIndex} style={{ display: 'flex', gap: '10px', justifyContent: 'center' }}>
+                    {row.map((img, imgIndex) => (
+                        <div key={imgIndex} style={avatarWrapperStyle}>
+                            <div className="avatar-glow"></div>
+                            <img src={img} alt="Foto do Palestrante" style={avatarImageStyle} />
+                        </div>
+                    ))}
+                </div>
+            ))}
+        </div>
+    );
+};
+
+
+// --- COMPONENTE MODAL DE RESUMO ---
 const ResumeModal = (props) => {
     const { closeModal, participant } = props;
     const [isDesktop, setDesktop] = useState(window.innerWidth >= 768);
 
-    // Efeito para atualizar o layout com base no tamanho da tela
-    const updateMedia = () => {
-        setDesktop(window.innerWidth >= 768);
-    };
+    const updateMedia = () => setDesktop(window.innerWidth >= 768);
 
     useEffect(() => {
         window.addEventListener('resize', updateMedia);
         const handleKeyDown = (event) => {
-            if (event.key === 'Escape') {
-                closeModal();
-            }
+            if (event.key === 'Escape') closeModal();
         };
         window.addEventListener('keydown', handleKeyDown);
 
@@ -25,7 +93,6 @@ const ResumeModal = (props) => {
         };
     }, [closeModal]);
 
-    // Estilos base
     const modalOverlayStyle = {
         position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
         backgroundColor: 'rgba(0, 0, 0, 0.6)', backdropFilter: 'blur(5px)',
@@ -38,17 +105,10 @@ const ResumeModal = (props) => {
         boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
         width: '100%', maxWidth: '1024px', maxHeight: '90vh',
         display: 'flex', overflow: 'hidden',
-        flexDirection: isDesktop ? 'row' : 'column', // Layout dinâmico
+        flexDirection: isDesktop ? 'row' : 'column',
         transform: 'scale(0.95)', animation: 'scaleIn 0.3s ease-out forwards'
     };
-
-    const imageContainerStyle = {
-        flexShrink: 0,
-        width: isDesktop ? '40%' : '100%', // Largura dinâmica
-        height: isDesktop ? 'auto' : '200px', // Altura dinâmica
-    };
     
-    // Função para renderizar os ícones de redes sociais
     const renderSocialIcons = () => {
         if (!participant.socialMedia) return null;
         
@@ -56,18 +116,12 @@ const ResumeModal = (props) => {
             if (!value) return null;
             return (
                  <a href={value} key={key} target="_blank" rel="noopener noreferrer" style={{
-                    color: '#4b5563',
-                    textDecoration: 'none',
-                    padding: '8px 12px',
-                    borderRadius: '6px',
-                    backgroundColor: '#f3f4f6',
-                    textTransform: 'capitalize',
-                    fontWeight: '500',
-                    transition: 'background-color 0.2s'
+                    color: '#4b5563', textDecoration: 'none', padding: '8px 12px',
+                    borderRadius: '6px', backgroundColor: '#f3f4f6', textTransform: 'capitalize',
+                    fontWeight: '500', transition: 'background-color 0.2s'
                  }}
                  onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#e5e7eb'}
-                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#f3f4f6'}
-                 >
+                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#f3f4f6'}>
                     {key}
                  </a>
             );
@@ -77,34 +131,24 @@ const ResumeModal = (props) => {
     return (
         <div style={modalOverlayStyle} onClick={closeModal}>
             <div style={modalContentStyle} onClick={(e) => e.stopPropagation()}>
-                {/* Imagem do Palestrante */}
-                <div style={imageContainerStyle}>
-                    <img
-                        src={participant.profileImg || 'https://placehold.co/400x600/cccccc/ffffff?text=Imagem'}
-                        alt={`Foto de ${participant.author}`}
-                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    />
+                <div style={{ padding: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#f9fafb', flexShrink: 0 }}>
+                    {renderImageGrid(participant.profileImg, participant.isWinner)}
                 </div>
 
-                {/* Informações */}
                 <div style={{ padding: '2rem', flexGrow: 1, overflowY: 'auto' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
-                        <h2 style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1f2937', lineHeight: '1.2' }}>
-                            {participant.author}
-                        </h2>
-                        <button onClick={closeModal} style={{ background: 'none', border: 'none', fontSize: '2rem', color: '#6b7280', cursor: 'pointer', padding: '0', lineHeight: '1' }}>
-                            &times;
-                        </button>
+                        <div>{renderTextField(participant.author, { fontSize: '1.5rem', fontWeight: 'bold', color: '#1f2937', lineHeight: '1.2', margin: 0 }, '')}</div>
+                        <button onClick={closeModal} style={{ background: 'none', border: 'none', fontSize: '2rem', color: '#6b7280', cursor: 'pointer', padding: '0', lineHeight: '1' }}>&times;</button>
                     </div>
 
                     <div style={{ color: '#374151', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                         <div>
                             <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Title</h3>
-                            <p>{participant.project.title || "Não informado."}</p>
+                            {renderTextField(participant.project.title, { margin: 0, textAlign: 'justify', color: '#444' }, '')}
                         </div>
                         <div>
                             <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Resume</h3>
-                            <p style={{ textAlign: 'justify' }}>{participant.project.description || "Nenhuma descrição disponível."}</p>
+                            <p style={{ textAlign: 'justify', whiteSpace: 'pre-line' }}>{participant.project.description || "Nenhuma descrição disponível."}</p>
                         </div>
                         <div>
                             <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Date</h3>
@@ -115,7 +159,7 @@ const ResumeModal = (props) => {
                             <p style={{ textAlign: 'justify' }}>{participant.presentation.hora || "Nenhum horário disponível."}</p>
                         </div>
                         <div>
-                            <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Lenguage</h3>
+                            <h3 style={{ fontWeight: '600', fontSize: '1.125rem', color: '#3b82f6', marginBottom: '0.5rem' }}>Language</h3>
                             <p style={{ textAlign: 'justify' }}>{participant.presentation.idioma || "Nenhum idioma disponível."}</p>
                         </div>
                         <div>
@@ -137,78 +181,7 @@ const ResumeModal = (props) => {
     );
 };
 
-
-// --- MODAL DE PDF (JÁ EXISTENTE) ---
-const PdfViewerWithModal = (props) => {
-    // ... (código original do PdfViewerWithModal sem alterações)
-    return (
-        <div style={{
-            position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0, 0, 0, 0.9)',
-            backdropFilter: 'blur(8px)', zIndex: 1000, display: 'flex', alignItems: 'center', justifyContent: 'center',
-            animation: 'fadeIn 0.3s ease-out'
-        }}>
-            <div style={{
-                width: '90%', maxWidth: '1300px', height: '90%', backgroundColor: 'white', borderRadius: '16px',
-                overflow: 'hidden', display: 'flex', flexDirection: 'column', boxShadow: '0 20px 50px rgba(0,0,0,0.3)'
-            }}>
-                <div style={{ display: 'flex', justifyContent: 'flex-end', padding: '16px', backgroundColor: '#f8f9fa', borderBottom: '1px solid #e9ecef' }}>
-                    <button onClick={props.closeModal} style={{
-                        background: 'transparent', border: 'none', width: '40px', height: '40px', borderRadius: '50%',
-                        color: '#495057', fontSize: '24px', cursor: 'pointer', display: 'flex', alignItems: 'center',
-                        justifyContent: 'center', transition: 'all 0.2s ease'
-                    }}
-                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(0,0,0,0.05)'}
-                    onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}>
-                        &times;
-                    </button>
-                </div>
-                <div style={{ flex: 1, padding: '20px', overflow: 'auto', display: 'flex', flexDirection: 'column', gap: '20px' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginBottom: '10px' }}>
-                        <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden' }}>
-                            <img src={props.participant.profileImg} alt="Winner" style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
-                        </div>
-                        <div>
-                            <h2 style={{ margin: 0, color: '#212529' }}>{props.participant.author}</h2>
-                            <p style={{ margin: '5px 0 0', color: '#495057' }}>{props.participant.project.title}</p>
-                        </div>
-                    </div>
-                    {props.participant.project.audioUrl &&
-                        <div style={{ width: '100%', padding: '10px 0', backgroundColor: '#f8f9fa', borderRadius: '8px' }}>
-                            <audio controls style={{ width: '100%', height: '40px' }}>
-                                <source src={`${props.participant.project.audioUrl}`} type="audio/mpeg" />
-                                Seu navegador não suporta o elemento de áudio.
-                            </audio>
-                        </div>
-                    }
-                    {props.participant.project.pdfUrl &&
-                        <div style={{ flex: 1, backgroundColor: '#f8f9fa', borderRadius: '8px', padding: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                            <div style={{ width: '100%', height: '60rem', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white', boxShadow: '0 2px 10px rgba(0,0,0,0.1)', borderRadius: '8px', overflow: 'hidden' }}>
-                                <iframe src={`${props.participant.project.pdfUrl}`} style={{ width: '100%', height: '100%', border: 'none' }} title="PDF Viewer" />
-                            </div>
-                        </div>
-                    }
-                    <div style={{ backgroundColor: 'white', borderRadius: '8px', padding: '20px', border: '1px solid #e9ecef' }}>
-                        <h3 style={{ marginTop: 0, color: '#212529', borderBottom: '1px solid #e9ecef', paddingBottom: '10px' }}>Descrição do Projeto</h3>
-                        <p style={{ color: '#495057', lineHeight: '1.6' }}>{props.participant.project.description}</p>
-                    </div>
-                </div>
-                <div style={{ padding: '15px 20px', backgroundColor: '#f8f9fa', borderTop: '1px solid #e9ecef', display: 'flex', justifyContent: 'flex-end' }}>
-                    <button onClick={props.closeModal} style={{
-                        background: '#4263eb', color: 'white', border: 'none', padding: '10px 20px', borderRadius: '6px',
-                        cursor: 'pointer', fontWeight: '500', transition: 'all 0.2s ease'
-                    }}
-                    onMouseEnter={(e) => e.currentTarget.style.background = '#364fc7'}
-                    onMouseLeave={(e) => e.currentTarget.style.background = '#4263eb'}>
-                        Fechar Projeto
-                    </button>
-                </div>
-            </div>
-        </div>
-    )
-};
-
-
-// --- CARD DE PARTICIPANTE (ATUALIZADO) ---
+// --- CARD DE PARTICIPANTE (FINAL) ---
 const Card = (props) => {
     const { participant, isWinner } = props;
     const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
@@ -217,6 +190,18 @@ const Card = (props) => {
     const closeResumeModal = () => setIsResumeModalOpen(false);
 
     const cardClass = isWinner ? "winner-card-glass" : "non-winner-card-glass";
+    
+    const authorStyle = {
+        fontWeight: 'bold', 
+        fontSize: '1.1rem', 
+        margin: '0 0 5px 0',
+        color: isWinner ? 'rgba(255, 255, 255, 0.9)' : '#333' // Cor dinâmica para o autor
+    };
+
+    const titleStyle = {
+        margin: '0 0 10px 0',
+        color: isWinner ? 'rgba(255, 255, 255, 0.9)' : '#444' // Cor dinâmica para o título
+    };
 
     return (
         <div className="row" style={{ marginTop: props.marginTop, padding: 0 }}>
@@ -224,33 +209,22 @@ const Card = (props) => {
                 <div className="light-effect"></div>
                 <div className="winner-content">
                     
-                    {/* Step 2: More robust image rendering logic */}
                     <div className="winner-avatar-container">
-                        {Array.isArray(participant.profileImg) && participant.profileImg.length > 0 ? (
-                            participant.profileImg.map((img, idx) => (
-                                <div className="winner-avatar" key={idx}>
-                                    <div className="avatar-glow"></div>
-                                    {img && <img src={img} alt={`Foto de ${participant.author}`} />}
-                                </div>
-                            ))
-                        ) : (
-                            <div className="winner-avatar">
-                                <div className="avatar-glow"></div>
-                                {participant.profileImg && <img src={participant.profileImg} alt={`Foto de ${participant.author}`} />}
-                            </div>
-                        )}
+                        {renderImageGrid(participant.profileImg, isWinner)}
                     </div>
 
                     <div className="winner-info">
                         {isWinner ? (
                             <h2>
-                                {participant.author}
+                                {participant.author.split('\\n')[0]}
                                 <span className="winner-tag">#1 Champion</span>
                             </h2>
                         ) : (
-                            <p className="winner-title" style={{fontWeight: 'bold', fontSize: '1.1rem'}}>{participant.author}</p>
+                           renderTextField(participant.author, authorStyle)
                         )}
-                        <p className="winner-title">{participant.project.title}</p>
+                        
+                        {renderTextField(participant.project.title, titleStyle)}
+
                         <div className="winner-actions">
                             <div className="button-group">
                                 <button className="modern-btn profile-btn" onClick={openResumeModal}>
@@ -268,7 +242,7 @@ const Card = (props) => {
     );
 };
 
-// --- COMPONENTE PRINCIPAL (sem alterações) ---
+// --- COMPONENTE PRINCIPAL ---
 const BattleMap = () => {
     const [info, setInfo] = useState({});
     const [listKeys, setListKeys] = useState([]);
