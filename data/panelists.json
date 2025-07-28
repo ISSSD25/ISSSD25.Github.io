@@ -292,7 +292,10 @@
   "Round-tables": [
     {
       "author": "Dr. Ricardo Gomes Passos. CDTN/CNEN, BH, Brazil",
-      "profileImg": "../img/img_convidados/ricardo.jpeg",
+      "profileImg": [
+        "../img/img_convidados/ricardo.jpeg", 
+        "../img/img_convidados/talita.jpeg"
+      ],
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/5267562662055432"
       },

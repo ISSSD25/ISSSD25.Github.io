@@ -211,15 +211,11 @@ const PdfViewerWithModal = (props) => {
 // --- CARD DE PARTICIPANTE (ATUALIZADO) ---
 const Card = (props) => {
     const { participant, isWinner } = props;
-    const [isProjectModalOpen, setIsProjectModalOpen] = useState(false);
     const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
-
-    const openProjectModal = () => setIsProjectModalOpen(true);
-    const closeProjectModal = () => setIsProjectModalOpen(false);
 
     const openResumeModal = () => setIsResumeModalOpen(true);
     const closeResumeModal = () => setIsResumeModalOpen(false);
-    
+
     const cardClass = isWinner ? "winner-card-glass" : "non-winner-card-glass";
 
     return (
@@ -227,10 +223,24 @@ const Card = (props) => {
             <div className={cardClass} style={{ position: 'relative' }}>
                 <div className="light-effect"></div>
                 <div className="winner-content">
-                    <div className="winner-avatar">
-                        <div className="avatar-glow"></div>
-                        <img src={participant.profileImg} alt={`Foto de ${participant.author}`}/>
+                    
+                    {/* Step 2: More robust image rendering logic */}
+                    <div className="winner-avatar-container">
+                        {Array.isArray(participant.profileImg) && participant.profileImg.length > 0 ? (
+                            participant.profileImg.map((img, idx) => (
+                                <div className="winner-avatar" key={idx}>
+                                    <div className="avatar-glow"></div>
+                                    {img && <img src={img} alt={`Foto de ${participant.author}`} />}
+                                </div>
+                            ))
+                        ) : (
+                            <div className="winner-avatar">
+                                <div className="avatar-glow"></div>
+                                {participant.profileImg && <img src={participant.profileImg} alt={`Foto de ${participant.author}`} />}
+                            </div>
+                        )}
                     </div>
+
                     <div className="winner-info">
                         {isWinner ? (
                             <h2>
@@ -257,7 +267,6 @@ const Card = (props) => {
         </div>
     );
 };
-
 
 // --- COMPONENTE PRINCIPAL (sem alterações) ---
 const BattleMap = () => {
