@@ -26,7 +26,7 @@ const renderTextField = (text, style, className = "winner-title") => {
 };
 
 /**
- * Renderiza imagens de perfil em uma grade (máximo de 2 por linha).
+ * Renderiza imagens de perfil em uma grade circular (máximo de 2 por linha).
  * @param {string|string[]} profileImg - URL ou array de URLs de imagens.
  * @param {boolean} isWinner - Define o estilo da borda.
  * @returns {JSX.Element|null}
@@ -73,6 +73,58 @@ const renderImageGrid = (profileImg, isWinner = false) => {
 };
 
 
+// --- NOVO ---
+/**
+ * Renderiza uma grade de imagens retangulares para o modal com layouts específicos.
+ * @param {string|string[]} profileImg - URL ou array de URLs de imagens.
+ * @returns {JSX.Element|null}
+ */
+const renderModalImageGrid = (profileImg) => {
+    if (!profileImg) return null;
+
+    const images = Array.isArray(profileImg) ? profileImg : [profileImg];
+    const imageStyle = { width: '100%', height: '100%', objectFit: 'cover' };
+    const containerStyle = { width: '100%', height: '100%', display: 'flex', gap: '4px' };
+
+    switch (images.length) {
+        case 1:
+            return <img src={images[0]} alt="Foto do Palestrante" style={imageStyle} />;
+        
+        case 2: // Divide verticalmente
+            return (
+                <div style={{ ...containerStyle, flexDirection: 'column' }}>
+                    <div style={{ flex: 1, overflow: 'hidden' }}><img src={images[0]} alt="Foto 1" style={imageStyle} /></div>
+                    <div style={{ flex: 1, overflow: 'hidden' }}><img src={images[1]} alt="Foto 2" style={imageStyle} /></div>
+                </div>
+            );
+
+        case 3: // Uma embaixo, duas em cima
+            return (
+                <div style={{ ...containerStyle, flexDirection: 'column' }}>
+                    <div style={{ flex: 1, display: 'flex', gap: '4px', overflow: 'hidden' }}>
+                        <div style={{ flex: 1, overflow: 'hidden' }}><img src={images[0]} alt="Foto 1" style={imageStyle} /></div>
+                        <div style={{ flex: 1, overflow: 'hidden' }}><img src={images[1]} alt="Foto 2" style={imageStyle} /></div>
+                    </div>
+                    <div style={{ flex: 1, overflow: 'hidden' }}>
+                        <img src={images[2]} alt="Foto 3" style={imageStyle} />
+                    </div>
+                </div>
+            );
+            
+        default: // Grade 2xN para 4 ou mais imagens
+            return (
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4px', width: '100%', height: '100%' }}>
+                    {images.map((img, index) => (
+                        <div key={index} style={{ overflow: 'hidden' }}>
+                            <img src={img} alt={`Foto ${index + 1}`} style={imageStyle} />
+                        </div>
+                    ))}
+                </div>
+            );
+    }
+};
+
+
 // --- COMPONENTE MODAL DE RESUMO ---
 const ResumeModal = (props) => {
     const { closeModal, participant } = props;
@@ -109,6 +161,18 @@ const ResumeModal = (props) => {
         transform: 'scale(0.95)', animation: 'scaleIn 0.3s ease-out forwards'
     };
     
+    // --- ALTERADO ---
+    const imageContainerStyle = {
+        backgroundColor: '#e2e8f0', // Um fundo neutro
+        flexShrink: 0,
+        width: isDesktop ? '40%' : '100%',
+        height: isDesktop ? 'auto' : '280px', // Altura fixa para mobile
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        overflow: 'hidden'
+    };
+    
     const renderSocialIcons = () => {
         if (!participant.socialMedia) return null;
         
@@ -131,8 +195,9 @@ const ResumeModal = (props) => {
     return (
         <div style={modalOverlayStyle} onClick={closeModal}>
             <div style={modalContentStyle} onClick={(e) => e.stopPropagation()}>
-                <div style={{ padding: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#f9fafb', flexShrink: 0 }}>
-                    {renderImageGrid(participant.profileImg, participant.isWinner)}
+                {/* --- ALTERADO --- */}
+                <div style={imageContainerStyle}>
+                    {renderModalImageGrid(participant.profileImg)}
                 </div>
 
                 <div style={{ padding: '2rem', flexGrow: 1, overflowY: 'auto' }}>
@@ -180,6 +245,7 @@ const ResumeModal = (props) => {
         </div>
     );
 };
+
 
 // --- CARD DE PARTICIPANTE (FINAL) ---
 const Card = (props) => {
