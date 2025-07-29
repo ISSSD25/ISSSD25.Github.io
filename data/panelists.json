@@ -1,7 +1,7 @@
 {
   "Panelists": [
     {
-      "author": "Luciana Carvalheira. IEN/LDRAN, RJ Brasil",
+      "author": "Dra. Luciana Carvalheira. IEN/LDRAN, RJ Brasil",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/luciana.jpeg",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/7980018485257440",
@@ -12,16 +12,16 @@
         "description": "For over 60 years, Brazil's Argonauta research reactor has addressed hands-on education in physics and engineering of reactors, and radiochemistry. As a hub for RD&I, Argonauta drives partnerships with institutions like IME, UFRJ and startups in radiotracer technologies. Modernization efforts, including fuel improvements and new radioisotopes production, exemplify its commitment to advancing radiation science nuclear applications worldwide."
       },
       "presentation":{
-        "hora": "Morning",
+        "hora": "A definir",
         "idioma": "English",
         "local": "Main Auditorium ",
-        "data": "24/09/2025 – Wednesday",
+        "data": "A definir",
         "duracao": "50 min"
       },
       "isWinner": false
     },
     {
-      "author": "Thiago Viana Miranda Lima. DRNM, Luzerner Kantonsspital and University of Lucerne, Switzerland",
+      "author": "Dr. Thiago Viana Miranda Lima. DRNM, Luzerner Kantonsspital and University of Lucerne, Switzerland",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/thiago.jpeg",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/thiagovmlima/"
@@ -31,55 +31,39 @@
         "description": "This lecture delves into the evolution of nuclear medicine dosimetry. It will explore the progression from early rudimentary methods, which relied on basic measurements and empirical estimates, to the sophisticated imaging techniques and computational models employed today. These advancements have significantly enhanced the accuracy of absorbed dose quantification, improving both safety and efficacy in treatments. The lecture will also discuss the future of dosimetry, highlighting the integration of artificial intelligence and personalized medicine. This forward-thinking approach promises even more precise dose calculations tailored to individual patient characteristics, reflecting a continuous effort to optimize therapeutic protocols and improve patient outcomes in nuclear medicine."
       },
       "presentation":{
-        "hora": "Morning",
+        "hora": "A definir",
         "idioma": "English",
         "local": "Main Auditorium ",
-        "data": "26/09/2025 – Friday",
+        "data": "A definir",
         "duracao": "50 min"
       },
       "isWinner": false
     },
     {
-      "author": "Tarcisio P. R. de Campos. DEN/UFMG and CDTN, BH, MG, Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/tarcisio.jpeg",
+      "author": "Dr. Tarcisio P. R. de Campos. DEN/UFMG and CDTN, BH, MG, Brasil\nDr. Alberto Mizrahy Campos. Researcher in Augsburg, Germany",
+      "profileImg": [
+        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/tarcisio.jpeg",
+        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/alberto.jpeg"
+      ],
       "socialMedia": {
-        "lattes": "http://lattes.cnpq.br/2004647037137301"
+        "Dr. Tarciso": "http://lattes.cnpq.br/2004647037137301",
+        "Dr. Alberto": "https://www.linkedin.com/in/alberto-mizrahy-campos-052b7220a/"
       },
       "project": {
         "title": "Challenges in Radioisotope Decontamination and Production through Neutron Spectral Selection",
         "description": "We present investigations into the production and decontamination of radioisotopes using a selective Spectral Resonant Selector (RSS), focusing on neutron radiative capture reactions in precursor nuclides and transmutation reactions of long-lived radioactive waste. The physical and mathematical aspects of biased Brownian motion are addressed, through which a tailored neutron spectrum can be generated to target specific nuclides. Reaction rates for both precursor nuclides and decontamination processes are presented. Two distinct neutron spectra are considered—one at low energy and another at resonance energy—allowing interaction with a broad range of target nuclides. The production of isotopes such as Sm-153, Lu-177, Re-188, Ho-166, and Yb-169 serves as representative examples of potential radionuclide generation. Additionally, the decontamination of long-lived actinides, including transuranic radionuclides and fission products, through fission or radiative capture reactions, illustrates a promising approach to nuclear waste mitigation. The specific activities and benchmark parameters of various radioisotopes under defined conditions demonstrate the effectiveness of the RSS in both radioisotope production and nuclear decontamination."
       },
       "presentation":{
-        "hora": "Morning",
+        "hora": "A definir",
         "idioma": "English",
         "local": "Main Auditorium ",
-        "data": "26/09/2025 – Friday",
+        "data": "A definir",
         "duracao": "50 min"
       },
       "isWinner": false
     },
     {
-      "author": "Alberto Mizrahy Campos. Researcher in Augsburg, Germany",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/alberto.jpeg",
-      "socialMedia": {
-        "lattes": "http://lattes.cnpq.br/7720855884752578",
-        "linkedin": "https://www.linkedin.com/in/alberto-mizrahy-campos-052b7220a/"
-      },
-      "project": {
-        "title": "Challenges in Radioisotope Decontamination and Production through Neutron Spectral Selection",
-        "description": "We present investigations into the production and decontamination of radioisotopes using a selective Spectral Resonant Selector (RSS), focusing on neutron radiative capture reactions in precursor nuclides and transmutation reactions of long-lived radioactive waste. The physical and mathematical aspects of biased Brownian motion are addressed, through which a tailored neutron spectrum can be generated to target specific nuclides. Reaction rates for both precursor nuclides and decontamination processes are presented. Two distinct neutron spectra are considered—one at low energy and another at resonance energy—allowing interaction with a broad range of target nuclides. The production of isotopes such as Sm-153, Lu-177, Re-188, Ho-166, and Yb-169 serves as representative examples of potential radionuclide generation. Additionally, the decontamination of long-lived actinides, including transuranic radionuclides and fission products, through fission or radiative capture reactions, illustrates a promising approach to nuclear waste mitigation. The specific activities and benchmark parameters of various radioisotopes under defined conditions demonstrate the effectiveness of the RSS in both radioisotope production and nuclear decontamination."
-      },
-      "presentation":{
-        "hora": "Morning",
-        "idioma": "English",
-        "local": "Main Auditorium ",
-        "data": "26/09/2025 – Friday",
-        "duracao": "50 min"
-      },
-      "isWinner": false
-    },
-    {
-      "author": "Bernardo Maranhão Dantas. IRD/CNEN and PPG IRD, RJ, Brasil",
+      "author": "Dr. Bernardo Maranhão Dantas. IRD/CNEN and PPG IRD, RJ, Brasil",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/bernardo.jpeg",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/0217815661525599",
@@ -90,16 +74,16 @@
         "description": "Profissionais que manipulam radiofármacos para fins de diagnóstico e terapia em medicina nuclear estão sujeitos à incorporação de radionuclídeos via inalação e ingestão. Os aspectos de proteção radiológica dessa prática são regulamentados no Brasil pela Comissão Nacional de Energia Nuclear (CNEN). A Agência Internacional de Energia Atômica (AIEA) recomenda a implantação de programas de monitoração ocupacional quando houver risco de doses efetivas anuais superiores a 1 mSv. O controle de incorporações de radionuclídeos pode ser realizado por meio de técnicas de dosimetria interna. Atualmente, no Brasil, não existem laboratórios suficientes capacitados a prestar serviços de monitoração interna para atender a toda a demanda caso essa exigência seja aplicada pela CNEN. Apresenta-se um panorama da situação atual no Brasil e as alternativas técnicas economicamente viáveis, a fim de tornar factível a implantação de programas rotineiros de monitoração interna de trabalhadores ocupacionalmente expostos a riscos significativos de exposição a radionuclídeos manipulados em medicina nuclear."
       },
       "presentation":{
-        "hora": "Afternoon",
+        "hora": "A definir",
         "idioma": "Spanish",
         "local": "Main Auditorium ",
-        "data": "26/09/2025 – Friday",
+        "data": "A definir",
         "duracao": "20 min"
       },
       "isWinner": false
     },
     {
-      "author": "Richard Hugtenburg. Swansea University, UK",
+      "author": "Dr. Richard Hugtenburg. Swansea University, UK",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/RichardHugtenburg.jpg",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/richard-hugtenburg-83608b77/"
@@ -109,16 +93,16 @@
         "description": "Particle therapy is a form of external beam radiotherapy that utilises ions to achieve precise (sub-mm) physical distributions of physical dose with the benefits of high LET to combat radioresistant tumours. Particle therapies are also expected to offer better normal-tissue sparing and reduce long-term side-effects in patients, where the current state-of-the-art in radiotherapy has contributed to significant improvements in the survivability of many cancers in recent years. The LhARA project is a consortium of UK universities that considers three new technologies as a means to reduce the cost, physical footprint and flexibility of particle therapies, where currently treatments, such as carbon ion therapy, are restricted to a few laboratories world-wide. The laser-hybrid method uses high-powered lasers to generate ions with kinetic energies of 10s of MeV and at high dose-rates suitable to examine high dose-rate sparing effects such as FLASH radiotherapy."
       },
       "presentation":{
-        "hora": "Morning - Opening",
+        "hora": "A definir",
         "idioma": "English",
         "local": "Main Auditorium ",
-        "data": "23/09/2025 – Quarta-Feira",
+        "data": "A definir",
         "duracao": "50 min"
       },
       "isWinner": false
     },
     {
-      "author": "Maria Jose Neves. CDTN/CNEN, BH, MG, Brasil",
+      "author": "Dra. Maria Jose Neves. CDTN/CNEN, BH, MG, Brasil",
       "profileImg": "../img/img_convidados/maze.jpeg",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/8729804605264119"
@@ -128,10 +112,10 @@
         "description": "A plastic or glass tube (with a final volume of 1.5ml or smaller) containing a solution composed of sodium selenite and glucose can be fixed to the surface of a material and will indicate whether it was itself exposed to moderate doses of range radiation (5 – 100 kGy) in a range irradiator containing a Cobalt-60 source. This type of irradiator is widely used for the irradiation of foods such as dried grains, fruits, tubers, etc., and for the sterilization of surgical materials, among other activities. Given its low cost and ease of preparation, it can be frozen and kept in stock until the time of use, making it a practical alternative for confirming exposure to high-range radiation."
       },
       "presentation":{
-        "hora": "Afternoon",
+        "hora": "A definir",
         "idioma": "Spanish",
         "local": "Main Auditorium ",
-        "data": "26/09/2025 – Friday",
+        "data": "A definir",
         "duracao": "20 min"
       },
       "isWinner": false
@@ -144,10 +128,10 @@
         "description": "In this lecture, we will briefly introduce the radiation processing of products, a relatively new industry with wide applications and significant commercial success, primly involving gamma rays and electron beams (EB). The main features of the irradiation facilities, the doses delivered, and the regulatory requirements for the processed products will be discussed to highlight the role of dosimetry in this field. Several passive solid-state dosimeters, which are well-established in radiation processing dosimetry, will be introduced to emphasize the need for online dosimeters, whether as routine tools or for monitoring the operating conditions of EB facilities. An overview of efforts to develop online dosimeters, with a focus on electronic devices, will be provided. Subsequently, the lecture will explore the operational characteristics and the physics behind the dose and dose rate response of diodes, explaining how our group has addressed issues related to their use as real-time dosimeters in fixed and mobile EB facilities. The latest data obtained with these diodes, both as routine dosimeters and as electron beam monitors, will be presented to assess the feasibility of their application. The current status of online high-dose dosimeters and the challenges of meeting the metrological standards required in radiation processing dosimetry will also be discussed."
       },
       "presentation":{
-        "hora": "15:30",
+        "hora": "A definir",
         "idioma": "English",
         "local": "Main Auditorium ",
-        "data": "26/09/2025 – Friday",
+        "data": "A definir",
         "duracao": "20 min"
       },
       "isWinner": false
@@ -155,7 +139,7 @@
   ],
   "Courses": [
     {
-      "author": "Ivonne Berenice Lozano Rojas - CICATA - Legaria",
+      "author": "Dra. Ivonne Berenice Lozano Rojas - CICATA - Legaria",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ivonne.jpg",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/ivonne-berenice-69a299181/"
@@ -165,16 +149,16 @@
         "description": "This course covers the principles of solid-state dosimetry, focusing on materials such as OSL (Optically Stimulated Luminescence) and their advanced applications in radiation protection and environmental monitoring."
       },
       "presentation":{
-        "hora": "13:00 – 17:00",
+        "hora": "A definir",
         "idioma": "PT/ES",
         "local": "Auditorium 2",
-        "data": "22/09/2025 – Monday",
+        "data": "A definir",
         "duracao": "4 hours"
       },
       "isWinner": false
     },
     {
-      "author": "Alida Tamar-Gabor. Nuclear Dating Centre at Babeș-Bolyai University (BBU) in Cluj-Napoca, Romania",
+      "author": "Dra. Alida Tamar-Gabor. Nuclear Dating Centre at Babeș-Bolyai University (BBU) in Cluj-Napoca, Romania",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/alida.jpg",
       "socialMedia": {
         "researchgate": "https://www.researchgate.net/profile/A-Timar-Gabor"
@@ -184,16 +168,16 @@
         "description": "This course covers the principles of solid-state dosimetry, focusing on materials such as OSL (Optically Stimulated Luminescence) and their advanced applications in radiation protection and environmental monitoring."
       },
       "presentation":{
-        "hora": "13:00 – 17:00",
+        "hora": "A definir",
         "idioma": "PT/ES",
         "local": "Auditorium 2",
-        "data": "22/09/2025 – Monday",
+        "data": "A definir",
         "duracao": "4 hours"
       },
       "isWinner": false
     },
     {
-      "author": "Marco A Polo Labarrios. Universidad Autónoma Metropolitana (UAM) – Iztapalapa, Mexico",
+      "author": "Dr. Marco A Polo Labarrios. Universidad Autónoma Metropolitana (UAM) – Iztapalapa, Mexico",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/marco.jpg",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/marco-a-polo-labarrios-71883a228/"
@@ -203,16 +187,16 @@
         "description": "Throughout the course, we will explore different types of radiation detectors, their operating principles, and criteria for their proper selection and use. The goal is to provide students with a solid foundation that enables them to identify the most suitable equipment for each situation and use it efficiently, maximizing both measurement accuracy and radiological protection."
       },
       "presentation":{
-        "hora": "8:00 - 12:00",
+        "hora": "A definir",
         "idioma": "ES",
         "local": "Auditorium 2",
-        "data": "22/09/2025 – Monday",
+        "data": "A definir",
         "duracao": "4 hours"
       },
       "isWinner": false
     },
     {
-      "author": "Dra Silvia S Hidalgo Tobón",
+      "author": "Dra. Silvia S Hidalgo Tobón",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/silvia.jpg",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/silvia-hidalgo-tobon/"
@@ -222,68 +206,36 @@
         "description": "Se presentarán las bases de la física de una imagen por resonancia magnética y su relación con el radio diagnóstico. La seguridad en resonancia magnética que evita complicaciones y accidentes que con la continua capacitación disminuyen notablemente. Así como las técnicas nuevas que están incluyendo inteligencia artificial para un mejor diagnóstico por imagen."
       },
       "presentation":{
-        "hora": "13:00 – 17:00",
+        "hora": "A definir",
         "idioma": "ES",
         "local": "Auditorium 1",
-        "data": "22/09/2025 – Monday",
+        "data": "A definir",
         "duracao": "4 hours"
       },
       "isWinner": false
     },
   
     {
-      "author": "Marina Bicalho Silveira. CDTN/CNEN, BH, MG, Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/marina.jpeg",
+      "author": "Dra. Marina Bicalho Silveira. CDTN/CNEN, BH, MG, Brasil\nDra. Isabel Dregely. Fachhochschule Technikum Vienna, Vienna, Austria\nDr. Emerson Bernardes Soares. IPEN/CNEN SP, Brasil",
+      "profileImg": [
+        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/marina.jpeg",
+        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/isabel.jpeg",
+        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/emerson.jpeg"
+      ],
       "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/marina-bicalho-silveira-6bb2129b/"
+        "Dra. Marina": "https://www.linkedin.com/in/marina-bicalho-silveira-6bb2129b/",
+        "Dra. Isabel": "https://www.linkedin.com/in/isabel-dregely-41431644/",
+        "Dr. Emerson": "https://www.linkedin.com/in/emerson-bernardes-519bab32/"
       },
       "project": {
-        "title": "Quality Assurance and Innovation in Radiopharmaceutical Production",
-        "description": "Focusing on PET radiopharmaceuticals, Dr. Marina Bicalho Silveira addresses the integration of Good Manufacturing Practices (GMP), regulatory compliance, and preclinical development in radiopharmacy. Her presentation discusses quality systems that ensure patient safety, and how public R&D centers can bridge academic research with industry demands to drive innovation in nuclear medicine."
+        "title": "Desenvolvimentos de Radiofármacos PET",
+        "description": "Introdução aos radiofármacos emissores de pósitrons, como são produzidos e utilizados, com abordagem geral sobre a obtenção e importância destes compostos para a medicina nuclear. Este curso traz informações sobre novas tecnologias desenvolvidas na Unidade de Pesquisa e Produção de Radiofármacos de CDTN, estado da arte e contribuição para o avanço da medicina nuclear no país, com impacto no diagnóstico e qualidade de vida dos pacientes."
       },
       "presentation":{
-        "hora": "8:00 - 12:00",
+        "hora": "A definir",
         "idioma": "PT",
         "local": "Auditorium 1",
-        "data": "22/09/2025 – Monday",
-        "duracao": "4 hours"
-      },
-      "isWinner": false
-    },
-    {
-      "author": "Isabel Dregely. Fachhochschule Technikum Vienna, Vienna, Austria",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/isabel.jpeg",
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/isabel-dregely-41431644/"
-      },
-      "project": {
-        "title": "AI in Medical Imaging, with a focus on PET",
-        "description": "AI in Medical Imaging, with a focus on PET: e.g., attenuation correction, increasing CT resolution using AI, and synthetic CT for PET/MR systems."
-      },
-      "presentation":{
-        "hora": "8:00 - 12:00",
-        "idioma": "PT",
-        "local": "Auditorium 1",
-        "data": "22/09/2025 – Monday",
-        "duracao": "4 hours"
-      },
-      "isWinner": false
-    },
-    {
-      "author": "Emerson Bernardes Soares. IPEN/CNEN SP, Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/emerson.jpeg",
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/emerson-bernardes-519bab32/"
-      },
-      "project": {
-        "title": "Advances in New PET Radiopharmaceuticals",
-        "description": "This course covers the development of novel radiopharmaceuticals."
-      },
-      "presentation":{
-        "hora": "8:00 - 12:00",
-        "idioma": "PT",
-        "local": "Auditorium 1",
-        "data": "22/09/2025 – Monday",
+        "data": "A definir",
         "duracao": "4 hours"
       },
       "isWinner": false
@@ -291,25 +243,29 @@
   ],
   "Round-tables": [
     {
-      "author": "Talita de Oliveira Santos. CDTN/CNEN, BH, MG, Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/talita.jpeg",
+      "author": "Dr. Ricardo Gomes Passos. CDTN/CNEN, BH, Brazil\nDra. Talita de Oliveira Santos. IMA/UFMG, BH, Brazil",
+      "profileImg": [
+        "../img/img_convidados/ricardo.jpeg", 
+        "../img/img_convidados/talita.jpeg"
+      ],
       "socialMedia": {
-        "lattes": "http://lattes.cnpq.br/5267562662055432"
+        "Dr. Ricardo": "http://lattes.cnpq.br/5267562662055432",
+        "Dra. Talita": "http://lattes.cnpq.br/5267562662055432"
       },
       "project": {
         "title": "Radon in the environment: Tracer Applications and Public Health Risks",
         "description": "Radon in the environment: Tracer Applications and Public Health Risks."
       },
       "presentation":{
-        "hora": "16:00",
+        "hora": "A definir",
         "idioma": "PT",
         "local": "Auditorium 2",
-        "data": "25/09/2025 – Thursday"
+        "data": "A definir"
       },
       "isWinner": false
     },
     {
-      "author": "Luciana Carvalheira. IEN/LDRAN, RJ Brasil",
+      "author": "Dra. Luciana Carvalheira. IEN/LDRAN, RJ Brasil",
       "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/luciana.jpeg",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/7980018485257440",
@@ -320,10 +276,10 @@
         "description": "This roundtable will convene leading experts to explore the pivotal role of leadership in advancing nuclear scientific and technological research. The discussion will address key challenges, including regulatory frameworks, ethical considerations, nuclear applications, diversity and inclusion, effective communication, and the integration of the next generation into the global nuclear sector. By examining how leadership drives innovation, navigates complex challenges, and shapes the future of nuclear science and technology, this session aims to foster meaningful dialogue. Participants will gain insights into emerging technologies, explore strategic leadership approaches, and strengthen collaboration among researchers, policymakers, and industry leaders."
       },
       "presentation":{
-        "hora": "16:30 - 17:00",
+        "hora": "A definir",
         "idioma": "PT",
         "local": "Auditorium 2",
-        "data": "25/09/2025 – Thursday"
+        "data": "A definir"
       },
       "isWinner": false
     }
