@@ -135,33 +135,50 @@
         "duracao": "20 min"
       },
       "isWinner": false
-    }
-  ],
-  "Courses": [
+    },
     {
-      "author": "Dra. Ivonne Berenice Lozano Rojas - CICATA - Legaria",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ivonne.jpg",
-      "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/ivonne-berenice-69a299181/"
-      },
-      "project": {
-        "title": "Solid State Dosimetry: Principles and Applications & OSL Advanced Materials",
-        "description": "This course covers the principles of solid-state dosimetry, focusing on materials such as OSL (Optically Stimulated Luminescence) and their advanced applications in radiation protection and environmental monitoring."
+      "author": "Dr. Wilson Aparecido Parejo Calvo Director of Research and Development at the National Nuclear Energy Commission - CNEN.  BH, MG Brasil",
+      "profileImg": "../img/img_convidados/wilsonCalvo.jpeg",
+      "project":{
+        "title": "Current Status of Strategic Projects at CNEN",
+        "description": "The National Nuclear Energy Commission's guidelines for technological innovation focus on three main areas: nuclear technologies—including reactors, instrumentation, materials, and the fuel cycle—applications of ionizing radiation in health, industry, agriculture, and the environment, as well as radioprotection and dosimetry. This lecture will highlight several strategic projects, including CENTENA, GraNioTer, the tracer technique for offshore oil and gas platforms and processing plants, mobile units equipped with electron accelerators, and a multipurpose reactor. The main features of each project, their contributions to addressing major national challenges in developing nuclear technology, and the current progress of each initiative will be discussed. In short, CENTENA aims to design, build, and commission the first nuclear and environmental technology facility in South America for disposing of low-level radioactive waste, thereby establishing a foundation of safety and sustainability for Brazil. GraNioTer's goal is to establish itself as a national technological hub, promoting research, development, and innovation based on graphene, niobium, rare earths, and other materials and minerals with increasing global demand. Another key project is the application of the radiotracer technique to offshore oil and gas platforms and processing plants, which seeks to develop a prototype and method for measuring gas flow in pipelines. Equally important is the Mobile Unit, equipped with an electron beam accelerator, which aims to expand the nation's capacity to treat industrial effluents and improve water quality in urban areas, addressing one of the primary challenges faced by modern society."
       },
       "presentation":{
         "hora": "A definir",
-        "idioma": "PT/ES",
-        "local": "Auditorium 2",
+        "idioma": "English",
+        "local": "A definir",
         "data": "A definir",
-        "duracao": "4 hours"
+        "duracao": "A definir"
       },
       "isWinner": false
     },
     {
-      "author": "Dra. Alida Tamar-Gabor. Nuclear Dating Centre at Babeș-Bolyai University (BBU) in Cluj-Napoca, Romania",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/alida.jpg",
+      "author": "Dr. Rolf Behrens. Physikalisch-Technische Bundesanstalt (PTB), Braunschweig, Germany",
+      "profileImg": "../img/img_convidados/behrens.jpeg",
+      "project":{
+        "title": "From dosemeter development to routine use –  Standards and Uncertainties",
+        "description": "Radiation protection uses protection quantities (not directly measurable) and operational quantities (measured to estimate protection quantities). Standards ensure the quality of dose measurements, established by IEC and ISO, and adopted by regional organizations (CEN, CENELEC, GCC, SARSO, ARSO). Type tests for photon dosemeters use ISO 4037 reference fields; beta and neutron fields follow ISO 6980 and ISO 8529. Standards like IEC 62387 and IEC 61526 address other influencing factors such as angle, dose rate, temperature, and electromagnetic immunity. Uncertainties are calculated by combining the effects of these influences, as described in IEC TS 62461 (updated 2025). Performance is regularly checked using comparison measurements following ISO 14146 (updated 2024, includes EURADOS)."
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "English",
+        "local": "Main Auditorium ",
+        "data": "A definir",
+        "duracao": "A definir"
+      },
+      "isWinner": false
+    }
+  ],
+  "Courses": [
+    {
+      "author": "Dra. Ivonne Berenice Lozano Rojas - CICATA - Legaria\nDra. Alida Tamar-Gabor. Nuclear Dating Centre at Babeș-Bolyai University (BBU) in Cluj-Napoca, Romania",
+      "profileImg": [
+        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ivonne.jpg",
+        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/alida.jpg"
+      ],
       "socialMedia": {
-        "researchgate": "https://www.researchgate.net/profile/A-Timar-Gabor"
+        "Dra Ivonne": "https://www.linkedin.com/in/ivonne-berenice-69a299181/",
+        "Dra Alida": "https://www.researchgate.net/profile/A-Timar-Gabor"
       },
       "project": {
         "title": "Solid State Dosimetry: Principles and Applications & OSL Advanced Materials",
@@ -228,8 +245,8 @@
         "Dr. Emerson": "https://www.linkedin.com/in/emerson-bernardes-519bab32/"
       },
       "project": {
-        "title": "Desenvolvimentos de Radiofármacos PET",
-        "description": "Introdução aos radiofármacos emissores de pósitrons, como são produzidos e utilizados, com abordagem geral sobre a obtenção e importância destes compostos para a medicina nuclear. Este curso traz informações sobre novas tecnologias desenvolvidas na Unidade de Pesquisa e Produção de Radiofármacos de CDTN, estado da arte e contribuição para o avanço da medicina nuclear no país, com impacto no diagnóstico e qualidade de vida dos pacientes."
+        "title": "Development of PET Radiopharmaceuticals",
+        "description": "This course covers the basics of PET radiopharmaceuticals-production, clinical applications, and their impact on nuclear medicine-while showcasing CDTN's cutting-edge technologies and their role in enhancing diagnostics and patient care in Brazil. \n \nDr. Marina Bicalho - Theoretical Aspects and State of the Art in PET Radiopharmaceuticals. \nDr. Emerson Bernardes - Advances in new PET Radiopharmaceuticals. \nDr. Isabel Dregely - Artificial Intelligence Applied to PET Imaging."
       },
       "presentation":{
         "hora": "A definir",
