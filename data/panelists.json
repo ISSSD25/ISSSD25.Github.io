@@ -139,29 +139,14 @@
   ],
   "Courses": [
     {
-      "author": "Dra. Ivonne Berenice Lozano Rojas - CICATA - Legaria",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ivonne.jpg",
+      "author": "Dra. Ivonne Berenice Lozano Rojas - CICATA - Legaria\nDra. Alida Tamar-Gabor. Nuclear Dating Centre at Babeș-Bolyai University (BBU) in Cluj-Napoca, Romania",
+      "profileImg": [
+        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ivonne.jpg",
+        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/alida.jpg"
+      ],
       "socialMedia": {
-        "linkedin": "https://www.linkedin.com/in/ivonne-berenice-69a299181/"
-      },
-      "project": {
-        "title": "Solid State Dosimetry: Principles and Applications & OSL Advanced Materials",
-        "description": "This course covers the principles of solid-state dosimetry, focusing on materials such as OSL (Optically Stimulated Luminescence) and their advanced applications in radiation protection and environmental monitoring."
-      },
-      "presentation":{
-        "hora": "A definir",
-        "idioma": "PT/ES",
-        "local": "Auditorium 2",
-        "data": "A definir",
-        "duracao": "4 hours"
-      },
-      "isWinner": false
-    },
-    {
-      "author": "Dra. Alida Tamar-Gabor. Nuclear Dating Centre at Babeș-Bolyai University (BBU) in Cluj-Napoca, Romania",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/alida.jpg",
-      "socialMedia": {
-        "researchgate": "https://www.researchgate.net/profile/A-Timar-Gabor"
+        "Dra Ivonne": "https://www.linkedin.com/in/ivonne-berenice-69a299181/",
+        "Dra Alida": "https://www.researchgate.net/profile/A-Timar-Gabor"
       },
       "project": {
         "title": "Solid State Dosimetry: Principles and Applications & OSL Advanced Materials",
