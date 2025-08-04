@@ -2,7 +2,7 @@
   "Round-tables": [
     {
       "author": "Luciana Carvalheira. IEN/LDRAN, RJ Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/luciana.jpeg",
+      "profileImg": "./img/img_convidados/luciana.webp",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/7980018485257440",
         "linkedin": "https://www.linkedin.com/in/lucianacarvalheira/"
@@ -15,19 +15,19 @@
     },
     {
       "author": "Rita Sebastiao. UFMG, BH, MG, Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/rita.jpeg",
+      "profileImg": "./img/img_convidados/rita.webp",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/rita-sebastiao-1a7104246/"
       },
       "project": {
         "title": "Tech IA",
-        "description": "TEch ia"
+        "description": "Tech IA"
       },
       "isWinner": false
     },
     {
       "author": "Ana Carolina Costa da Silva. Siemens Healthineers",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ana.jpeg",
+      "profileImg": "./img/img_convidados/ana.webp",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/ana-carolina-costa-da-silva-7b2251b8/"
       },
@@ -39,7 +39,7 @@
     },
     {
       "author": "Talita de Oliveira Santos. CDTN/CNEN, BH, MG, Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/talita.jpeg",
+      "profileImg": "./img/img_convidados/talita.webp",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/5267562662055432"
       },
@@ -59,7 +59,7 @@
     },
     {
       "author": "Ricardo Gomes Passos. CDTN/CNEN, BH, MG, Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ricardo.jpeg",
+      "profileImg": "./img/img_convidados/ricardo.webp",
       "socialMedia": {
         "scholar google": "https://scholar.google.com/citations?user=ndFwN8sAAAAJ&hl=pt-BR"
       },
@@ -71,7 +71,7 @@
     },
     {
       "author": "Nicéa Barreto. Eletronuclear, RJ, Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/nicea.jpg",
+      "profileImg": "./img/img_convidados/nicea.webp",
       "socialMedia": {
       "linkedin": "https://www.linkedin.com/in/niceabarreto/"
       },

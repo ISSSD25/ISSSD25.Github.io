@@ -45,7 +45,7 @@ const PdfViewerWithModal = ({ height = '50rem' }) => {
                 height: '100%'
             }}>
                 <img 
-                src="./img/schedule_preview.png" 
+                src="./img/schedule_preview.webp" 
                 alt="Visualizar documento" 
                 style={{ 
                     width: '100%',
@@ -214,7 +214,7 @@ const PdfViewerWithModal = ({ height = '50rem' }) => {
                             padding: '40px'
                         }}>
                             <img
-                                src="./img/schedule.png"
+                                src="./img/schedule.webp"
                                 alt="PDF Preview"
                                 style={{
                                     maxWidth: '100%',

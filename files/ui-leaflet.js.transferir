@@ -1462,7 +1462,7 @@
         mustHaveKey: true,
         createLayer: function createLayer(params) {
           var url = isDefined(params.url) ? params.url + '/' + params.user : '//' + params.user + '.cartodb.com';
-          url += '/api/v1/map/' + params.key + '/{z}/{x}/{y}.png';
+          url += '/api/v1/map/' + params.key + '/{z}/{x}/{y}.webp';
           return L.tileLayer(url, params.options);
         }
       },
@@ -1480,7 +1480,7 @@
         mustHaveLayer: true,
         createLayer: function createLayer(params) {
           var url = isDefined(params.url) ? params.url + '/' + params.user : '//' + params.user + '.cartodb.com';
-          var tilesURL = url + '/api/v1/map/' + params.key + '/{z}/{x}/{y}.png';
+          var tilesURL = url + '/api/v1/map/' + params.key + '/{z}/{x}/{y}.webp';
           var tileLayer = L.tileLayer(tilesURL, params.options);
           var layers = [tileLayer];
 
@@ -1841,7 +1841,7 @@
           server: ' http://nominatim.openstreetmap.org/search'
         },
         crs: L.CRS.EPSG3857,
-        tileLayer: '//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        tileLayer: '//{s}.tile.openstreetmap.org/{z}/{x}/{y}.webp',
         tileLayerOptions: {
           attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         },

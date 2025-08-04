@@ -97,7 +97,7 @@ app.controller('SiteCtrl', function ($scope, $document, $uibModal, $window, noti
   };
 
   $scope.tiles = {
-    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.webp",
     options: {
       attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia maps</a> | Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }
