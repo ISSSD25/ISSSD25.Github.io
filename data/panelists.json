@@ -2,7 +2,7 @@
   "Panelists": [
     {
       "author": "Dra. Luciana Carvalheira. IEN/LDRAN, RJ Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/luciana.jpeg",
+      "profileImg": "./img/img_convidados/luciana.webp",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/7980018485257440",
         "linkedin": "https://www.linkedin.com/in/lucianacarvalheira/"
@@ -22,7 +22,7 @@
     },
     {
       "author": "Dr. Thiago Viana Miranda Lima. DRNM, Luzerner Kantonsspital and University of Lucerne, Switzerland",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/thiago.jpeg",
+      "profileImg": "./img/img_convidados/thiago.webp",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/thiagovmlima/"
       },
@@ -42,8 +42,8 @@
     {
       "author": "Dr. Tarcisio P. R. de Campos. DEN/UFMG and CDTN, BH, MG, Brasil\nDr. Alberto Mizrahy Campos. Researcher in Augsburg, Germany",
       "profileImg": [
-        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/tarcisio.jpeg",
-        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/alberto.jpeg"
+        "./img/img_convidados/tarcisio.webp",
+        "./img/img_convidados/alberto.webp"
       ],
       "socialMedia": {
         "Dr. Tarciso": "http://lattes.cnpq.br/2004647037137301",
@@ -64,7 +64,7 @@
     },
     {
       "author": "Dr. Bernardo Maranhão Dantas. IRD/CNEN and PPG IRD, RJ, Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/bernardo.jpeg",
+      "profileImg": "./img/img_convidados/bernardo.webp",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/0217815661525599",
         "linkedin": "https://www.linkedin.com/in/bernardo-dantas-65349925/"
@@ -84,7 +84,7 @@
     },
     {
       "author": "Dr. Richard Hugtenburg. Swansea University, UK",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/RichardHugtenburg.jpg",
+      "profileImg": "./img/img_convidados/RichardHugtenburg.webp",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/richard-hugtenburg-83608b77/"
       },
@@ -103,7 +103,7 @@
     },
     {
       "author": "Dra. Maria Jose Neves. CDTN/CNEN, BH, MG, Brasil",
-      "profileImg": "../img/img_convidados/maze.jpeg",
+      "profileImg": "../img/img_convidados/maze.webp",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/8729804605264119"
       },
@@ -122,7 +122,7 @@
     },
     {
       "author": "Dra. Carmen Comissão Nacional de Energia Nuclear e Docente Permanente do  BH, MG Brasil",
-      "profileImg": "../img/img_convidados/carmen.png",
+      "profileImg": "../img/img_convidados/carmen.webp",
       "project":{
         "title": "Radiation processing with electron beams: On the feasibility of using electronic dosimeters for real-time dosimetry.",
         "description": "In this lecture, we will briefly introduce the radiation processing of products, a relatively new industry with wide applications and significant commercial success, primly involving gamma rays and electron beams (EB). The main features of the irradiation facilities, the doses delivered, and the regulatory requirements for the processed products will be discussed to highlight the role of dosimetry in this field. Several passive solid-state dosimeters, which are well-established in radiation processing dosimetry, will be introduced to emphasize the need for online dosimeters, whether as routine tools or for monitoring the operating conditions of EB facilities. An overview of efforts to develop online dosimeters, with a focus on electronic devices, will be provided. Subsequently, the lecture will explore the operational characteristics and the physics behind the dose and dose rate response of diodes, explaining how our group has addressed issues related to their use as real-time dosimeters in fixed and mobile EB facilities. The latest data obtained with these diodes, both as routine dosimeters and as electron beam monitors, will be presented to assess the feasibility of their application. The current status of online high-dose dosimeters and the challenges of meeting the metrological standards required in radiation processing dosimetry will also be discussed."
@@ -138,7 +138,7 @@
     },
     {
       "author": "Dr. Wilson Aparecido Parejo Calvo Director of Research and Development at the National Nuclear Energy Commission - CNEN.  BH, MG Brasil",
-      "profileImg": "../img/img_convidados/wilsonCalvo.jpeg",
+      "profileImg": "../img/img_convidados/wilsonCalvo.webp",
       "project":{
         "title": "Current Status of Strategic Projects at CNEN",
         "description": "The National Nuclear Energy Commission's guidelines for technological innovation focus on three main areas: nuclear technologies—including reactors, instrumentation, materials, and the fuel cycle—applications of ionizing radiation in health, industry, agriculture, and the environment, as well as radioprotection and dosimetry. This lecture will highlight several strategic projects, including CENTENA, GraNioTer, the tracer technique for offshore oil and gas platforms and processing plants, mobile units equipped with electron accelerators, and a multipurpose reactor. The main features of each project, their contributions to addressing major national challenges in developing nuclear technology, and the current progress of each initiative will be discussed. In short, CENTENA aims to design, build, and commission the first nuclear and environmental technology facility in South America for disposing of low-level radioactive waste, thereby establishing a foundation of safety and sustainability for Brazil. GraNioTer's goal is to establish itself as a national technological hub, promoting research, development, and innovation based on graphene, niobium, rare earths, and other materials and minerals with increasing global demand. Another key project is the application of the radiotracer technique to offshore oil and gas platforms and processing plants, which seeks to develop a prototype and method for measuring gas flow in pipelines. Equally important is the Mobile Unit, equipped with an electron beam accelerator, which aims to expand the nation's capacity to treat industrial effluents and improve water quality in urban areas, addressing one of the primary challenges faced by modern society."
@@ -154,7 +154,7 @@
     },
     {
       "author": "Dr. Rolf Behrens. Physikalisch-Technische Bundesanstalt (PTB), Braunschweig, Germany",
-      "profileImg": "../img/img_convidados/behrens.jpeg",
+      "profileImg": "../img/img_convidados/behrens.webp",
       "project":{
         "title": "From dosemeter development to routine use –  Standards and Uncertainties",
         "description": "Radiation protection uses protection quantities (not directly measurable) and operational quantities (measured to estimate protection quantities). Standards ensure the quality of dose measurements, established by IEC and ISO, and adopted by regional organizations (CEN, CENELEC, GCC, SARSO, ARSO). Type tests for photon dosemeters use ISO 4037 reference fields; beta and neutron fields follow ISO 6980 and ISO 8529. Standards like IEC 62387 and IEC 61526 address other influencing factors such as angle, dose rate, temperature, and electromagnetic immunity. Uncertainties are calculated by combining the effects of these influences, as described in IEC TS 62461 (updated 2025). Performance is regularly checked using comparison measurements following ISO 14146 (updated 2024, includes EURADOS)."
@@ -173,8 +173,8 @@
     {
       "author": "Dra. Ivonne Berenice Lozano Rojas - CICATA - Legaria\nDra. Alida Tamar-Gabor. Nuclear Dating Centre at Babeș-Bolyai University (BBU) in Cluj-Napoca, Romania",
       "profileImg": [
-        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/ivonne.jpg",
-        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/alida.jpg"
+        "./img/img_convidados/ivonne.webp",
+        "./img/img_convidados/alida.webp"
       ],
       "socialMedia": {
         "Dra Ivonne": "https://www.linkedin.com/in/ivonne-berenice-69a299181/",
@@ -195,7 +195,7 @@
     },
     {
       "author": "Dr. Marco A Polo Labarrios. Universidad Autónoma Metropolitana (UAM) – Iztapalapa, Mexico",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/marco.jpg",
+      "profileImg": "./img/img_convidados/marco.webp",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/marco-a-polo-labarrios-71883a228/"
       },
@@ -214,7 +214,7 @@
     },
     {
       "author": "Dra. Silvia S Hidalgo Tobón",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/silvia.jpg",
+      "profileImg": "./img/img_convidados/silvia.webp",
       "socialMedia": {
         "linkedin": "https://www.linkedin.com/in/silvia-hidalgo-tobon/"
       },
@@ -235,9 +235,9 @@
     {
       "author": "Dra. Marina Bicalho Silveira. CDTN/CNEN, BH, MG, Brasil\nDra. Isabel Dregely. Fachhochschule Technikum Vienna, Vienna, Austria\nDr. Emerson Bernardes Soares. IPEN/CNEN SP, Brasil",
       "profileImg": [
-        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/marina.jpeg",
-        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/isabel.jpeg",
-        "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/emerson.jpeg"
+        "./img/img_convidados/marina.webp",
+        "./img/img_convidados/isabel.webp",
+        "./img/img_convidados/emerson.webp"
       ],
       "socialMedia": {
         "Dra. Marina": "https://www.linkedin.com/in/marina-bicalho-silveira-6bb2129b/",
@@ -262,8 +262,8 @@
     {
       "author": "Dr. Ricardo Gomes Passos. CDTN/CNEN, BH, Brazil\nDra. Talita de Oliveira Santos. IMA/UFMG, BH, Brazil",
       "profileImg": [
-        "../img/img_convidados/ricardo.jpeg", 
-        "../img/img_convidados/talita.jpeg"
+        "../img/img_convidados/ricardo.webp", 
+        "../img/img_convidados/talita.webp"
       ],
       "socialMedia": {
         "Dr. Ricardo": "http://lattes.cnpq.br/5267562662055432",
@@ -283,7 +283,7 @@
     },
     {
       "author": "Dra. Luciana Carvalheira. IEN/LDRAN, RJ Brasil",
-      "profileImg": "https://raw.githubusercontent.com/ISSSD25/ISSSD25.Github.io/refs/heads/develop/img/img_convidados/luciana.jpeg",
+      "profileImg": "./img/img_convidados/luciana.webp",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/7980018485257440",
         "linkedin": "https://www.linkedin.com/in/lucianacarvalheira/"

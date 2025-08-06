@@ -1,0 +1,46 @@
+{
+  "G1 - Applications of thermoluminescence (dosimetry, dating, industrial, etc.)":[
+    {
+      "author": "Dra. Luciana Carvalheira. IEN/LDRAN, RJ Brasil",
+      "profileImg": "./img/img_convidados/luciana.webp",
+      "socialMedia": {
+        "lattes": "http://lattes.cnpq.br/7980018485257440",
+        "linkedin": "https://www.linkedin.com/in/lucianacarvalheira/"
+      },
+      "project": {
+        "title": "Neutrons, Knowledge, and New Generations: How Brazil's Argonauta Reactor is Shaping the Future of Radiochemistry and Its Impact on Global Dosimetry Challenges",
+        "description": "For over 60 years, Brazil's Argonauta research reactor has addressed hands-on education in physics and engineering of reactors, and radiochemistry. As a hub for RD&I, Argonauta drives partnerships with institutions like IME, UFRJ and startups in radiotracer technologies. Modernization efforts, including fuel improvements and new radioisotopes production, exemplify its commitment to advancing radiation science nuclear applications worldwide.",
+        "audioUrl": "../drive/file_example_WAV_10MG.wav"
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "English",
+        "local": "Main Auditorium ",
+        "data": "A definir",
+        "duracao": "50 min"
+      },
+      "isWinner": false
+    }
+  ],
+  "G2 - Dosimetry (environmental, personal, internal, external, computational, etc.)":[
+
+  ],
+  "G3 - Ionizing and non-ionizing radiation":[
+
+  ],
+  "G4 - Medical Physics":[
+
+  ],
+  "G5 - Radiological Protection":[
+
+  ],
+  "G6 - Radiation Sources":[
+
+  ],
+  "G7 - Radiobiology":[
+
+  ],
+  "G8 - Luminescent materials":[
+
+  ]
+}
