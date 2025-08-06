@@ -167,6 +167,22 @@
         "duracao": "A definir"
       },
       "isWinner": false
+    },
+    {
+      "author": "Dra. Yvone Mascarenhas Sapra Landauer Serviço de Asse e Prot. Radiológica – São Carlos, SP, Brazil",
+      "profileImg": "../img/img_convidados/yvoneMaria.webp",
+      "project":{
+        "title": "Personal Dosimetry: The Importance of Regulation, Technology, and Culture. Evaluation of Dosimetry Services in Latin America and the Caribbean",
+        "description": "Personal dosimetry is a fundamental tool in radiation protection, ensuring that bestpractices in facilities using ionizing radiation effectively minimize risks to exposed workers.The use of radiation is highly regulated worldwide, and to make personal dosimetry widelyaccessible, technology plays a key role—not only as a scientific instrument but also as areliable and reproducible measurement technique.\nAccurate analysis of population-level dosimetry data is only possible with the correct andappropriate use of personal dosimeters. This can be achieved only when a strongradiation protection culture is promoted and adopted by all stakeholders involved inpersonal dosimetry.\nIn Latin America and the Caribbean, the evaluation of Individual Monitoring Services(SMIE) varies by country, reflecting differences in regulations, technological infrastructure,and safety culture. This study presents an overview of the current state of personaldosimetry in the region, with emphasis on the 2022 intercomparison exercise organized byREPROLAM. A total of 26 services—both public and private—were evaluated usingdifferent irradiation beams and dose levels.\nThe results show that 69.2% of the laboratories complied with ISO 14146:2018. However,some exhibited calibration deviations, particularly with X-ray beams. Notably, OSL(Optically Stimulated Luminescence) dosimetry has seen significant growth,accounting for 34% of the systems evaluated in 2022.\nIn Brazil, the development of Personal Dosimetry Services has been shaped by twodecades of intercomparison exercises and over 30 years of a structured certificationprocess. Despite this progress, challenges remain in standardizing methodologies andenhancing laboratory training to improve dosimetry accuracy across the region.This analysis underscores the critical importance of regulation, technologicaladvancement, and the consolidation of a radiological safety culture as pillars forstrengthening occupational dosimetry in Latin America and the Caribbean."
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "English",
+        "local": "Main Auditorium ",
+        "data": "A definir",
+        "duracao": "A definir"
+      },
+      "isWinner": false
     }
   ],
   "Courses": [
