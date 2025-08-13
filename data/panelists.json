@@ -183,6 +183,71 @@
         "duracao": "A definir"
       },
       "isWinner": false
+    },
+    {
+      "author": "Dra. Geórgia Santos Joana, Technology expert at the National Nuclear Energy Commission (CNEN)\nDra. Ketrim Souza, DEI Specialist and HR Business Partner at Indústrias Nucleares do Brasil (INB)",
+      "profileImg": [
+        "./img/img_convidados/joana.webp",
+        "./img/img_convidados/ketrimSouza.webp"
+      ],
+      "socialMedia": {
+        "Dra. Geórgia": "http://lattes.cnpq.br/0918742107525078",
+        "Dra. Ketrim": "https://www.linkedin.com/in/ketrim-souza-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-60a6a7211/?originalSubdomain=br"
+      },
+      "project": {
+        "title": "Empowering the Future of Nuclear Energy: A Mentorship Program for the Development of Female Leadership.",
+        "description": "Considering the rapid changes occurring in the nuclear sector, driven by climate-related issues, and the growing recognition of the importance of diversity and inclusion within this context, we examine the contributions of authors such as Astrid C. Homan (2019), who, in her research on inclusive leadership, emphasizes the need for initiatives aimed at the professional development of women. Based on this framework, we propose the creation of a mentorship program designed to foster the exchange of experiences between experienced professionals and women at the beginning of their careers, as well as female academics in the nuclear field. The goal is to address the gender gap and propel the formation of the next generation of leaders in the sector.\nThe program, titled the Helen Khoury Mentorship in honor of one of the pioneers of nuclear physics in Brazil, offers individualized guidance by connecting mentees with experienced professionals in the nuclear sector, with an emphasis on continuous development. Its structure comprises one-on-one meetings between mentors and mentees, in addition to six monthly collective sessions focused on formative themes, all conducted online. Throughout the program, a final mentorship product is developed—such as an event, lecture, article, project, or enhancement of an existing initiative—jointly defined by the participants. This approach aligns with the perspectives of authors such as Juan M. Madera, Linnea Ng, Jane M. Sundermann, and Mikki Hebl, who emphasize the importance of critical reflection and practical action in the context of organizational learning, reinforcing the role of mentorship in fostering creative solutions and advancing inclusive leadership.\nLasting for six months, the program aims to develop both technical and interpersonal skills, build networking opportunities, and strengthen the confidence of the participants, as argued by Ibarra (2022), who explored the impact of networking and mentorship relationships on career advancement.\nThe expected outcomes include professional growth, innovation, and the strengthening of female leadership in the nuclear sector, as well as ensuring the continuity of technical knowledge across generations, which is crucial for the long-term success of the sector, according to studies Nonaka and Takeuchi (1997) on knowledge management. Ultimately, the initiative seeks to contribute to building a more equitable and prosperous future for the global nuclear industry."
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "PT",
+        "local": "Auditorium 1",
+        "data": "A definir",
+        "duracao": "4 hours"
+      },
+      "isWinner": false
+    },
+    {
+      "author": "Dr. Helio Yoriyaz, senior searcher on Ipen-Cnen/SP",
+      "profileImg": [
+        "./img/img_convidados/helio.webp"
+      ],
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/in/helio-yoriyaz-73808938/?originalSubdomain=br"
+      },
+      "project": {
+        "title": "Proton Beam Therapy: Main Characteristics and Challenges",
+        "description": "Proton therapy is an increasingly relevant form of radiotherapy because it enables areduction in the total dose compared to photons, preserving critical structures whilesimultaneously delivering higher and better-conformed doses to the tumor volume. Thiseffect is achieved through the superposition of several weighted Bragg curves with differentincident energies, resulting in a broadened Bragg peak, known as the Spread-Out BraggPeak (SOBP).\nAlthough already considered technologically mature, proton therapy still presents importantchallenges that need to be investigated. Among these, the precise calculation of the relativebiological effectiveness (RBE) stands out, defined as the ratio between the doses requiredfor two different types of radiation to produce the same biological effect. This aspect isdirectly linked to the physical interaction processes between the proton and matter.\nWhen a proton with kinetic energy passes through a medium, it interacts with electrons andnuclei of the target, causing its deceleration. These interactions are known as electronicstopping and nuclear stopping, respectively. The stopping power describes the force themedium exerts on the ion, corresponding to the average energy loss per unit path length. Inthe case of proton-matter interaction, electronic stopping is dominant.\nThis energy loss dynamic is fundamental to understanding the dose deposition profile. Asthe proton slows down, the energy transferred to biological tissue per unit path lengthincreases, reaching a maximum at a specific depth. This region, known as the Bragg peak,coincides with the maximum stopping power and represents the area of greatest interest forclinical applications. Therefore, its precise positioning is critical during treatment planning.To study these processes in greater detail, advanced approaches have been employed, suchas real-time Time-Dependent Density Functional Theory (TDDFT). This is a non-perturbative method based on modern quantum simulations, which has proven particularlyuseful for investigating electronic stopping in complex systems like water and DNA,bringing computational modeling closer to the real conditions found in biological tissues."
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "PT",
+        "local": "Auditorium 1",
+        "data": "A definir",
+        "duracao": "4 hours"
+      },
+      "isWinner": false
+    },
+    {
+      "author": "Dr. Juan Aziron",
+      "profileImg": [
+        "./img/img_convidados/azorin.webp"
+      ],
+      "socialMedia": {
+        "linkedin": ""
+      },
+      "project": {
+        "title": "Thermoluminescence and Its Application in Radiation Dosimetry",
+        "description": "This talk addresses some general aspects of the phenomenon of thermally stimulated luminescence, known as thermoluminescence, such as its explanation using the energy band model, its kinetics, the characteristics of the glow curve, and its application in ionizing radiation dosimetry."
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "PT",
+        "local": "Auditorium 1",
+        "data": "A definir",
+        "duracao": "4 hours"
+      },
+      "isWinner": false
     }
   ],
   "Courses": [
@@ -247,7 +312,6 @@
       },
       "isWinner": false
     },
-  
     {
       "author": "Dra. Marina Bicalho Silveira. CDTN/CNEN, BH, MG, Brasil\nDra. Isabel Dregely. Fachhochschule Technikum Vienna, Vienna, Austria\nDr. Emerson Bernardes Soares. IPEN/CNEN SP, Brasil",
       "profileImg": [
