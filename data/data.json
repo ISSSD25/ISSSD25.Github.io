@@ -160,7 +160,7 @@
   },
   {
     "id": 24,
-    "nome": "Carmen Comissão Nacional de Energia Nuclear e Docente Permanente do  BH, MG Brasil",
+    "nome": "Carmen Cecília Bueno, Comissão Nacional de Energia Nuclear e Docente Permanente do  BH, MG Brasil",
     "avatar": "../img/img_convidados/carmen.webp",
     "descricao": "She holds Bachelor's and Licentiate degrees in Physics from PUC/SP, as well as Master's and Doctorate degrees in Nuclear Instrumentation from the same university. She began her academic career at PUC/SP, where she was appointed as a Full Professor of Nuclear Physics. In 1995, she started working as a researcher at the Nuclear and Energy Research Institute (IPEN-CNEN/SP) and later completed her postdoctoral work at the Instrumentation and Experimental Particle Physics Laboratory (LIP) at the University of Coimbra. She also holds a second Doctorate in nuclear technology from IPEN-USP. She has published nearly 150 full-length articles in international journals and conference proceedings and has supervised numerous master's, doctoral, and postdoctoral students. Currently, she is a senior researcher at IPEN with over 30 years of experience in nuclear instrumentation for radiation measurement and dosimetry. Most of her research focuses on developing semiconductor-based dosimetry systems for medical and radiation processing fields. She currently serves on the Steering Committee of the National Institute of Science and Technology (INCT) project, \"Nuclear Instrumentation and Applications in Industry and Health\" (INAIS). Additionally, she is a member of the Advisory Boards of the Brazilian Society of Solid-State Dosimetry (SSD) and the Brazilian Association of Nuclear Energy (ABEN)."
   },
@@ -177,5 +177,33 @@
     "avatar": "../img/img_convidados/yvoneMaria.webp",
     "descricao": "Yvone Maria Mascarenhas has a degree in Physics from the University of São Paulo (USP), and a master's, doctorate, and post-doctorate from the USP's Institute of Physics and Chemistry of São Carlos (IFSC), with research in basic physics as well as radiology and dosimetry. She has worked as a coordinator for research projects funded by agencies such as CNPq and FAPESP and has extensive experience in the field of Physics, working primarily in radiological protection, x-ray production, radiodiagnosis, and dosimetry.",
     "lattes": "http://lattes.cnpq.br/6466870576198289"
+  },
+  {
+    "id": 27,
+    "nome": "Geórgia Santos Joana, Technology expert at the National Nuclear Energy Commission (CNEN)",
+    "avatar": "../img/img_convidados/joana.webp",
+    "descricao": "Bachelor's degree in Physics from the Federal University of Minas Gerais - UFMG (2003), master's degree in Radiation, Mineral, and Materials Science and Technology from the Nuclear Technology Development Center of the National Nuclear Energy Commission - CDTN/CNEN (2005), and a Ph.D. in Nuclear Science and Technology from the Postgraduate Program of the Department of Nuclear Engineering at UFMG (2018). She is currently a technologist at the National Nuclear Energy Commission. She previously worked in the field of Medical Physics at the Superintendence of Sanitary Surveillance of the Minas Gerais State Health Secretariat, where she coordinated the State Quality Control Program in Mammography - PECQMamo. She has experience in Medical Physics and Health Surveillance, with an emphasis on Radiological Protection, Regulation, Safety, and Quality in health services. Her research focuses on Radiological Protection, Quality Control, Radiation Dosimetry and Metrology, and Risk Analysis and Management in the field of medical applications of radiation.",
+    "lattes": "http://lattes.cnpq.br/0918742107525078"
+  },
+  {
+    "id": 28,
+    "nome": "Ketrim Souza, DEI Specialist and HR Business Partner at Indústrias Nucleares do Brasil (INB)",
+    "avatar": "../img/img_convidados/ketrimSouza.webp",
+    "descricao": "With a career in Human Resources since 2014, I've served as a Personnel Development Analyst, Business Partner, and Diversity and Inclusion Specialist. In this last role, I was responsible for the Race, Gender, Diversity, and Inclusion Project, which formed the basis for the Permanent DEI Committee at INB-Indústrias Nucleares do Brasil.I hold an MBA in People Management (Puc-Minas) and another in Diversity and Inclusion Management (FIA-USP), as well as a Bachelor's degree in Business Administration. My master's research focuses on the career development of individuals who have benefited from government affirmative action policies.Additionally, I am the CEO and co-founder of Agência Agojie Diversifique-se, a DEI headhunter agency. I am also an active participant in the Black and LGBTQIAPN+ movements.",
+    "linkedin": "https://www.linkedin.com/in/ketrim-souza-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-60a6a7211/?originalSubdomain=br"
+  },
+  {
+    "id": 29,
+    "nome": "Helio Yoriyaz, senior searcher on Ipen-Cnen/SP",
+    "avatar": "../img/img_convidados/helio.webp",
+    "descricao": "Bachelor in Physics (University of São Paulo, 1979–1982), Master’s (1984–1986) and PhD(1998–2000) in Nuclear Technology from the University of São Paulo. Former RHAE fellow atthe Paul Scherrer Institute (Switzerland, 1993–1994) and IAEA Fellow at Oak Ridge AssociatedUniversities (USA, 1996–1997). Researcher at the Nuclear and Energy Research Institute(IPEN), working in the field of Nuclear Engineering with an emphasis on Medical Physics,particularly in Monte Carlo simulation, dosimetry and nuclear medicine. Currently a facultymember of the Graduate Program in Nuclear Technology at USP and the Professional Master’sProgram in Radiation Technology in Health at IPEN.Bachelor in Physics (University of São Paulo, 1979–1982), Master’s (1984–1986) and PhD(1998–2000) in Nuclear Technology from the University of São Paulo. Former RHAE fellow atthe Paul Scherrer Institute (Switzerland, 1993–1994) and IAEA Fellow at Oak Ridge AssociatedUniversities (USA, 1996–1997). Researcher at the Nuclear and Energy Research Institute(IPEN), working in the field of Nuclear Engineering with an emphasis on Medical Physics,particularly in Monte Carlo simulation, dosimetry and nuclear medicine. Currently a facultymember of the Graduate Program in Nuclear Technology at USP and the Professional Master’sProgram in Radiation Technology in Health at IPEN.",
+    "linkedin": "https://www.linkedin.com/in/helio-yoriyaz-73808938/?originalSubdomain=br"
+  },
+  {
+    "id": 29,
+    "nome": "Juan Azorín. Professor and researcher at the Autonomous Metropolitan University of Mexico",
+    "avatar": "../img/img_convidados/azorin.webp",
+    "descricao": "Juan Azorín, born in Mexico City in 1944, studied physics at the National PolytechnicInstitute of Mexico and radiation physics and radiation protection at the NationalAutonomous University of Mexico, earning a PhD in physics from the AutonomousMetropolitan University of Mexico. He was a researcher at the National Institute ofNuclear Research of Mexico. He has been a visiting professor at the Universities of Romeand Florence in Italy, as well as at various universities in Mexico, Argentina, Colombia, andVenezuela. He has published more than 200 scientific articles on thermoluminescence andmedical physics, in addition to several books. He is currently a researcher and professor atthe Autonomous Metropolitan University of Mexico, where he conducts research on solid-state phenomena and their application to ionizing radiation dosimetry. He is a member ofthe Mexican Academy of Sciences and the National System of Researchers, where heholds level 3 status.",
+    "uam": "https://share.google/Exr1t5coHoJc53uWB"
   }
 ]
