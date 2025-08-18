@@ -185,29 +185,6 @@
       "isWinner": false
     },
     {
-      "author": "Dra. Geórgia Santos Joana, Technology expert at the National Nuclear Energy Commission (CNEN)\nDra. Ketrim Souza, DEI Specialist and HR Business Partner at Indústrias Nucleares do Brasil (INB)",
-      "profileImg": [
-        "./img/img_convidados/joana.webp",
-        "./img/img_convidados/ketrimSouza.webp"
-      ],
-      "socialMedia": {
-        "Dra. Geórgia": "http://lattes.cnpq.br/0918742107525078",
-        "Dra. Ketrim": "https://www.linkedin.com/in/ketrim-souza-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-60a6a7211/?originalSubdomain=br"
-      },
-      "project": {
-        "title": "Empowering the Future of Nuclear Energy: A Mentorship Program for the Development of Female Leadership.",
-        "description": "Considering the rapid changes occurring in the nuclear sector, driven by climate-related issues, and the growing recognition of the importance of diversity and inclusion within this context, we examine the contributions of authors such as Astrid C. Homan (2019), who, in her research on inclusive leadership, emphasizes the need for initiatives aimed at the professional development of women. Based on this framework, we propose the creation of a mentorship program designed to foster the exchange of experiences between experienced professionals and women at the beginning of their careers, as well as female academics in the nuclear field. The goal is to address the gender gap and propel the formation of the next generation of leaders in the sector.\nThe program, titled the Helen Khoury Mentorship in honor of one of the pioneers of nuclear physics in Brazil, offers individualized guidance by connecting mentees with experienced professionals in the nuclear sector, with an emphasis on continuous development. Its structure comprises one-on-one meetings between mentors and mentees, in addition to six monthly collective sessions focused on formative themes, all conducted online. Throughout the program, a final mentorship product is developed—such as an event, lecture, article, project, or enhancement of an existing initiative—jointly defined by the participants. This approach aligns with the perspectives of authors such as Juan M. Madera, Linnea Ng, Jane M. Sundermann, and Mikki Hebl, who emphasize the importance of critical reflection and practical action in the context of organizational learning, reinforcing the role of mentorship in fostering creative solutions and advancing inclusive leadership.\nLasting for six months, the program aims to develop both technical and interpersonal skills, build networking opportunities, and strengthen the confidence of the participants, as argued by Ibarra (2022), who explored the impact of networking and mentorship relationships on career advancement.\nThe expected outcomes include professional growth, innovation, and the strengthening of female leadership in the nuclear sector, as well as ensuring the continuity of technical knowledge across generations, which is crucial for the long-term success of the sector, according to studies Nonaka and Takeuchi (1997) on knowledge management. Ultimately, the initiative seeks to contribute to building a more equitable and prosperous future for the global nuclear industry."
-      },
-      "presentation":{
-        "hora": "A definir",
-        "idioma": "PT",
-        "local": "Auditorium 1",
-        "data": "A definir",
-        "duracao": "4 hours"
-      },
-      "isWinner": false
-    },
-    {
       "author": "Dr. Helio Yoriyaz, senior searcher on Ipen-Cnen/SP",
       "profileImg": [
         "./img/img_convidados/helio.webp"
@@ -377,6 +354,56 @@
         "idioma": "PT",
         "local": "Auditorium 2",
         "data": "A definir"
+      },
+      "isWinner": false
+    },
+    {
+      "author": "Dra. Geórgia Santos Joana, Technology expert at the National Nuclear Energy Commission (CNEN)\nDra. Ketrim Souza, DEI Specialist and HR Business Partner at Indústrias Nucleares do Brasil (INB)",
+      "profileImg": [
+        "./img/img_convidados/joana.webp",
+        "./img/img_convidados/ketrimSouza.webp"
+      ],
+      "socialMedia": {
+        "Dra. Geórgia": "http://lattes.cnpq.br/0918742107525078",
+        "Dra. Ketrim": "https://www.linkedin.com/in/ketrim-souza-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-60a6a7211/?originalSubdomain=br"
+      },
+      "project": {
+        "title": "Empowering the Future of Nuclear Energy: A Mentorship Program for the Development of Female Leadership.",
+        "description": "Considering the rapid changes occurring in the nuclear sector, driven by climate-related issues, and the growing recognition of the importance of diversity and inclusion within this context, we examine the contributions of authors such as Astrid C. Homan (2019), who, in her research on inclusive leadership, emphasizes the need for initiatives aimed at the professional development of women. Based on this framework, we propose the creation of a mentorship program designed to foster the exchange of experiences between experienced professionals and women at the beginning of their careers, as well as female academics in the nuclear field. The goal is to address the gender gap and propel the formation of the next generation of leaders in the sector.\nThe program, titled the Helen Khoury Mentorship in honor of one of the pioneers of nuclear physics in Brazil, offers individualized guidance by connecting mentees with experienced professionals in the nuclear sector, with an emphasis on continuous development. Its structure comprises one-on-one meetings between mentors and mentees, in addition to six monthly collective sessions focused on formative themes, all conducted online. Throughout the program, a final mentorship product is developed—such as an event, lecture, article, project, or enhancement of an existing initiative—jointly defined by the participants. This approach aligns with the perspectives of authors such as Juan M. Madera, Linnea Ng, Jane M. Sundermann, and Mikki Hebl, who emphasize the importance of critical reflection and practical action in the context of organizational learning, reinforcing the role of mentorship in fostering creative solutions and advancing inclusive leadership.\nLasting for six months, the program aims to develop both technical and interpersonal skills, build networking opportunities, and strengthen the confidence of the participants, as argued by Ibarra (2022), who explored the impact of networking and mentorship relationships on career advancement.\nThe expected outcomes include professional growth, innovation, and the strengthening of female leadership in the nuclear sector, as well as ensuring the continuity of technical knowledge across generations, which is crucial for the long-term success of the sector, according to studies Nonaka and Takeuchi (1997) on knowledge management. Ultimately, the initiative seeks to contribute to building a more equitable and prosperous future for the global nuclear industry."
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "",
+        "local": " A definir",
+        "data": "A definir",
+        "duracao": "A definir"
+      },
+      "isWinner": false
+    },
+    {
+      "author": "Dra. Telma C. F. Fonseca. DEN/UFMG, BH, Brazil\nDra. Rita Sebastiao. UFMG, BH, Brazil\nDra. Melina Castro. Biominas Brasil, BH, Brazil\nDra. Ana Carolina Costa da Silva. Siemens Healthineers, SP, Brazil",
+      "profileImg": [
+        "../img/img_convidados/telma.webp",
+        "../img/img_convidados/rita.webp",
+        "../img/img_convidados/melina.webp",
+        "../img/img_convidados/ana.webp"
+      ],
+      "socialMedia": {
+        "Dra. Telma": "http://lattes.cnpq.br/3139727297057976",
+        "Dra. Rita": "https://www.linkedin.com/in/rita-sebastiao-1a7104246/",
+        "Melina": "http://linkedin.com/in/melinacastrob"
+        
+      },
+      "project": {
+        "title": "AI's challenges and Opportunities: Connecting research, industry and society.",
+        "description": "The roundtable is part of the Tech Area on Artificial Intelligence, an innovative space within ISSSD 2025 dedicated to the convergence of technology, healthcare, and innovation. Its main goal is to foster dialogue among startups, researchers, healthcare professionals, and investors, encouraging the use of AI in clinical practice.\nDuring the session, strategic topics will be discussed, such as:\nChallenges and opportunities of AI in clinical radiology\nExplainability and ethics of diagnostic algorithms\nAutomation and integration of hospital workflows\nSuccess stories from innovative startups\nTrends for the next 5 years in medical AI\nThe roundtable will feature multidisciplinary experts — including radiologists, data scientists, entrepreneurs, and regulators — and will be moderated by professionals with experience in healthcare innovation. There will also be room for audience interaction, with guided questions designed to stimulate debate."
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "PT",
+        "local": "Auditorium 1",
+        "data": "A definir",
+        "duracao": "4 hours"
       },
       "isWinner": false
     }

@@ -2,14 +2,14 @@
   {
     "id": 1,
     "nome": "Chair - Bruno Melo Mendes. CDTN/CNEN, BH, Brazil",
-    "avatar": "./img/img_convidados/bmm.webp",
+    "avatar": "../img/img_convidados/bmm.webp",
     "descricao": "Dr. Bruno Melo Mendes holds a Bachelor's degree in Biological Sciences and a Master's and PhD in Nuclear Science and Technology from the Federal University of Minas Gerais (UFMG). He is currently a researcher at the Nuclear Technology Development Center (CDTN/CNEN) and coordinates the Monte Carlo Modelling Expert Group (MCMEG). His expertise lies in the nuclear field, with a focus on radiopharmacy, computational modeling (Monte Carlo), and internal dosimetry.",
     "lattes": "http://lattes.cnpq.br/7016638154017973"
   },
   {
     "id": 2,
     "nome": "Chair - Telma C. F. Fonseca. DEN/UFMG, BH, Brazil",
-    "avatar": "./img/img_convidados/telma.webp",
+    "avatar": "../img/img_convidados/telma.webp",
     "descricao": "Dr. Telma C. F. Fonseca is professor at the DEN/UFMG, faculty member of the PCTN/UFMG and member of the Diversity & Inclusion Management Committee (2024–2027) of WinBrasil – Women in Nuclear, and coordinates the Monte Carlo Modelling Expert Group (MCMEG). She holds degrees in the area of computational sciences, a Master’s in Radiation Sciences from UFMG, and a PhD in Biomedical Sciences from KU Leuven (Belgium), where her research focused on internal dosimetry. She was a researcher at the Radiation Protection Dosimetry and Calibrations group (RDC) at SCK-CEN in Belgium. Additionally, she completed a postdoctoral fellowship at the Centre for Development of Nuclear Technology (CDTN/CNEN), where she also led the Internal Dosimetry Laboratory. Her expertise and research interests include dose calculation in radiotherapy, radiobiology, nuclear instrumentation,  nanodosimetry, computational modeling, and the use of Monte Carlo methods in radiation protection and radiobiology. Website: www.telmafonseca.com.br",
     "lattes": "http://lattes.cnpq.br/3139727297057976",
     "linkedin": "https://www.linkedin.com/in/c-f-fonseca-telma-90b64587"
@@ -17,7 +17,7 @@
   {
     "id": 3,
     "nome": "Alberto Mizrahy Campos. Researcher in Augsburg, Germany",
-    "avatar": "./img/img_convidados/alberto.webp",
+    "avatar": "../img/img_convidados/alberto.webp",
     "descricao": "Dr. Alberto M. Campos is Postdoctoral researcher in Augsburg, Germany (2024–present), with a PhD in Mathematics from the Institute for Pure and Applied Mathematics (IMPA, 2024). He completed a research stay at Instituto Superior Técnico (IST), Lisbon (2022), holds a Master's and Bachelor's degree in Mathematics from UFMG, and a technical degree in Electrotechnics from CEFET-MG. He has served as a teaching assistant in various probability and analysis courses at IMPA and UFMG, and has presented talks at the Erdős Institute (Budapest) and the Department of Nuclear Engineering at UFMG. His research interests lie broadly in Probability Theory, with a focus on random covering problems, percolation, and random walks.",
     "lattes": "http://lattes.cnpq.br/7720855884752578",
     "linkedin": "https://www.linkedin.com/in/alberto-mizrahy-campos-052b7220a/"
@@ -25,21 +25,21 @@
   {
     "id": 4,
     "nome": "Alida Tamar-Gabor. Nuclear Dating Centre at Babeș-Bolyai University (BBU) in Cluj-Napoca, Romania",
-    "avatar": "./img/img_convidados/alida.webp",
+    "avatar": "../img/img_convidados/alida.webp",
     "descricao": "Dr. Alida Timar-Gabor is a professor of environmental radioactivity at the Faculty of Environmental Science and Engineering and the director of the Environmental Radioactivity and Nuclear Dating Centre at Babeș-Bolyai University (BBU) in Cluj-Napoca, Romania. She is pioneered the applications of absolute dating methods for sediments in Romania and established and currently leads the Luminescence and Electron Spin Resonance Dating Laboratories at Babes-Bolyai University. Her main research interests are in the field of solid-state dosimetry with a focus on trapped charge dating methods and their application to geological problems. She has successfully supervised over a dozen PhD students in environmental science. In 2015, she was awarded a European Research Council (ERC) Starting Grant (INTERTRAP 678106), which conducted geochronological investigations on records of past climate change across four continents. Her current work focuses on developing novel provenance methods using ubiquitous minerals.",
     "researchgate": "https://www.researchgate.net/profile/A-Timar-Gabor"
   },
   {
     "id": 5,
     "nome": "Ana Carolina Costa da Silva. Siemens Healthineers, SP, Brazil",
-    "avatar": "./img/img_convidados/ana.webp",
+    "avatar": "../img/img_convidados/ana.webp",
     "descricao": "Dr. Ana holds a PhD and Master's degree from the Institute of Energetic and Nuclear Research (IPEN/USP), with extensive experience in radiodiagnostics for over 10 years. Graduated in Physics and Radiology Technology, with a postgraduate degree in Imaging. Specialist in PACS, RIS, and 3D Workstation solutions for computed tomography, magnetic resonance, and nuclear medicine. Currently working as the Collaboration Manager CT Latin America at Siemens Healthineers. Research focus on Computed Tomography, Artificial Intelligence, Radiomics, Quality Control, and Nanotechnology.",
     "linkedin": "https://www.linkedin.com/in/ana-carolina-costa-da-silva-7b2251b8/"
   },
   {
     "id": 6,
     "nome": "Bernardo Maranhão Dantas. IRD/CNEN and PPG IRD, RJ, Brazil",
-    "avatar": "./img/img_convidados/bernardo.webp",
+    "avatar": "../img/img_convidados/bernardo.webp",
     "descricao": "Dr. Bernardo Maranhão Dantas holds a PhD in Sciences (Biology – Nuclear Biosciences) from the State University of Rio de Janeiro (1998). He is a Senior Technologist at the Brazilian National Nuclear Energy Commission (CNEN) and a faculty member of the Graduate Program at the Institute of Radiation Protection and Dosimetry, focusing on Radiation Biophysics. He has published 87 peer-reviewed articles and has supervised numerous students across undergraduate, master’s, and doctoral levels. He has led five research and development projects and currently coordinates the CNPq-certified research group “Occupational Internal Dosimetry.”",
     "lattes": "http://lattes.cnpq.br/0217815661525599",
     "linkedin": "https://www.linkedin.com/in/bernardo-dantas-65349925/"
@@ -47,28 +47,28 @@
   {
     "id": 7,
     "nome": "Emerson Bernardes Soares. IPEN/CNEN SP, Brazil",
-    "avatar": "./img/img_convidados/emerson.webp",
+    "avatar": "../img/img_convidados/emerson.webp",
     "descricao": "Dr. Emerson Soares Bernardes is a pharmacist and researcher with over two decades of experience in immunology, molecular biology, and nuclear medicine. He served as Manager of the Radiopharmacy Center at the Nuclear and Energy Research Institute (IPEN), where he led pioneering projects in the development of radiopharmaceuticals. He currently holds a position as a Visiting Researcher at Erasmus Medical Center in the Netherlands, contributing to innovation initiatives and patent development. His career is distinguished by the integration of scientific research, strategic management, and entrepreneurship.",
     "linkedin": "https://www.linkedin.com/in/emerson-bernardes-519bab32/"
   },
   {
     "id": 8,
     "nome": "Ivonne Berenice Lozano Rojas - CICATA - Legaria",
-    "avatar": "./img/img_convidados/ivonne.webp",
+    "avatar": "../img/img_convidados/ivonne.webp",
     "descricao": "Dr. Ivonne, a distinguished Mexican scientist holding a Ph.D. from Centro de Investigación en Ciencia Aplicada y Tecnología Avanzada, Unidad Legaria, conducts pioneering research in TL/OSL dosimetry, radiation detectors, and food irradiation detection, significantly advancing medical physics and safety.",
     "linkedin": "https://www.linkedin.com/in/ivonne-berenice-69a299181/"
   },
   {
     "id": 9,
     "nome": "Isabel Dregely. Fachhochschule Technikum Vienna, Vienna, Austria",
-    "avatar": "./img/img_convidados/isabel.webp",
+    "avatar": "../img/img_convidados/isabel.webp",
     "descricao": "Dr. Isabel Dregely is Head of the Competence Center for Artificial Intelligence and Data Analytics at Fachhochschule Technikum Wien. She previously served as Senior Lecturer at King's College London and was a UKRI Future Leaders Fellow. Her research background includes advanced MRI techniques, particularly in prostate and cardiovascular imaging, with postdoctoral work at UCLA and experience at the Technical University of Munich. She holds a PhD in Physics from the University of New Hampshire, where she focused on hyperpolarized xenon MRI and RF coil development. Dr. Dregely combines expertise in biomedical imaging with AI and data analytics applications.",
     "linkedin": "https://www.linkedin.com/in/isabel-dregely-41431644/"
   },
   {
     "id": 10,
     "nome": "Luciana Carvalheira. IEN/LDRAN, RJ, Brazil",
-    "avatar": "./img/img_convidados/luciana.webp",
+    "avatar": "../img/img_convidados/luciana.webp",
     "descricao": "Dr. Luciana Carvalheira is a Black Brazilian scientist and singer from Rio de Janeiro, leading pioneering projects at the Institute of Nuclear Engineering and serving as a professor and vice-coordinator in postgraduate programs for Nuclear Sciences. She co-founded startups like Magtech Brazil and Radíon, driving innovation in radiochemistry and nanomaterials. Her research spans neutron activation, medical polymers, and environmental monitoring, alongside mentoring future scientists through WiN Brazil’s Helen Khoury Program. As a member of MunaN, she advocates for the inclusion of young Black women in nuclear sciences. Honored by ALERJ for empowering women and recognized as a leader by ENAP’s LideraGOV 4.0, she embodies audacity, joy, and a relentless pursuit of scientific freedom and innovation.",
     "lattes": "http://lattes.cnpq.br/7980018485257440",
     "linkedin": "https://www.linkedin.com/in/lucianacarvalheira/"
@@ -76,14 +76,14 @@
   {
     "id": 11,
     "nome": "Marco A Polo Labarrios. Universidad Autónoma Metropolitana (UAM) – Iztapalapa, Mexico",
-    "avatar": "./img/img_convidados/marco.webp",
+    "avatar": "../img/img_convidados/marco.webp",
     "descricao": "Dr. Marco Antonio Polo Labarrios holds a Ph.D. and Master’s degree in Energy Engineering from UNAM and a Bachelor’s in Energy Engineering from UAM Iztapalapa. He teaches part-time at Universidad Iberoamericana and UNAM, focusing on Transport Phenomena and Renewable Energy. His research involves the simulation of energy processes based on mass, momentum, and energy transport. He has published 21 scientific articles, participated in multiple national and international conferences, and supervised four undergraduate theses. Dr. Polo Labarrios was part of the National Commission on Nuclear Safety and has been a Level 1 member of the National System of Researchers since 2021.",
     "linkedin": "https://www.linkedin.com/in/marco-a-polo-labarrios-71883a228/"
   },
   {
     "id": 12,
     "nome": "Marina Bicalho Silveira. CDTN/CNEN, BH, Brazil",
-    "avatar": "./img/img_convidados/marina.webp",
+    "avatar": "../img/img_convidados/marina.webp",
     "descricao": "Dr. Marina Bicalho Silveira is an Industrial Pharmacist (UFMG, 2007) with an M.Sc. (2010) and Ph.D. (2016) in Radiation Science & Technology (CNEN). Specialized in Radiopharmacy (SBRAFH, 2023), she works as a Senior Technologist at CDTN/CNEN, leading Quality Assurance for PET radiopharmaceutical production. Her expertise covers GMP, regulatory compliance, and R&D of novel radiopharmaceuticals, including preclinical studies. She also serves as a Professor in CDTN’s Graduate Program, bridging industry and academia.",
     "linkedin": "https://www.linkedin.com/in/marina-bicalho-silveira-6bb2129b/"
   },
@@ -97,56 +97,56 @@
   {
     "id": 15,
     "nome": "Richard Hugtenburg. Swansea University, UK",
-    "avatar": "./img/img_convidados/RichardHugtenburg.webp",
+    "avatar": "../img/img_convidados/RichardHugtenburg.webp",
     "descricao": "Dr. Richard Hugtenburg is a medical physics expert and research academic at Swansea University, UK, specialising in radiotherapy physics. Dr. Hugtenburg began his career in Christchurch, New Zealand, working as a medical physicist while studying for a PhD on the use of computational methods in radiation oncology. He moved to the UK in 1997 and continued to practice in radiotherapy physics, first at the Queen Elizabeth Medical Centre in Birmingham, then at Singleton Hospital in Swansea. His research examines dosimetry methods associated with emergent radiotherapy technologies, utilising Monte Carlo modelling for a diverse range of radiation physics problems, including the analysis of energy deposition in biological systems, the optimisation of dosimeters and detectors, nanoparticulates, shielding and therapy systems.",
     "linkedin": "https://www.linkedin.com/in/richard-hugtenburg-83608b77/"
   },
   {
     "id": 16,
     "nome": "Rita Sebastiao. UFMG, BH, Brazil",
-    "avatar": "./img/img_convidados/rita.webp",
+    "avatar": "../img/img_convidados/rita.webp",
     "descricao": "Dr. Rita C. O. Sebastião is a full professor at Universidade Federal de Minas Gerais (UFMG) with experience in Chemistry, working mainly on the topics: inverse problems, artificial neural networks, nuclear magnetic resonance, thermal decomposition, chemical kinetics, combustion processes, and thermodynamics. Extensive experience in education, research, and extension, especially in projects aiming for the popularization of science, educational innovation, and entrepreneurship, connecting the university to basic education. Experience in developing and managing projects on socio-environmental sustainability and education. She is currently a member of the Postgraduate Program in Chemistry (PPGQUI), Postgraduate Program in Technological Innovation (PPGIT)  and Professional Master’s in Technological Innovation and Intellectual Property (MPITPI) at UFMG.",
     "linkedin": "https://www.linkedin.com/in/rita-sebastiao-1a7104246/"
   },
   {
     "id": 17,
     "nome": "Silvia S. Hidalgo Tobón. Universidad Autónoma Metropolitana (UAM) – Iztapalapa, Mexico",
-    "avatar": "./img/img_convidados/silvia.webp",
+    "avatar": "../img/img_convidados/silvia.webp",
     "descricao": "Dr. Silvia Hidalgo earned her Bachelor's degree in Physics in 1998 from the University of the Americas-Puebla, Mexico. In 2000, she earned her Master of Science in Medical Physics from the Institute of Physics at the National Autonomous University of Mexico (the first Master of Science in Medical Physics from the UNAM program). In 2005, she earned her PhD in Physics, specializing in Magnetic Resonance Imaging from the Sir Peter Mansfield Magnetic Resonance Center at the University of Nottingham, England. She completed a postdoctoral fellowship in Magnetic Resonance Imaging at the Robarts Research Institute, University of Western Ontario, Canada. She also completed a postdoctoral fellowship at the Autonomous Metropolitan University, Iztapalapa. Her scientific interests are related to advanced functional magnetic resonance imaging, neural networks applied to neuroscience, and magnetic resonance safety in daily clinical practice. She has taught courses and supervised theses at the undergraduate, master's, and doctoral levels in magnetic resonance imaging at the UAM, UAEM, and UNAM. She has given lectures at various national and international forums on nuclear magnetic resonance imaging. She is a member of the International Society of Magnetic Resonance in Medicine, RSNA, the Mexican Physical Society, IEEE, and the Neuroscience Society, among others.",
     "linkedin": "https://www.linkedin.com/in/silvia-hidalgo-tobon/"
   },
   {
     "id": 18,
     "nome": "Tarcisio P. R. de Campos. DEN/UFMG and CDTN/CNEN, BH, Brazil",
-    "avatar": "./img/img_convidados/tarcisio.webp",
+    "avatar": "../img/img_convidados/tarcisio.webp",
     "descricao": "Dr. Tarcisio P. R. de Campos is retired full professor from the Federal University of Minas Gerais (UFMG), currently collaborating with both UFMG and the Nuclear Technology Development Center (CDTN). He holds a degree in Engineering from UFMG, an MSc in Nuclear Engineering from UFRJ, a PhD from the University of Illinois at Urbana-Champaign, and a postdoctoral fellowship at MIT as a Fulbright Fellow. His expertise spans nuclear engineering, radiobiology, radiochemistry, radiotherapy, and the development of radioisotopes, simulators, and medical software. He has published extensively, holds 14 patents, and has supervised over 75 graduate theses. He has coordinated over 28 research projects and actively collaborates with national and international research institutions.",
     "lattes": "http://lattes.cnpq.br/2004647037137301"
   },
   {
     "id": 19,
     "nome": "Talita de Oliveira Santos. IMA/UFMG, BH, Brazil",
-    "avatar": "./img/img_convidados/talita.webp",
+    "avatar": "../img/img_convidados/talita.webp",
     "descricao": "Dr. Talita de Oliveira Santos holds a degree in Radiology Technology from the Federal Center for Technological Education of Minas Gerais (2007), a master's degree in Nuclear Sciences and Techniques from the Federal University of Minas Gerais (2010) and a PhD in Nuclear Sciences and Techniques from the Federal University of Minas Gerais (2015). She is currently an adjunct professor at the Federal University of Minas Gerais and a collaborator of the National Commission for Nuclear Energy. She has experience in Physics, with an emphasis on Radiation Physics, working mainly on the following topics: natural radioactivity, application of radiation to the environment, nuclear instrumentation and radioprotection.",
     "lattes": "http://lattes.cnpq.br/5267562662055432"
   },
   {
     "id": 20,
     "nome": "Thiago Viana Miranda Lima. DRNM, Luzerner Kantonsspital and University of Lucerne, Switzerland",
-    "avatar": "./img/img_convidados/thiago.webp",
+    "avatar": "../img/img_convidados/thiago.webp",
     "descricao": "Dr. Thiago holds a BSc in Physics with Medical Physics from UFRJ and a PhD in Medical Physics from University College London. He is the chief diagnostic medical physicist at Lucerne University Hospitals (LUKS) and research physicist at Genolier Hospital. He also lectures at the University of Lucerne. He chairs the education committee of the Swiss Society of Radiobiology and Medical Physics and represents the society in EFOMP working groups. His work focuses on dosimetry, protocol optimization, radioprotection, and research in nuclear medicine and medical imaging.",
     "linkedin": "https://www.linkedin.com/in/thiagovmlima/"
   },
   {
     "id": 21,
     "nome": "Ricardo Gomes Passos. CDTN/CNEN, BH, Brazil",
-    "avatar": "./img/img_convidados/ricardo.webp",
+    "avatar": "../img/img_convidados/ricardo.webp",
     "descricao": "Dr. Ricardo Gomes Passos is environmental engineer. master and doctor in saneamento, environment and water resources. researcher at the Nuclear Technology Development Center / National Nuclear Energy Commission (CDTN/CNEN). Coordinator of the CDTN Natural Radioactivity Laboratory (LRN/CDTN). It carries out research in the areas of environmental radiological monitoring, natural radioactivity, radioactivity and isotopic hydrology. Professor of the Post-Graduation Program in Science and Technology of Radiations, Mines and Materials of CDTN/CNEN.",
     "scholar google": "https://scholar.google.com/citations?user=ndFwN8sAAAAJ&hl=pt-BR"
   },
   {
     "id": 22,
     "nome": "Rolf Behrens. Physikalisch-Technische Bundesanstalt (PTB), Braunschweig, Germany",
-    "avatar": "./img/img_convidados/behrens.webp",
+    "avatar": "../img/img_convidados/behrens.webp",
     "descricao": "Dr. Rolf Behrens holds a diploma at Technical University of Braunschweig (Germany) and a doctorate (Dr. rer. nat.) in physics from the University of Jena (Germany). He is a senior scientist at the Physikalisch-Technische Bundesanstalt (PTB), Germany’s national metrology institute, where he leads the Working Group on Dosimetry for Brachytherapy and Beta Radiation Protection. Dr. Behrens is responsible for quality assurance in the Ionizing Radiation division, serves as Radiation Protection Officer for brachytherapy and beta radiation, and acts as an auditor for the German Accreditation Service (DAkkS). He heads and participates in several national and international standardization committees, including the IEC and ISO working groups on dosimetry and uncertainties, and chairs the German Committee on Radiation Protection Dosimetry. His research focuses on dosimetry of beta and photon radiation for radiation protection and brachytherapy, Monte Carlo simulations, spectrometry, Bayesian data evaluation, measurement uncertainty, and dosimetry for the lens of the eye.",
     "orcid": "https://orcid.org/0000-0002-4905-7791",
     "site": "https://www.ptb.de/cms/en/ptb/fachabteilungen/abt6/fb-63/information/publications-on-beta-dosimetry.html?type=+%253D"
