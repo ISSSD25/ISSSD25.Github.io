@@ -241,6 +241,25 @@ const PdfViewerWithModal = (props) => {
                             {props.participant.project.description}
                         </p>
                     </div>
+                    
+                    {/* ================================================================== */}
+                    {/* == INÍCIO DA SEÇÃO DE CHAT INTEGRADA COM FIREBASE == */}
+                    {/* ================================================================== */}
+                    <div style={{
+                        backgroundColor: 'white',
+                        borderRadius: '8px',
+                        padding: '20px',
+                        border: '1px solid #e9ecef',
+                        marginTop: '10px'
+                    }}>
+                        {/* Este componente `ProjectChat` deve estar definido no seu arquivo ./PostersChats.js */}
+                        {/* Ele usa o ID do projeto para buscar e salvar as mensagens corretas no Firebase. */}
+                        <ProjectChat projectId={props.participant.project.id} />
+                    </div>
+                    {/* ================================================================== */}
+                    {/* == FIM DA SEÇÃO DE CHAT == */}
+                    {/* ================================================================== */}
+                    
                 </div>
 
                 {/* Rodapé do Modal */}

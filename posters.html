@@ -714,13 +714,10 @@
 </head>
 
 <body class="page-v2 page-v3">
-  <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-536ZMJ" height="0" width="0"
       style="display:none;visibility:hidden"></iframe>
   </noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
   <input type="hidden" name="Titulo" value="ISSSD25" autocomplete="off">
   <input type="hidden" name="UtcNow" value="28/03/2025 15:58:17" autocomplete="off">
   <input type="hidden" name="DataEvento" value="26/09/2025 00:00:00" autocomplete="off">
@@ -782,7 +779,6 @@
         }
       }
     </style>
-    <!-- alteração aqui -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-pagina-evento"
       style="background-color: tomato;display: none;">
       <div class="container">
@@ -1281,16 +1277,29 @@
 
   <link rel="stylesheet" href="./files/bootstrap.css">
   <link rel="stylesheet" href="./files/style.css">
+  
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+
+  <script>
+    // IMPORTANTE: SUBSTITUA ESTE OBJETO PELAS SUAS CREDENCIAIS DO FIREBASE
+    const firebaseConfig = {
+      apiKey: "AIza...",
+      authDomain: "seu-projeto.firebaseapp.com",
+      projectId: "seu-projeto",
+      storageBucket: "seu-projeto.appspot.com",
+      messagingSenderId: "...",
+      appId: "..."
+    };
+
+    // Inicializa o Firebase
+    firebase.initializeApp(firebaseConfig);
+    
+    // Cria uma referência global para o banco de dados que será usada pelos seus scripts React
+    const db = firebase.firestore();
+  </script>
 
   <script type="text/babel" src="./js/menu.js"></script>
-  <script type="text/babel" src="./js/posters.js"></script>
-
-
-  <!--
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCJSH23Z6B"></script>
-  <script src="./files/metrics.js"></script>
-  -->
-
-</body>
+  <script type="text/babel" src="./js/PostersChats.js"></script> <script type="text/babel" src="./js/posters.js"></script> </body>
 
 </html>

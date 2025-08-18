@@ -1,26 +1,16 @@
 {
   "G1 - Applications of thermoluminescence (dosimetry, dating, industrial, etc.)":[
     {
+      "isWinner": false,
       "author": "Authors Name",
       "profileImg": "../drive/posters/img/esterRodrigues.webp",
-      "socialMedia": {
-        "lattes": "http://lattes.cnpq.br/7980018485257440",
-        "linkedin": "https://www.linkedin.com/in/lucianacarvalheira/"
-      },
-      "project": {
+      "project": { 
+        "id": "test-id-1",
         "title": "Project Title",
         "description": "Project description",
         "audioUrl": "../drive/posters/audios/esterRodrigues.mp3",
         "pdfUrl": "../drive/posters/pdfs/esterRodrigues.pdf"
-      },
-      "presentation":{
-        "hora": "A definir",
-        "idioma": "",
-        "local": "",
-        "data": "A definir",
-        "duracao": "50 min"
-      },
-      "isWinner": false
+      }
     }
   ],
   "G2 - Dosimetry (environmental, personal, internal, external, computational, etc.)":[
