@@ -121,7 +121,7 @@
       "isWinner": false
     },
     {
-      "author": "Dra. Carmen Cecília Bueno, researcher at IPEN(Institute of Energy and Nuclear Research) em São Paulo, SP, Brasil",
+      "author": "Dra. Carmen Cecília Bueno, researcher at IPEN(Institute of Energy and Nuclear Research) in São Paulo, SP, Brasil",
       "profileImg": "../img/img_convidados/carmen.webp",
       "project":{
         "title": "Radiation processing with electron beams: On the feasibility of using electronic dosimeters for real-time dosimetry.",
@@ -238,6 +238,49 @@
       "project": {
         "title": "Plant Stem Cells as an Ethical Alternative for Biodosimetry",
         "description": "This study investigates an ethical approach to biodosimetry, utilizing plants as a sustainable alternative to traditional animal models. Plants, known for their sensitivity to environmental stressors such as radiation, provide a valuable platform for identifying genotoxic agents while reducing reliance on animal testing. The research highlights the utility of the onion (Allium cepa) as an in vivo model for assessing radiation-induced genetic and chromosomal damage. While Allium cepa is a widely recognized standard in environmental contamination studies, it remains underexplored as a tool for radiation detection. A comprehensive evaluation of radiation effects and their temporal progression is made possible by analyzing key variables, including linear energy transfer, dose, and dose rate. The study also examines the potential of photobiomodulation to enhance biological recovery in tissues damaged by radiation, offering a novel intervention strategy. To ensure robustness, findings from the Allium cepa model are cross-validated against other in vivo, in vitro, and in silico systems, establishing its efficacy as an ethical and effective alternative for radiation biodosimetry."
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "A definir",
+        "local": "A definir",
+        "data": "A definir",
+        "duracao": "A definir"
+      },
+      "isWinner": false
+    },
+    {
+      "author": "Susana Lalic. Universidade Federal de Sergipe, SE, Brazil",
+      "profileImg": [
+        "./img/img_convidados/Susana.webp"
+      ],
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/in/susana-de-souza-lalic-9336a330/",
+        "lattes": "http://lattes.cnpq.br/8408342161473267"
+      },
+      "project": {
+        "title": "Plant Stem Cells as an Ethical Alternative for Biodosimetry",
+        "description": "This study investigates an ethical approach to biodosimetry, utilizing plants as a sustainable alternative to traditional animal models. Plants, known for their sensitivity to environmental stressors such as radiation, provide a valuable platform for identifying genotoxic agents while reducing reliance on animal testing. The research highlights the utility of the onion (Allium cepa) as an in vivo model for assessing radiation-induced genetic and chromosomal damage. While Allium cepa is a widely recognized standard in environmental contamination studies, it remains underexplored as a tool for radiation detection. A comprehensive evaluation of radiation effects and their temporal progression is made possible by analyzing key variables, including linear energy transfer, dose, and dose rate. The study also examines the potential of photobiomodulation to enhance biological recovery in tissues damaged by radiation, offering a novel intervention strategy. To ensure robustness, findings from the Allium cepa model are cross-validated against other in vivo, in vitro, and in silico systems, establishing its efficacy as an ethical and effective alternative for radiation biodosimetry."
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "A definir",
+        "local": "A definir",
+        "data": "A definir",
+        "duracao": "A definir"
+      },
+      "isWinner": false
+    },
+    {
+      "author": "Ademar Benévolo Lugão, Director of the Center for Chemistry and Environment, Institute of Energy and Nuclear Research - IPEN in São Paulo, SP, Brasil",
+      "profileImg": [
+        "./img/img_convidados/lugao.webp"
+      ],
+      "socialMedia": {
+        "lattes": "http://lattes.cnpq.br/8256644098407834"
+      },
+      "project": {
+        "title": "Use of ionizing radiation for the production of nanoparticles and advanced curatives.",
+        "description": ""
       },
       "presentation":{
         "hora": "A definir",
