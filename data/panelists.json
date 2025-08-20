@@ -178,14 +178,14 @@
       "presentation":{
         "hora": "A definir",
         "idioma": "English",
-        "local": "Main Auditorium ",
+        "local": "Main Auditorium",
         "data": "A definir",
         "duracao": "A definir"
       },
       "isWinner": false
     },
     {
-      "author": "Dr. Helio Yoriyaz, senior searcher on Ipen-Cnen/SP",
+      "author": "Dr. Helio Yoriyaz, senior searcher on IPEN-CNEN/SP",
       "profileImg": [
         "./img/img_convidados/helio.webp"
       ],

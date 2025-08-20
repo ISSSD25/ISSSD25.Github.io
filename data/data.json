@@ -195,14 +195,21 @@
   },
   {
     "id": 29,
-    "nome": "Helio Yoriyaz, senior searcher on Ipen-Cnen/SP",
+    "nome": "Helio Yoriyaz, senior searcher on IPEN-CNEN/SP",
     "avatar": "../img/img_convidados/helio.webp",
     "descricao": "Bachelor in Physics (University of São Paulo, 1979–1982), Master’s (1984–1986) and PhD(1998–2000) in Nuclear Technology from the University of São Paulo. Former RHAE fellow atthe Paul Scherrer Institute (Switzerland, 1993–1994) and IAEA Fellow at Oak Ridge AssociatedUniversities (USA, 1996–1997). Researcher at the Nuclear and Energy Research Institute(IPEN), working in the field of Nuclear Engineering with an emphasis on Medical Physics,particularly in Monte Carlo simulation, dosimetry and nuclear medicine. Currently a facultymember of the Graduate Program in Nuclear Technology at USP and the Professional Master’sProgram in Radiation Technology in Health at IPEN.Bachelor in Physics (University of São Paulo, 1979–1982), Master’s (1984–1986) and PhD(1998–2000) in Nuclear Technology from the University of São Paulo. Former RHAE fellow atthe Paul Scherrer Institute (Switzerland, 1993–1994) and IAEA Fellow at Oak Ridge AssociatedUniversities (USA, 1996–1997). Researcher at the Nuclear and Energy Research Institute(IPEN), working in the field of Nuclear Engineering with an emphasis on Medical Physics,particularly in Monte Carlo simulation, dosimetry and nuclear medicine. Currently a facultymember of the Graduate Program in Nuclear Technology at USP and the Professional Master’sProgram in Radiation Technology in Health at IPEN.",
     "linkedin": "https://www.linkedin.com/in/helio-yoriyaz-73808938/?originalSubdomain=br"
   },
   {
-    "id": 29,
+    "id": 30,
     "nome": "Juan Azorín. Professor and researcher at the Autonomous Metropolitan University of Mexico",
+    "avatar": "../img/img_convidados/azorin.webp",
+    "descricao": "Juan Azorín, born in Mexico City in 1944, studied physics at the National PolytechnicInstitute of Mexico and radiation physics and radiation protection at the NationalAutonomous University of Mexico, earning a PhD in physics from the AutonomousMetropolitan University of Mexico. He was a researcher at the National Institute ofNuclear Research of Mexico. He has been a visiting professor at the Universities of Romeand Florence in Italy, as well as at various universities in Mexico, Argentina, Colombia, andVenezuela. He has published more than 200 scientific articles on thermoluminescence andmedical physics, in addition to several books. He is currently a researcher and professor atthe Autonomous Metropolitan University of Mexico, where he conducts research on solid-state phenomena and their application to ionizing radiation dosimetry. He is a member ofthe Mexican Academy of Sciences and the National System of Researchers, where heholds level 3 status.",
+    "uam": "https://share.google/Exr1t5coHoJc53uWB"
+  },
+  {
+    "id": 31,
+    "nome": "Susana Lalic. Universidade Federal de Sergipe, SE, Brazil",
     "avatar": "../img/img_convidados/azorin.webp",
     "descricao": "Juan Azorín, born in Mexico City in 1944, studied physics at the National PolytechnicInstitute of Mexico and radiation physics and radiation protection at the NationalAutonomous University of Mexico, earning a PhD in physics from the AutonomousMetropolitan University of Mexico. He was a researcher at the National Institute ofNuclear Research of Mexico. He has been a visiting professor at the Universities of Romeand Florence in Italy, as well as at various universities in Mexico, Argentina, Colombia, andVenezuela. He has published more than 200 scientific articles on thermoluminescence andmedical physics, in addition to several books. He is currently a researcher and professor atthe Autonomous Metropolitan University of Mexico, where he conducts research on solid-state phenomena and their application to ionizing radiation dosimetry. He is a member ofthe Mexican Academy of Sciences and the National System of Researchers, where heholds level 3 status.",
     "uam": "https://share.google/Exr1t5coHoJc53uWB"
