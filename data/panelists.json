@@ -380,13 +380,11 @@
       "isWinner": false
     },
     {
-      "author": "Dra. Geórgia Santos Joana, Technology expert at the National Nuclear Energy Commission (CNEN)\nDra. Ketrim Souza, DEI Specialist and HR Business Partner at Indústrias Nucleares do Brasil (INB)",
+      "author": "Dra. Ketrim Souza, DEI Specialist and HR Business Partner at Indústrias Nucleares do Brasil (INB)",
       "profileImg": [
-        "./img/img_convidados/joana.webp",
         "./img/img_convidados/ketrimSouza.webp"
       ],
       "socialMedia": {
-        "Dra. Geórgia": "http://lattes.cnpq.br/0918742107525078",
         "Dra. Ketrim": "https://www.linkedin.com/in/ketrim-souza-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-60a6a7211/?originalSubdomain=br"
       },
       "project": {
