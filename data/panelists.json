@@ -63,6 +63,46 @@
       "isWinner": false
     },
     {
+      "author": "Dra. Geórgia Santos Joana, Technology expert at the National Nuclear Energy Commission (CNEN)",
+      "profileImg": "./img/img_convidados/joana.webp",
+      "socialMedia": {
+        "lattes": "http://lattes.cnpq.br/0918742107525078",
+        "linkedin": ""
+      },
+      "project": {
+        "title": "Win Brasil - Gestão Diversidade & Inclusão.",
+        "description": ""
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "",
+        "local": "Lumina Auditorium ",
+        "data": "A definir",
+        "duracao": ""
+      },
+      "isWinner": false
+    },
+    {
+      "author": "Dra. Silvia S Hidalgo Tobón, UAM, Universidad Autónoma Metropolitana, Mexico",
+      "profileImg": "img/img_convidados/silvia.jpg",
+      "socialMedia": {
+        "lattes": "",
+        "linkedin": "https://www.linkedin.com/in/silvia-hidalgo-tobon/"
+      },
+      "project": {
+        "title": "Importancia de la física en una imagen por resonancia magnética en el diagnóstico clínico",
+        "description": ""
+      },
+      "presentation":{
+        "hora": "A definir",
+        "idioma": "",
+        "local": "Spectrum Auditorium ",
+        "data": "A definir",
+        "duracao": ""
+      },
+      "isWinner": false
+    },
+    {
       "author": "Dr. Bernardo Maranhão Dantas. IRD/CNEN and PPG IRD, RJ, Brasil",
       "profileImg": "./img/img_convidados/bernardo.webp",
       "socialMedia": {
@@ -422,7 +462,10 @@
       "isWinner": false
     },
     {
+<<<<<<< HEAD
       "author": "Dra. Ketrim Souza, DEI Specialist and HR Business Partner at Indústrias Nucleares do Brasil (INB) and WinBrasil",
+=======
+>>>>>>> dacf388 (Updated panelists (Dr. Silvia, Dr. Geórgia) and added the list of referees to the Committee section in a public spreadsheet.)
       "profileImg": [
         "./img/img_convidados/ketrimSouza.webp"
       ],
