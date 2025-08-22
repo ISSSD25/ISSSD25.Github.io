@@ -63,7 +63,7 @@
       "isWinner": false
     },
     {
-      "author": "Dra. Geórgia Santos Joana, Technology expert at the National Nuclear Energy Commission (CNEN)",
+      "author": "Msc. Geórgia Santos Joana, Technology expert at the National Nuclear Energy Commission (CNEN)",
       "profileImg": "./img/img_convidados/joana.webp",
       "socialMedia": {
         "lattes": "http://lattes.cnpq.br/0918742107525078",
@@ -84,7 +84,7 @@
     },
     {
       "author": "Dra. Silvia S Hidalgo Tobón, UAM, Universidad Autónoma Metropolitana, Mexico",
-      "profileImg": "img/img_convidados/silvia.jpg",
+      "profileImg": "img/img_convidados/silvia.webp",
       "socialMedia": {
         "lattes": "",
         "linkedin": "https://www.linkedin.com/in/silvia-hidalgo-tobon/"
@@ -281,27 +281,6 @@
       },
       "presentation":{
         "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
-      },
-      "isWinner": false
-    },
-    {
-      "author": "Geórgia Santos Joana, Technology expert at the National Nuclear Energy Commission (CNEN) and WinBrasil",
-      "profileImg": [
-        "./img/img_convidados/joana.webp"
-      ],
-      "socialMedia": {
-        "lattes": "http://lattes.cnpq.br/0918742107525078"
-      },
-      "project": {
-        "title": "Win Brasil - Gestão Diversidade & Inclusão",
-        "description": ""
-      },
-      "presentation":{
-        "hora": "",
         "idioma": "A definir",
         "local": "A definir",
         "data": "A definir",
