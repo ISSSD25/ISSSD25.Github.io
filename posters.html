@@ -1269,37 +1269,20 @@
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
 
-
-  <link rel="preconnect" href="https://fonts.googleapis.com/">
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-  <link href="./files/css2" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="./files/all.min.css">
-
   <link rel="stylesheet" href="./files/bootstrap.css">
   <link rel="stylesheet" href="./files/style.css">
+
+  <script src="./js/menu.js"></script>
+  <script src="./firebase.js"></script> 
+  <script type="text/babel" src="./js/posters.js"></script>
   
-  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
-
-  <script>
-    // IMPORTANTE: SUBSTITUA ESTE OBJETO PELAS SUAS CREDENCIAIS DO FIREBASE
-    const firebaseConfig = {
-      apiKey: "AIza...",
-      authDomain: "seu-projeto.firebaseapp.com",
-      projectId: "seu-projeto",
-      storageBucket: "seu-projeto.appspot.com",
-      messagingSenderId: "...",
-      appId: "..."
-    };
-
-    // Inicializa o Firebase
-    firebase.initializeApp(firebaseConfig);
-    
-    // Cria uma referência global para o banco de dados que será usada pelos seus scripts React
-    const db = firebase.firestore();
-  </script>
-
-  <script type="text/babel" src="./js/menu.js"></script>
-  <script type="text/babel" src="./js/PostersChats.js"></script> <script type="text/babel" src="./js/posters.js"></script> </body>
-
+  </body>
 </html>
