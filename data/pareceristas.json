@@ -1,0 +1,442 @@
+[
+    {
+        "Nome":"TELMA FONSECA",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Bruno Mendes",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"Lucas Araujo",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Bruno Gallotti",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"CAMILA ENGLER",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"TEOGENES DA SILVA",
+        "Afiliação":"CENTRO DE DESENVOLVIMENTO DA TECNOLOGIA NUCLEAR",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"Natasha Briggs",
+        "Afiliação":"Laboratório de Ciências Radiológicas \/ Departamento de Ciências Radiológicas",
+        "Sigla":"LCR\/DCR"
+    },
+    {
+        "Nome":"Ana Costa da Silva",
+        "Afiliação":"Siemens Healthineers",
+        "Sigla":"Siemens"
+    },
+    {
+        "Nome":"Bhadram Admin",
+        "Afiliação":"Bhadram Soluções Educacionais",
+        "Sigla":"Bhadram"
+    },
+    {
+        "Nome":"Silvia Hidalgo",
+        "Afiliação":"Universidad Autónoma Metropolitana ",
+        "Sigla":"UAM"
+    },
+    {
+        "Nome":"Daniel Calheiro",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Sonia Mercedes",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Fernando Leyton",
+        "Afiliação":"Universidad de Tarapacá",
+        "Sigla":"UTA"
+    },
+    {
+        "Nome":"Samara Cristina Ferreira-Machado",
+        "Afiliação":"Universidade do Estado do Rio de Janeiro",
+        "Sigla":"UERJ"
+    },
+    {
+        "Nome":"Pedro R. González",
+        "Afiliação":"Instituto Nacional de Investigaciones Nucleares",
+        "Sigla":"ININ"
+    },
+    {
+        "Nome":"Maria Gabrielle de Lima Rocha",
+        "Afiliação":"Faculdade de Farmácia - UFMG",
+        "Sigla":"FAFAR - UFMG"
+    },
+    {
+        "Nome":"Marco Antonio Polo Labarrios",
+        "Afiliação":"Universidad Autónoma Metropolitana Unidad Iztapalapa",
+        "Sigla":"UAM Iztapalapa"
+    },
+    {
+        "Nome":"Luciana Teixeira",
+        "Afiliação":"Universidade do Estado do Rio de Janeiro",
+        "Sigla":"UERJ"
+    },
+    {
+        "Nome":"Ângela Marques",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Leonardo Silva",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Luciene Mota",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Talita De Oliveira Santos",
+        "Afiliação":"Universidade Federal de Minas Gerais ",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"PAULO MARCIO DE OLIVEIRA",
+        "Afiliação":"DEPARTAMENTO DE ANATOMIA E IMAGEM \/ FACULDADE DE MEDICINA \/ UFMG",
+        "Sigla":"IMA \/ UFMG"
+    },
+    {
+        "Nome":"Priscila Santana",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Rodrigo Gontijo",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Adriana de Souza Medeiros Batista",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Rita Sebastião",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG "
+    },
+    {
+        "Nome":"Crissia Carem Paiva Fontainha",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Lucas Paixão",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Marissa Anabel Rivera Cardona",
+        "Afiliação":"Comissão Nacional de Energia Nuclear",
+        "Sigla":"CNEN"
+    },
+    {
+        "Nome":"Elydio Soares",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"Modesto Sosa",
+        "Afiliação":"Universidad de Guanajuato",
+        "Sigla":"UG"
+    },
+    {
+        "Nome":"Angel Ramírez",
+        "Afiliação":"Instituto de Geofísica, Universidad Nacional Autónoma de México ",
+        "Sigla":"IGEF-UNAM"
+    },
+    {
+        "Nome":"BERNARDO DANTAS",
+        "Afiliação":"Instituto de Radioproteção e Dosimetria",
+        "Sigla":"IRD"
+    },
+    {
+        "Nome":"Janaína Mendes",
+        "Afiliação":"Instituto Nacional de Câncer",
+        "Sigla":"inca"
+    },
+    {
+        "Nome":"Laura Takahashi",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"cdtn"
+    },
+    {
+        "Nome":"Tiago Jornada",
+        "Afiliação":"Hospital das Clínicas da UFPE",
+        "Sigla":"Hc UFPE "
+    },
+    {
+        "Nome":"ANA LETÍCIA ALMEIDA DANTAS",
+        "Afiliação":"Instituto de Radioproteção e Dosimetria - Comissão Nacional de Energia Nuclear",
+        "Sigla":"IRD - CNEN"
+    },
+    {
+        "Nome":"Cássio Miri",
+        "Afiliação":"Universidade Federal de São Paulo",
+        "Sigla":"Unifesp"
+    },
+    {
+        "Nome":"Danilo Junot",
+        "Afiliação":"Universidade do Estado do Rio de Janeiro",
+        "Sigla":"UERJ"
+    },
+    {
+        "Nome":"José Marques Lopes",
+        "Afiliação":"Instituto Militar de Engenharia",
+        "Sigla":"IME"
+    },
+    {
+        "Nome":"Marco Aurelio de Sousa Lacerda",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN\/CNEN"
+    },
+    {
+        "Nome":"Jhon Ferreira",
+        "Afiliação":"Universidade do Estado do Rio de Janeiro",
+        "Sigla":"UERJ"
+    },
+    {
+        "Nome":"Mirta Torres Berdeguez",
+        "Afiliação":"Dosimagem",
+        "Sigla":"dosimagem"
+    },
+    {
+        "Nome":"Luciana Nogueira",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"LEANDERSON CORDEIRO",
+        "Afiliação":"Universidade Federal de Pernambuco",
+        "Sigla":"UFPE"
+    },
+    {
+        "Nome":"Juan Azorin",
+        "Afiliação":"Universidad Autónoma Metropolitana, México",
+        "Sigla":"UAM"
+    },
+    {
+        "Nome":"Luciana Moreira",
+        "Afiliação":"Centro Federal de Educação Tecnológica",
+        "Sigla":"CEFET"
+    },
+    {
+        "Nome":"Maria Da Penha Albuquerque Potiens",
+        "Afiliação":"Instituto de Pesquisas Energéticas e Nucleares",
+        "Sigla":"IPEN\/CNEN-SP"
+    },
+    {
+        "Nome":"Carlos Velasquez",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Richard Hugtenburg",
+        "Afiliação":"Swansea University Medical School",
+        "Sigla":"Swansea"
+    },
+    {
+        "Nome":"Geórgia Joana",
+        "Afiliação":"Comissão Nacional de Energia Nuclear",
+        "Sigla":"CNEN"
+    },
+    {
+        "Nome":"DENISON SANTOS",
+        "Afiliação":"Instituto de Radioproteção e Dosimetria",
+        "Sigla":"IRD"
+    },
+    {
+        "Nome":"MARIA DO SOCORRO NOGUEIRA",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN\/CNEN"
+    },
+    {
+        "Nome":"Mauricio Moacir da Silva Borges",
+        "Afiliação":"Universidade do Estado do Rio de Janeiro",
+        "Sigla":"UERJ"
+    },
+    {
+        "Nome":"Carmen C. Bueno",
+        "Afiliação":"Instituto de Pesquisas Energéticas e Nucleares",
+        "Sigla":"IPEN-CNEN\/SP"
+    },
+    {
+        "Nome":"helio yoriyaz",
+        "Afiliação":"Instituto de Pesquisas Energeticas e Nucleares",
+        "Sigla":"Ipen-Cnen\/SP"
+    },
+    {
+        "Nome":"Jaime Torres Juárez",
+        "Afiliação":"Universidad Autónoma Metropolitana",
+        "Sigla":"UAM"
+    },
+    {
+        "Nome":"Estefania Reyes",
+        "Afiliação":"Universidad Autónoma Metropolitana ",
+        "Sigla":"UAM"
+    },
+    {
+        "Nome":"Daniel Campolina",
+        "Afiliação":"Nuclear Technology Development Center ",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"Tarcisio Campos",
+        "Afiliação":"Centro de Desenvolvimento de Tecnologia Nuclear - Universidade Federal de Minas Gerais",
+        "Sigla":"CDTN\/UFMG"
+    },
+    {
+        "Nome":"ANDREA MANTUANO",
+        "Afiliação":"Universidade do Estado do Rio de Janeiro ",
+        "Sigla":"UERJ"
+    },
+    {
+        "Nome":"Francisco Torres Hoyos",
+        "Afiliação":"Universidad de Córdoba",
+        "Sigla":"Universidad de Córdoba"
+    },
+    {
+        "Nome":"Jony Marques",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"Luiz Meira-Belo",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"Marina Silveira",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN\/CNEN"
+    },
+    {
+        "Nome":"Ivonne B LozanoR",
+        "Afiliação":"Centro de Investigación en Ciencia Aplicada y Tecnología Avanzada - Instituto Politécnico Nacional",
+        "Sigla":"CICATA IPN"
+    },
+    {
+        "Nome":"Maria Jose Neves",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"Kelly Faêda",
+        "Afiliação":"Pontifícia Universidade Católica de Minas Gerais ",
+        "Sigla":"PUC-MG"
+    },
+    {
+        "Nome":"Abner Duarte Soares",
+        "Afiliação":"Comissão nacional de Energia Nuclear",
+        "Sigla":"CNEN"
+    },
+    {
+        "Nome":"Carolina Viloria Barragan",
+        "Afiliação":"Instituto Tecnológico Metropolitano ",
+        "Sigla":"ITM"
+    },
+    {
+        "Nome":"SHIRLEIDE SANTOS NUNES",
+        "Afiliação":"Hospital das Clínicas da Universidade Federal de Minas Gerais",
+        "Sigla":"HC-UFMG"
+    },
+    {
+        "Nome":"Leonardo Tafas",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"Roberto Pellacani",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"Alex Oliveira",
+        "Afiliação":"Faculdade Nova Esperança",
+        "Sigla":"FNE"
+    },
+    {
+        "Nome":"Jhonny Benavente",
+        "Afiliação":"Instituto Peruano de Energía Nuclear",
+        "Sigla":"IPEN"
+    },
+    {
+        "Nome":"Natalia Araujo",
+        "Afiliação":"Universidade Federal de Minas Gerais",
+        "Sigla":"UFMG"
+    },
+    {
+        "Nome":"José Antonio Diaz Merchan",
+        "Afiliação":"Instituto de Cancerologia Las Americas AUNA",
+        "Sigla":"IDC-AUNA"
+    },
+    {
+        "Nome":"WAGNER PEREIRA",
+        "Afiliação":"INDUSTRIAS NUCLEARES DO BRASIL",
+        "Sigla":"INB"
+    },
+    {
+        "Nome":"Fernando Lima",
+        "Afiliação":"Centro Regional de Ciências Nucleares do Nordeste",
+        "Sigla":"CRCN-NE"
+    },
+    {
+        "Nome":"José Wilson Vieira",
+        "Afiliação":"Instituto Federal de Pernambuco e Universidade de Pernambuco",
+        "Sigla":"IFPE e UPE"
+    },
+    {
+        "Nome":"Fernando Lameiras",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"MARCIA ATTIE",
+        "Afiliação":"Universidade Federal de Sergipe",
+        "Sigla":"UFS"
+    },
+    {
+        "Nome":"Lucas De Paula",
+        "Afiliação":"Centro de Desenvolvimento da Tecnologia Nuclear",
+        "Sigla":"CDTN"
+    },
+    {
+        "Nome":"Bruno Cordeiro Silva",
+        "Afiliação":"Centro Federal de Educação Tecnológica de Minas Gerais",
+        "Sigla":"CEFET-MG"
+    },
+    {
+        "Nome":"Luis Alexandre Magalhaes",
+        "Afiliação":"Rio de Janeiro University",
+        "Sigla":"UERJ"
+    },
+    {
+        "Nome":"Evelise Lara",
+        "Afiliação":"Reator Multipropósito Brasileiro ",
+        "Sigla":"RMB"
+    },
+    {
+        "Nome":"Evelyn Huerta",
+        "Afiliação":"Universidad Autónoma Metropolitana",
+        "Sigla":"UAM"
+    }
+]
