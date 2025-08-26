@@ -800,17 +800,16 @@
       font-size: 13px !important;
     }
 
-    /* ESTILOS PARA A LISTA DE PARECERISTAS */
+    /* INÍCIO DA ALTERAÇÃO - CSS da Lista */
     #lista-pareceristas {
-        list-style-type: none;
-        padding: 0;
+        list-style-type: none; /* Remove os marcadores (pontos) */
+        padding: 0; /* Remove o preenchimento padrão da lista */
     }
     #lista-pareceristas li {
-        background-color: #f4f4f4;
-        margin-bottom: 5px;
-        padding: 10px;
-        border-left: 5px solid #007BFF;
+        margin-bottom: 8px; /* Adiciona um espaço simples entre os nomes */
     }
+    /* FIM DA ALTERAÇÃO */
+
   </style>
 
 
@@ -1037,7 +1036,7 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
                                           style="font-size: 8pt; line-height: 107%;"><span style="font-size: 14px;">Dra.
                                             Silvia Hidalgo Tobón (UAMI-México)</span><br><span
                                             style="font-size: 14px;">Dr. Richard Hugtenburg (Swansea University/United
-                                            Kingdom)</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+                                            Kingdom)</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
               </td>
             </tr>
           </tbody>
@@ -1492,32 +1491,27 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
     // Função para buscar e exibir os dados
     async function carregarPareceristas() {
         try {
-            // 'fetch' busca o arquivo JSON.
             const response = await fetch('./data/pareceristas.json');
 
-            // Se a busca falhar (ex: arquivo não encontrado), lança um erro.
             if (!response.ok) {
                 throw new Error(`Erro na rede: ${response.statusText}`);
             }
 
-            // Converte a resposta em formato JSON
             const dados = await response.json();
-
-            // Pega o elemento da lista no HTML
             const listaUl = document.getElementById('lista-pareceristas');
+            listaUl.innerHTML = ''; // Limpa o item "Carregando..."
 
-            // Limpa o item "Carregando..."
-            listaUl.innerHTML = '';
-
-            // Cria um item de lista (<li>) para cada pessoa e insere no HTML
+            // Cria um item de lista (<li>) para cada pessoa
             dados.forEach(parecerista => {
                 const itemLi = document.createElement('li');
-                itemLi.textContent = `${parecerista.Nome} - ${parecerista.Afiliação} (${parecerista.Sigla})`;
+                // INÍCIO DA ALTERAÇÃO - JavaScript
+                // Usamos innerHTML para permitir a tag <strong> para o negrito
+                itemLi.innerHTML = `<strong>${parecerista.Nome}</strong> (${parecerista.Sigla})`;
+                // FIM DA ALTERAÇÃO
                 listaUl.appendChild(itemLi);
             });
 
         } catch (error) {
-            // Em caso de erro, exibe uma mensagem no console e na página
             console.error('Falha ao carregar os pareceristas:', error);
             const listaUl = document.getElementById('lista-pareceristas');
             listaUl.innerHTML = '<li>Ocorreu um erro ao carregar a lista.</li>';
@@ -1526,7 +1520,7 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
 
     // Chama a função quando a página termina de carregar
     document.addEventListener('DOMContentLoaded', carregarPareceristas);
-</script>
+  </script>
 
 </body>
 </html>
