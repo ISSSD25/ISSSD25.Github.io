@@ -1497,7 +1497,7 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
                 const itemLi = document.createElement('li');
                 // INÍCIO DA ALTERAÇÃO - JavaScript
                 // Usamos innerHTML para permitir a tag <strong> para o negrito
-                itemLi.innerHTML = `<strong>${parecerista.Nome}</strong> - ${parecerista.Afiliação} (${parecerista.Sigla})`;
+                itemLi.innerHTML = `<strong>${parecerista.Nome}</strong> (${parecerista.Sigla})`;
                 // FIM DA ALTERAÇÃO
                 listaUl.appendChild(itemLi);
             });
