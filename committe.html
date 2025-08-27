@@ -799,6 +799,17 @@
       margin-bottom: 15px !important;
       font-size: 13px !important;
     }
+
+    /* INÍCIO DA ALTERAÇÃO - CSS da Lista */
+    #lista-pareceristas {
+        list-style-type: none; /* Remove os marcadores (pontos) */
+        padding: 0; /* Remove o preenchimento padrão da lista */
+    }
+    #lista-pareceristas li {
+        margin-bottom: 8px; /* Adiciona um espaço simples entre os nomes */
+    }
+    /* FIM DA ALTERAÇÃO */
+
   </style>
 
 
@@ -839,13 +850,10 @@
 </head>
 
 <body class="page-v2 page-v3">
-  <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-536ZMJ" height="0" width="0"
       style="display:none;visibility:hidden"></iframe>
   </noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
   <input type="hidden" name="Titulo" value="ISSSD25" autocomplete="off">
   <input type="hidden" name="UtcNow" value="28/03/2025 15:58:17" autocomplete="off">
   <input type="hidden" name="DataEvento" value="26/09/2025 00:00:00" autocomplete="off">
@@ -907,7 +915,6 @@
         }
       }
     </style>
-    <!-- alteração aqui -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-pagina-evento"
       style="background-color: tomato;display: none;">
       <div class="container">
@@ -929,6 +936,8 @@
   </div>
 
   <div id="menu-container"></div>
+  <content>
+    <div class="container">
 
       <div class="box area tipo-area-1965977 area-1965977" id="committee">
         <div class="text-center">
@@ -1027,7 +1036,7 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
                                           style="font-size: 8pt; line-height: 107%;"><span style="font-size: 14px;">Dra.
                                             Silvia Hidalgo Tobón (UAMI-México)</span><br><span
                                             style="font-size: 14px;">Dr. Richard Hugtenburg (Swansea University/United
-                                            Kingdom)</span></span></span></span></span></span></span></span></span></span></span></span></span></span>
+                                            Kingdom)</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>
               </td>
             </tr>
           </tbody>
@@ -1115,17 +1124,22 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
         <p><span style="font-size: 13px;">**VP - Vice-President of committee</span></p>
       </div>
 
+      <div class="box">
+        <div class="text-center">
+          <h3 class="with-subtitle separator-subtitle">Referees</h3>
+          <p class="subtitle separator-subtitle"></p>
+        </div>
+        <ul id="lista-pareceristas">
+            <li>Carregando...</li>
+        </ul>
+      </div>
       <div ng-controller="SiteCtrl" class="" id="contact">
-
-
-
-        <!---->
         <div ng-if="!viewModel.removerAreaOrganizadoPor">
           <div class="box organizador" style="text-align: left">
             <div class="text-center" ng-show="!mostraContato">
-              <!----><img ng-if="viewModel.evento.imagem" ng-src="./img/logo_XXV_ISSSD.webp"
+              <img ng-if="viewModel.evento.imagem" ng-src="./img/logo_XXV_ISSSD.webp"
                 alt="XXV International Symposium on Solid State Dosimetry" style="min-width:250px;" loading="lazy"
-                <!---->
+                src="./files/logo_XXV_ISSSD.webp">
               <br>
               <h3 translate="Organized by" style="margin-bottom:0">Organized by</h3>
               <div id="responsavelEvento" style="text-align: center">
@@ -1139,14 +1153,14 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                       class="lucide lucide-mail-icon lucide-mail">
-                      <rect width="20" height="16" x="2" y="4" rx="2" />
-                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                     </svg>
                   </div>
                   <span translate="isssd2025@gmail.com">isssd2025@gmail.com</span>
                 </a>
 
-                <!----><a class="btn btn-primary btn-round2" target="_blank" href="https://www.instagram.com/isssd25"
+                <a class="btn btn-primary btn-round2" target="_blank" href="https://www.instagram.com/isssd25"
                   ng-if="viewModel.evento.instagramEvento"
                   style="display: flex;width: 18rem;justify-content: center;align-items: center;">
 
@@ -1154,15 +1168,14 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
                       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                       class="lucide lucide-instagram-icon lucide-instagram">
-                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
                     </svg>
                   </div>
                   <span translate="Instagram">Instagram</span>
 
-                </a><!---->
-                <div class="alert alert-success ng-hide" role="alert" ng-show="mensagemEnviada">
+                </a><div class="alert alert-success ng-hide" role="alert" ng-show="mensagemEnviada">
                   <strong translate="Notify_Title_Sucesso">Success</strong> <span
                     translate="Titulo_MensagemEnviadaComSucesso">Your message was sent successfully!</span>
                 </div>
@@ -1204,7 +1217,6 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
                         style="border-radius: 5px; height: 100px; padding: 8px" maxlength="1000"></textarea>
                     </div>
                   </div>
-            </div>
             </fieldset>
 
             <div class="row" style="margin: 0 auto">
@@ -1216,8 +1228,7 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
             </form>
           </div>
         </div>
-      </div><!---->
-    </div>
+      </div></div>
     </div>
 
   </content>
@@ -1476,37 +1487,40 @@ mso-ansi-language:PT-BR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><spa
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCJSH23Z6B"></script>
   <script src="./files/metrics.js"></script>
 
+  <script>
+    // Função para buscar e exibir os dados
+    async function carregarPareceristas() {
+        try {
+            const response = await fetch('./data/pareceristas.json');
+
+            if (!response.ok) {
+                throw new Error(`Erro na rede: ${response.statusText}`);
+            }
+
+            const dados = await response.json();
+            const listaUl = document.getElementById('lista-pareceristas');
+            listaUl.innerHTML = ''; // Limpa o item "Carregando..."
+
+            // Cria um item de lista (<li>) para cada pessoa
+            dados.forEach(parecerista => {
+                const itemLi = document.createElement('li');
+                // INÍCIO DA ALTERAÇÃO - JavaScript
+                // Usamos innerHTML para permitir a tag <strong> para o negrito
+                itemLi.innerHTML = `<strong>${parecerista.Nome}</strong> (${parecerista.Sigla})`;
+                // FIM DA ALTERAÇÃO
+                listaUl.appendChild(itemLi);
+            });
+
+        } catch (error) {
+            console.error('Falha ao carregar os pareceristas:', error);
+            const listaUl = document.getElementById('lista-pareceristas');
+            listaUl.innerHTML = '<li>Ocorreu um erro ao carregar a lista.</li>';
+        }
+    }
+
+    // Chama a função quando a página termina de carregar
+    document.addEventListener('DOMContentLoaded', carregarPareceristas);
+  </script>
+
 </body>
-
-<header>
-
-  <div class="box area tipo-area-1965977 area-1965977" id="committee">
-        <div class="text-center">
-          <h3 class="with-subtitle separator-subtitle">Referees and Collaborators</h3>
-          <p class="subtitle separator-subtitle"></p>
-        </div>
-
-  <div class="limiteImagemFundo">
-    <div style="background-image: linear-gradient(rgba(0,0,0,0.5) 1%, rgba(0,0,0,0.4) 60%, rgba(240,242,242,1) 90%), url(./img/banner.webp)">
-    </div>
-  </div>
-
-  <div id="menu-container"></div>
-
-  <div class="box area tipo-area-1965977 area-1965977" id="committee" style="max-width: 1000px; margin: 0 auto; padding: 0; overflow-x: auto;">
-    <div class="text-center" style="padding: 0; margin: 0;">
-      <p class="subtitle separator-subtitle"></p>
-
-      <iframe
-        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS75DEKX54MVZFY0DI7MfH1HMEaazPd1HQ1lUfgljtW4FLd-8fZR4zr__MtIHN2iqKcRdpl7pMsA2Aw/pubhtml?widget=true&amp;headers=false&amp;chrome=false"
-        width="100%"
-        height="500"
-        frameborder="0"
-        style="border-radius: 8px; border: 1px solid #ccc; display: block;">
-    </iframe>
-
-    </div>
-  </div>
-</header>
-
 </html>
