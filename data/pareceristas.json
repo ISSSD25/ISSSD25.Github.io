@@ -13,27 +13,27 @@
   },
   {
     "Nome": "Ana Costa da Silva",
-    "Sigla": "Siemens"
+    "Sigla": "WinBrasil"
   },
   {
-    "Nome": "ANA LETÍCIA ALMEIDA DANTAS",
-    "Sigla": "IRD - CNEN"
+    "Nome": "Ana Letícia Almeida Dantas",
+    "Sigla": "IRD/CNEN"
   },
   {
-    "Nome": "ANDREA MANTUANO",
+    "Nome": "Andrea Mantuano",
     "Sigla": "UERJ"
   },
   {
     "Nome": "Angel Ramírez",
-    "Sigla": "IGEF-UNAM"
+    "Sigla": "IGET-UNAM/MEXICO"
   },
   {
     "Nome": "Ângela Marques",
     "Sigla": "UFMG"
   },
   {
-    "Nome": "BERNARDO DANTAS",
-    "Sigla": "IRD"
+    "Nome": "Bernardo Dantas",
+    "Sigla": "IRD/CNEN"
   },
   {
     "Nome": "Bruno Cordeiro Silva",
@@ -45,11 +45,11 @@
   },
   {
     "Nome": "Bruno Mendes",
-    "Sigla": "CDTN"
+    "Sigla": "CDTN/CNEN"
   },
   {
-    "Nome": "CAMILA ENGLER",
-    "Sigla": "CDTN"
+    "Nome": "Camila Engler",
+    "Sigla": "CDTN/CNEN"
   },
   {
     "Nome": "Carlos Velasquez",
@@ -77,19 +77,19 @@
   },
   {
     "Nome": "Daniel Campolina",
-    "Sigla": "CDTN"
+    "Sigla": "CDTN/CNEN"
   },
   {
     "Nome": "Danilo Junot",
     "Sigla": "UERJ"
   },
   {
-    "Nome": "DENISON SANTOS",
+    "Nome": "Denison Santos",
     "Sigla": "IRD"
   },
   {
     "Nome": "Elydio Soares",
-    "Sigla": "CDTN"
+    "Sigla": "CDTN/CNEN"
   },
   {
     "Nome": "Estefania Reyes",
@@ -105,7 +105,7 @@
   },
   {
     "Nome": "Fernando Lameiras",
-    "Sigla": "CDTN"
+    "Sigla": "CDTN/CNEN"
   },
   {
     "Nome": "Fernando Leyton",
@@ -124,24 +124,24 @@
     "Sigla": "CNEN"
   },
   {
-    "Nome": "Héctor René VEGA-CARRILLO",
-    "Sigla": "(UAM-México)"
+    "Nome": "Héctor René Vega-Carrillo",
+    "Sigla": "UAM/MEXICO"
   },
   {
-    "Nome": "helio yoriyaz",
-    "Sigla": "Ipen-Cnen/SP"
+    "Nome": "Helio Yoriyaz",
+    "Sigla": "IPEN-CNEN/SP"
   },
   {
     "Nome": "Ivonne B Lozano",
-    "Sigla": "RCICATA IPN"
+    "Sigla": "Rcicata IPN"
   },
   {
     "Nome": "Jaime Torres Juárez",
-    "Sigla": "UAM"
+    "Sigla": "UAM/MEXICO"
   },
   {
     "Nome": "Janaína Mendes",
-    "Sigla": "inca"
+    "Sigla": "INCA"
   },
   {
     "Nome": "Jhon Ferreira",
@@ -149,15 +149,15 @@
   },
   {
     "Nome": "Jhonny Benavente",
-    "Sigla": "IPEN"
+    "Sigla": "IPEN/PERU"
   },
   {
     "Nome": "Jony Marques",
-    "Sigla": "UFMG"
+    "Sigla": "IMA/UFMG"
   },
   {
     "Nome": "José Antonio Diaz Merchan",
-    "Sigla": "IDC-AUNA"
+    "Sigla": "IDC-Auna"
   },
   {
     "Nome": "José Marques Lopes",
@@ -169,7 +169,7 @@
   },
   {
     "Nome": "Juan Azorin",
-    "Sigla": "UAM"
+    "Sigla": "UAM/MEXICO"
   },
   {
     "Nome": "Kelly Faêda",
@@ -177,10 +177,10 @@
   },
   {
     "Nome": "Laura Takahashi",
-    "Sigla": "cdtn"
+    "Sigla": "CDTN/CNEN"
   },
   {
-    "Nome": "LEANDERSON CORDEIRO",
+    "Nome": "Leanderson Cordeiro",
     "Sigla": "UFPE"
   },
   {
@@ -189,7 +189,7 @@
   },
   {
     "Nome": "Leonardo Tafas",
-    "Sigla": "CDTN"
+    "Sigla": "CDTN/CNEN"
   },
   {
     "Nome": "Lucas Araujo",
@@ -197,7 +197,7 @@
   },
   {
     "Nome": "Lucas De Paula",
-    "Sigla": "CDTN"
+    "Sigla": "CDTN/CNEN"
   },
   {
     "Nome": "Lucas Paixão",
@@ -225,15 +225,15 @@
   },
   {
     "Nome": "Luiz Meira-Belo",
-    "Sigla": "CDTN"
+    "Sigla": "CDTN/CNEN"
   },
   {
-    "Nome": "MARCIA ATTIE",
+    "Nome": "Marcia Attie",
     "Sigla": "UFS"
   },
   {
     "Nome": "Marco Antonio Polo Labarrios",
-    "Sigla": "UAM Iztapalapa"
+    "Sigla": "UAM/MEXICO"
   },
   {
     "Nome": "Marco Aurelio de Sousa Lacerda",
@@ -244,7 +244,7 @@
     "Sigla": "IPEN/CNEN-SP"
   },
   {
-    "Nome": "MARIA DO SOCORRO NOGUEIRA",
+    "Nome": "Maria Do Socorro Nogueira",
     "Sigla": "CDTN/CNEN"
   },
   {
@@ -253,7 +253,7 @@
   },
   {
     "Nome": "Maria Jose Neves",
-    "Sigla": "CDTN"
+    "Sigla": "CDTN/CNEN"
   },
   {
     "Nome": "Marina Silveira",
@@ -269,11 +269,11 @@
   },
   {
     "Nome": "Mirta Torres Berdeguez",
-    "Sigla": "dosimagem"
+    "Sigla": "Dosimagem"
   },
   {
     "Nome": "Modesto Sosa",
-    "Sigla": "UG"
+    "Sigla": "UG/MEXICO"
   },
   {
     "Nome": "Natalia Araujo",
@@ -284,12 +284,12 @@
     "Sigla": "LCR/DCR"
   },
   {
-    "Nome": "PAULO MARCIO DE OLIVEIRA",
-    "Sigla": "IMA / UFMG"
+    "Nome": "Paulo Marcio De Oliveira",
+    "Sigla": "IMA/UFMG"
   },
   {
     "Nome": "Pedro R. González",
-    "Sigla": "ININ"
+    "Sigla": "ININ/MEXICO"
   },
   {
     "Nome": "Priscila Santana",
@@ -305,7 +305,7 @@
   },
   {
     "Nome": "Roberto Pellacani",
-    "Sigla": "CDTN"
+    "Sigla": "CDTN/CNEN"
   },
   {
     "Nome": "Rodrigo Gontijo",
@@ -316,12 +316,12 @@
     "Sigla": "UERJ"
   },
   {
-    "Nome": "SHIRLEIDE SANTOS NUNES",
+    "Nome": "Shirleide Santos Nunes",
     "Sigla": "HC-UFMG"
   },
   {
     "Nome": "Silvia Hidalgo",
-    "Sigla": "UAM"
+    "Sigla": "UAM/MEXICO"
   },
   {
     "Nome": "Sonia Mercedes",
@@ -336,19 +336,19 @@
     "Sigla": "CDTN/UFMG"
   },
   {
-    "Nome": "TELMA FONSECA",
+    "Nome": "Telma Fonseca",
     "Sigla": "UFMG"
   },
   {
-    "Nome": "TEOGENES DA SILVA",
-    "Sigla": "CDTN"
+    "Nome": "Teogenes Da Silva",
+    "Sigla": "CDTN/CNEN"
   },
   {
     "Nome": "Tiago Jornada",
-    "Sigla": "Hc UFPE"
+    "Sigla": "HC-UFPE"
   },
   {
-    "Nome": "WAGNER PEREIRA",
+    "Nome": "Wagner Pereira",
     "Sigla": "INB"
   }
 ]
