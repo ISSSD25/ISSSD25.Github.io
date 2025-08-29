@@ -1,58 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <title>Tipos de Apresentação</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Baixe os templates e visualize o PDF das instruções para apresentação." />
-  <meta name="author" content="isssd25" />
-  <link rel="icon" href="./img/icon.webp" type="image/webp" />
-
+  <meta charset="UTF-8">
+  <title>Instruções para Apresentação</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: 'Open Sans', sans-serif;
-      background: #F0F2F2;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #f4f4f4;
       color: #202020;
     }
 
-    .box {
-      margin: 50px auto;
-      max-width: 900px;
-      background: #fff;
-      padding: 40px 50px;
-      border: 1px solid #E4EAF1;
-      border-radius: 8px;
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background-color: #fff;
     }
 
-    .box h1 {
-      font-size: 28px;
-      margin-bottom: 20px;
+    h1 {
       text-align: center;
       color: #003366;
+      margin-bottom: 10px;
     }
 
-    .box p {
-      font-size: 16px;
+    p {
       text-align: center;
-      margin-bottom: 30px;
-    }
-
-    .btn-link {
-      display: inline-block;
-      background-color: #007BFF;
-      color: #fff;
-      text-decoration: none;
-      padding: 12px 25px;
-      border-radius: 5px;
       font-size: 16px;
-      margin: 10px;
-      font-weight: bold;
-    }
-
-    .btn-link:hover {
-      background-color: #0056b3;
+      margin-bottom: 30px;
     }
 
     .btn-container {
@@ -60,49 +37,34 @@
       margin-bottom: 40px;
     }
 
-    #pdf-render {
-      border: 1px solid #ccc;
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #007BFF;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
       border-radius: 8px;
       box-shadow: 0 0 8px rgba(0,0,0,0.1);
-      width: 100%;
-      max-height: 800px;
-      overflow: auto;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    canvas {
-      max-width: 100%;
-      height: auto;
-      margin: auto;
-      display: block;
-    }
-
-    .pdf-controls {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .pdf-controls button {
-      background-color: #007BFF;
-      border: none;
-      color: white;
-      padding: 10px 15px;
-      margin: 0 10px;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-
-    .pdf-controls button:disabled {
-      background-color: #999;
-      cursor: not-allowed;
     }
 
     .pdf-fallback {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 15px;
     }
 
     .pdf-fallback a {
@@ -111,11 +73,11 @@
     }
 
     @media (max-width: 600px) {
-      .box {
-        padding: 30px 20px;
+      iframe {
+        height: 500px;
       }
 
-      .btn-link {
+      .btn {
         width: 90%;
         display: block;
         margin: 10px auto;
@@ -125,121 +87,27 @@
 </head>
 <body>
 
-  <div class="box">
-    <h1>Baixar Templates e Instruções</h1>
-    <p>Use os botões abaixo para baixar os templates e visualize o PDF das instruções diretamente nesta página.</p>
+  <div class="container">
+    <h1>Instruções para Apresentação</h1>
+    <p>Baixe os templates e visualize o PDF com as instruções diretamente abaixo.</p>
 
-    <!-- Links para download -->
     <div class="btn-container">
-      <a class="btn-link" href="drive/TemplateCommunication-XXV%20ISSSD(2).pptx" download>Template Communication</a>
-      <a class="btn-link" href="drive/TemplatePoster-XXVISSSD(1).pptx" download>Template Poster</a>
-      <a class="btn-link" href="drive/Type%20of%20Presentation%20-%20XXV%20ISSSD-1.pdf" download>Type of Presentation</a>
+      <a class="btn" href="drive/TemplateCommunication-XXV%20ISSSD(2).pptx" download>
+        Baixar Template Communication
+      </a>
+      <a class="btn" href="drive/TemplatePoster-XXVISSSD(1).pptx" download>
+        Baixar Template Poster
+      </a>
     </div>
 
-    <!-- PDF Viewer Section -->
-    <h2 style="text-align:center; margin-bottom: 20px;">Instruções de Apresentação</h2>
-
-    <div id="pdf-render"></div>
-
-    <div class="pdf-controls">
-      <button id="prev-page">Anterior</button>
-      <span>Página: <span id="page-num"></span> / <span id="page-count"></span></span>
-      <button id="next-page">Próxima</button>
-    </div>
+    <iframe src="docs/instrucoes_apresentacao.pdf#toolbar=1&navpanes=0&scrollbar=1">
+      Este navegador não suporta visualização de PDF.
+    </iframe>
 
     <div class="pdf-fallback">
-      <p>Se o PDF não carregar, <a href="drive/Type%20of%20Presentation%20-%20XXV%20ISSSD-1.pdf" target="_blank">clique aqui para abrir em nova aba</a>.</p>
+      <p>Se o PDF não carregar, <a href="docs/instrucoes_apresentacao.pdf" target="_blank">clique aqui para abrir em nova aba</a>.</p>
     </div>
   </div>
 
-  <!-- PDF.js CDN -->
-  <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
-  <script>
-    const url = 'drive/Type%20of%20Presentation%20-%20XXV%20ISSSD-1.pdf';
-
-    const pdfjsLib = window['pdfjs-dist/build/pdf'];
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://mozilla.github.io/pdf.js/build/pdf.worker.js';
-
-    let pdfDoc = null,
-        pageNum = 1,
-        pageIsRendering = false,
-        pageNumIsPending = null;
-
-    const scale = 1.3,
-          canvas = document.createElement('canvas'),
-          ctx = canvas.getContext('2d');
-
-    const pdfRenderDiv = document.getElementById('pdf-render');
-    pdfRenderDiv.appendChild(canvas);
-
-    const pageNumElem = document.getElementById('page-num');
-    const pageCountElem = document.getElementById('page-count');
-
-    // Renderiza a página
-    function renderPage(num) {
-      pageIsRendering = true;
-
-      // pega página
-      pdfDoc.getPage(num).then(page => {
-        const viewport = page.getViewport({ scale });
-        canvas.height = viewport.height;
-        canvas.width = viewport.width;
-
-        const renderCtx = {
-          canvasContext: ctx,
-          viewport
-        };
-
-        page.render(renderCtx).promise.then(() => {
-          pageIsRendering = false;
-
-          if (pageNumIsPending !== null) {
-            renderPage(pageNumIsPending);
-            pageNumIsPending = null;
-          }
-        });
-
-        // Atualiza o número da página exibida
-        pageNumElem.textContent = num;
-      });
-    }
-
-    function queueRenderPage(num) {
-      if (pageIsRendering) {
-        pageNumIsPending = num;
-      } else {
-        renderPage(num);
-      }
-    }
-
-    function showPrevPage() {
-      if (pageNum <= 1) return;
-      pageNum--;
-      queueRenderPage(pageNum);
-    }
-
-    function showNextPage() {
-      if (pageNum >= pdfDoc.numPages) return;
-      pageNum++;
-      queueRenderPage(pageNum);
-    }
-
-    // Carrega o PDF
-    pdfjsLib.getDocument(url).promise.then(pdfDoc_ => {
-      pdfDoc = pdfDoc_;
-      pageCountElem.textContent = pdfDoc.numPages;
-
-      renderPage(pageNum);
-    }).catch(err => {
-      pdfRenderDiv.innerHTML = '<p style="color: red; text-align: center;">Erro ao carregar o PDF.</p>';
-      console.error(err);
-    });
-
-    // Botões controle
-    document.getElementById('prev-page').addEventListener('click', showPrevPage);
-    document.getElementById('next-page').addEventListener('click', showNextPage);
-  </script>
-
 </body>
 </html>
-
