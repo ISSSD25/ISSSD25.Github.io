@@ -6,14 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Templates e instruções para os tipos de apresentação.">
   <meta name="author" content="isssd25">
-
-  <!-- Ícones -->
   <link rel="icon" href="./img/icon.webp" type="image/webp">
 
-  <!-- Estilo oficial -->
   <style>
     body {
-      font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+      font-family: 'Open Sans', sans-serif;
       background: #F0F2F2;
       margin: 0;
       padding: 0;
@@ -22,12 +19,11 @@
 
     .box {
       margin: 50px auto;
-      max-width: 800px;
+      max-width: 900px;
       background: #fff;
       padding: 40px 50px;
       border: 1px solid #E4EAF1;
-      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-      border-radius: 5px;
+      border-radius: 8px;
     }
 
     .box h1 {
@@ -39,7 +35,6 @@
 
     .box p {
       font-size: 16px;
-      line-height: 1.6;
       text-align: center;
       margin-bottom: 30px;
     }
@@ -54,7 +49,6 @@
       font-size: 16px;
       margin: 10px;
       font-weight: bold;
-      text-align: center;
     }
 
     .btn-link:hover {
@@ -63,6 +57,25 @@
 
     .btn-container {
       text-align: center;
+      margin-bottom: 40px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .pdf-fallback {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .pdf-fallback a {
+      color: #007BFF;
+      font-weight: bold;
     }
 
     @media (max-width: 600px) {
@@ -70,10 +83,14 @@
         padding: 30px 20px;
       }
 
+      iframe {
+        height: 500px;
+      }
+
       .btn-link {
         width: 90%;
-        margin: 10px auto;
         display: block;
+        margin: 10px auto;
       }
     }
   </style>
@@ -82,15 +99,23 @@
 
   <div class="box">
     <h1>Templates e Instruções</h1>
-    <p>Use os botões abaixo para baixar os templates de apresentação e acessar o PDF com instruções detalhadas.</p>
+    <p>Use os botões abaixo para baixar os templates e visualize o PDF das instruções diretamente nesta página.</p>
 
     <div class="btn-container">
-      <a class="btn-link" href="drive/TemplateCommunication-XXV ISSSD(2).pptx" download> Baixar Template 1</a>
-      <a class="btn-link" href="drive/TemplatePoster-XXVISSSD(1).pptx" download> Baixar Template 2</a>
-      <a class="btn-link" href="drive/Type of Presentation - XXV ISSSD-1.pdf" target="_blank"> Visualizar Instruções (PDF)</a>
+      <a class="btn-link" href="drive/TemplateCommunication-XXV ISSSD(2).pptx" download> Template Communication</a>
+      <a class="btn-link" href="drive/TemplatePoster-XXVISSSD(1).pptx" download> Temmplate Poster</a>
+    </div>
+
+    <h2 style="text-align:center; margin-bottom: 20px;"> Instruções de Apresentação</h2>
+
+    <iframe src="docs/instrucoes_apresentacao.pdf#toolbar=1&navpanes=0&scrollbar=1">
+      Este navegador não suporta visualização de PDF. <br>
+    </iframe>
+
+    <div class="pdf-fallback">
+      <p>Se o PDF não carregar, <a href="drive/Type of Presentation - XXV ISSSD-1.pdf" target="_blank">clique aqui para abrir em nova aba</a>.</p>
     </div>
   </div>
 
 </body>
 </html>
-
