@@ -400,13 +400,11 @@
   ],
   "Round-tables": [
     {
-      "author": "Dr. Ricardo Gomes Passos. CDTN/CNEN, BH, Brazil\nDra. Talita de Oliveira Santos. IMA/UFMG, BH, Brazil",
-      "profileImg": [
-        "../img/img_convidados/ricardo.webp", 
+      "author": "Dra. Talita de Oliveira Santos. IMA/UFMG, BH, Brazil",
+      "profileImg": [ 
         "../img/img_convidados/talita.webp"
       ],
       "socialMedia": {
-        "Dr. Ricardo": "http://lattes.cnpq.br/5267562662055432",
         "Dra. Talita": "http://lattes.cnpq.br/5267562662055432"
       },
       "project": {
