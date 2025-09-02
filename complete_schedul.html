@@ -1,48 +1,106 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple PDF Viewer</title>
-    <!-- Tailwind CSS for styling -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Inter font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        /* Ensure the iframe takes up the full height of the viewport */
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-        .viewer-container {
-            height: 100vh;
-        }
-    </style>
-</head>
-<body class="bg-gray-100 text-gray-800">
+  <meta charset="UTF-8">
+  <title>Schedule</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <main class="h-full">
-        <!-- PDF Viewer Section -->
-        <div class="viewer-container bg-white">
-            <!-- 
-                IMPORTANT: Replace the 'src' value below with the path to your PDF file.
-                This can be a URL or a local path relative to this HTML file.
-                Example: src="https://example.com/my-document.pdf"
-                Example: src="./documents/report.pdf"
-            -->
-            <iframe id="pdf-viewer" src="./drive/Complete_Programme_XXV_ISSSD.pdf" class="w-full h-full" frameborder="0">
-                Your browser does not support iframes. Please use a modern browser to view PDFs.
-            </iframe>
-        </div>
-    </main>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./files/css2" rel="stylesheet">
+  <link rel="stylesheet" href="./files/all.min.css">
+  <link rel="stylesheet" href="./files/bootstrap.css">
+  <link rel="stylesheet" href="./files/style.css">
+
+  <style>
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+    }
+
+    .content-box {
+      margin-top: 10vh;
+      background-color: #fff;
+      padding: 50px;
+      border: 1px solid #D5D9D9;
+      box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+      border-radius: 8px;
+      position: relative;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    p {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 30px;
+      color: #69737a;
+    }
+
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    .pdf-fallback {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .pdf-fallback a {
+      color: #007BFF;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .content-box {
+        padding: 20px;
+      }
+      iframe {
+        height: 500px;
+      }
+    }
+  </style>
+</head>
+<body class="page-v2 page-v3">
+
+  <div id="menu-container"></div>
+
+  <div class="limiteImagemFundo">
+    <div id="imagemFundo" class="hero-image full-width-image-banner blur-background"
+      style="background-image: linear-gradient(rgba(0,0,0,0.5) 1%,rgba(0,0,0,0.4)60%,rgba(240,242,242,1)90%), url(./img/banner.webp)">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="content-box">
+      <h1>Schedule</h1>
+      <p>Check out the full schedule below.</p>
+
+      <img src="drive/schedule-general-verrtical-SITE(7).png" 
+        alt="Schedule"
+        style="width:100%; height:auto; border:1px solid #ccc; border-radius:8px; box-shadow:0 0 8px rgba(0,0,0,0.1);" />
+
+
+      <div class="pdf-fallback">
+        <p>Full schedule coming soon</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+  
+  <script type="text/babel" src="./js/menu.js"></script>
 
 </body>
 </html>
+
