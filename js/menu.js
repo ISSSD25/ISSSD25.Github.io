@@ -104,7 +104,7 @@ const NavMenu = () => {
         <li style={styles.navSeparator}>|</li>
         <li style={styles.navItem}><a href="../type_of_presentation.html" style={styles.navLink}>FOR PRESENTERS</a></li>
         <li style={styles.navSeparator}>|</li>
-        <li style={styles.navItem}><a href="../complete_schedul.html" style={styles.navLink}>SCHEDULE</a></li>
+        <li style={styles.navItem}><a href="../complete_schedule.html" style={styles.navLink}>SCHEDULE</a></li>
         <li style={styles.navSeparator}>|</li>
         <li style={styles.navItem}><a href="/#contact" style={styles.navLink}>CONTACT</a></li>
       </ul>
