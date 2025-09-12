@@ -30,11 +30,10 @@
         "description": "This lecture delves into the evolution of nuclear medicine dosimetry. It will explore the progression from early rudimentary methods, which relied on basic measurements and empirical estimates, to the sophisticated imaging techniques and computational models employed today. These advancements have significantly enhanced the accuracy of absorbed dose quantification, improving both safety and efficacy in treatments. The lecture will also discuss the future of dosimetry, highlighting the integration of artificial intelligence and personalized medicine. This forward-thinking approach promises even more precise dose calculations tailored to individual patient characteristics, reflecting a continuous effort to optimize therapeutic protocols and improve patient outcomes in nuclear medicine."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "09:20",
+        "local": "Lumina Auditorium ",
+        "data": "09/26/2025",
+        "duracao": "40 minutes"
       },
       "isWinner": false
     },
@@ -53,11 +52,10 @@
         "description": "We present investigations into the production and decontamination of radioisotopes using a selective Spectral Resonant Selector (RSS), focusing on neutron radiative capture reactions in precursor nuclides and transmutation reactions of long-lived radioactive waste. The physical and mathematical aspects of biased Brownian motion are addressed, through which a tailored neutron spectrum can be generated to target specific nuclides. Reaction rates for both precursor nuclides and decontamination processes are presented. Two distinct neutron spectra are considered—one at low energy and another at resonance energy—allowing interaction with a broad range of target nuclides. The production of isotopes such as Sm-153, Lu-177, Re-188, Ho-166, and Yb-169 serves as representative examples of potential radionuclide generation. Additionally, the decontamination of long-lived actinides, including transuranic radionuclides and fission products, through fission or radiative capture reactions, illustrates a promising approach to nuclear waste mitigation. The specific activities and benchmark parameters of various radioisotopes under defined conditions demonstrate the effectiveness of the RSS in both radioisotope production and nuclear decontamination."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "11:30",
+        "local": "Lumina Auditorium ",
+        "data": "09/26/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -73,11 +71,10 @@
         "description": ""
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "",
+        "hora": "14:30",
         "local": "Lumina Auditorium ",
-        "data": "A definir",
-        "duracao": ""
+        "data": "09/25/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -89,15 +86,14 @@
         "linkedin": "https://www.linkedin.com/in/silvia-hidalgo-tobon/"
       },
       "project": {
-        "title": "Importancia de la física en una imagen por resonancia magnética en el diagnóstico clínico",
-        "description": "Se presentarán las bases de la física de una imagen por resonancia magnética y su relación con el radio diagnóstico. La seguridad en resonancia magnética que evita complicaciones y accidentes que con la continua capacitación disminuyen notablemente. Así como las técnicas nuevas que están incluyendo inteligencia artificial para un mejor diagnóstico por imagen."
+        "title": "State of the art of magnetic resonance imaging: from fundamental physics to clinical applications.",
+        "description" : ""
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "ES",
-        "local": "Spectrum Auditorium ",
-        "data": "A definir",
-        "duracao": ""
+        "hora": "16:00",
+        "local": "Lumina Auditorium ",
+        "data": "09/23/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -131,11 +127,10 @@
         "description": "Particle therapy is a form of external beam radiotherapy that utilises ions to achieve precise (sub-mm) physical distributions of physical dose with the benefits of high LET to combat radioresistant tumours. Particle therapies are also expected to offer better normal-tissue sparing and reduce long-term side-effects in patients, where the current state-of-the-art in radiotherapy has contributed to significant improvements in the survivability of many cancers in recent years. The LhARA project is a consortium of UK universities that considers three new technologies as a means to reduce the cost, physical footprint and flexibility of particle therapies, where currently treatments, such as carbon ion therapy, are restricted to a few laboratories world-wide. The laser-hybrid method uses high-powered lasers to generate ions with kinetic energies of 10s of MeV and at high dose-rates suitable to examine high dose-rate sparing effects such as FLASH radiotherapy."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "11:30",
+        "local": "Lumina Auditorium ",
+        "data": "09/25/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -165,11 +160,10 @@
         "description": "In this lecture, we will briefly introduce the radiation processing of products, a relatively new industry with wide applications and significant commercial success, primly involving gamma rays and electron beams (EB). The main features of the irradiation facilities, the doses delivered, and the regulatory requirements for the processed products will be discussed to highlight the role of dosimetry in this field. Several passive solid-state dosimeters, which are well-established in radiation processing dosimetry, will be introduced to emphasize the need for online dosimeters, whether as routine tools or for monitoring the operating conditions of EB facilities. An overview of efforts to develop online dosimeters, with a focus on electronic devices, will be provided. Subsequently, the lecture will explore the operational characteristics and the physics behind the dose and dose rate response of diodes, explaining how our group has addressed issues related to their use as real-time dosimeters in fixed and mobile EB facilities. The latest data obtained with these diodes, both as routine dosimeters and as electron beam monitors, will be presented to assess the feasibility of their application. The current status of online high-dose dosimeters and the challenges of meeting the metrological standards required in radiation processing dosimetry will also be discussed."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "16:00",
+        "local": "Lumina Auditorium ",
+        "data": "09/26/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -181,11 +175,10 @@
         "description": "The National Nuclear Energy Commission's guidelines for technological innovation focus on three main areas: nuclear technologies—including reactors, instrumentation, materials, and the fuel cycle—applications of ionizing radiation in health, industry, agriculture, and the environment, as well as radioprotection and dosimetry. This lecture will highlight several strategic projects, including CENTENA, GraNioTer, the tracer technique for offshore oil and gas platforms and processing plants, mobile units equipped with electron accelerators, and a multipurpose reactor. The main features of each project, their contributions to addressing major national challenges in developing nuclear technology, and the current progress of each initiative will be discussed. In short, CENTENA aims to design, build, and commission the first nuclear and environmental technology facility in South America for disposing of low-level radioactive waste, thereby establishing a foundation of safety and sustainability for Brazil. GraNioTer's goal is to establish itself as a national technological hub, promoting research, development, and innovation based on graphene, niobium, rare earths, and other materials and minerals with increasing global demand. Another key project is the application of the radiotracer technique to offshore oil and gas platforms and processing plants, which seeks to develop a prototype and method for measuring gas flow in pipelines. Equally important is the Mobile Unit, equipped with an electron beam accelerator, which aims to expand the nation's capacity to treat industrial effluents and improve water quality in urban areas, addressing one of the primary challenges faced by modern society."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "10:30",
+        "local": "Lumina Auditorium ",
+        "data": "09/23/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -197,11 +190,10 @@
         "description": "Radiation protection uses protection quantities (not directly measurable) and operational quantities (measured to estimate protection quantities). Standards ensure the quality of dose measurements, established by IEC and ISO, and adopted by regional organizations (CEN, CENELEC, GCC, SARSO, ARSO). Type tests for photon dosemeters use ISO 4037 reference fields; beta and neutron fields follow ISO 6980 and ISO 8529. Standards like IEC 62387 and IEC 61526 address other influencing factors such as angle, dose rate, temperature, and electromagnetic immunity. Uncertainties are calculated by combining the effects of these influences, as described in IEC TS 62461 (updated 2025). Performance is regularly checked using comparison measurements following ISO 14146 (updated 2024, includes EURADOS)."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "08:00",
+        "local": "Lumina Auditorium ",
+        "data": "09/26/2025",
+        "duracao": "40 minutes"
       },
       "isWinner": false
     },
@@ -213,11 +205,10 @@
         "description": "Personal dosimetry is a fundamental tool in radiation protection, ensuring that bestpractices in facilities using ionizing radiation effectively minimize risks to exposed workers.The use of radiation is highly regulated worldwide, and to make personal dosimetry widelyaccessible, technology plays a key role—not only as a scientific instrument but also as areliable and reproducible measurement technique.\nAccurate analysis of population-level dosimetry data is only possible with the correct andappropriate use of personal dosimeters. This can be achieved only when a strongradiation protection culture is promoted and adopted by all stakeholders involved inpersonal dosimetry.\nIn Latin America and the Caribbean, the evaluation of Individual Monitoring Services(SMIE) varies by country, reflecting differences in regulations, technological infrastructure,and safety culture. This study presents an overview of the current state of personaldosimetry in the region, with emphasis on the 2022 intercomparison exercise organized byREPROLAM. A total of 26 services—both public and private—were evaluated usingdifferent irradiation beams and dose levels.\nThe results show that 69.2% of the laboratories complied with ISO 14146:2018. However,some exhibited calibration deviations, particularly with X-ray beams. Notably, OSL(Optically Stimulated Luminescence) dosimetry has seen significant growth,accounting for 34% of the systems evaluated in 2022.\nIn Brazil, the development of Personal Dosimetry Services has been shaped by twodecades of intercomparison exercises and over 30 years of a structured certificationprocess. Despite this progress, challenges remain in standardizing methodologies andenhancing laboratory training to improve dosimetry accuracy across the region.This analysis underscores the critical importance of regulation, technologicaladvancement, and the consolidation of a radiological safety culture as pillars forstrengthening occupational dosimetry in Latin America and the Caribbean."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "14:30",
+        "local": "Lumina Auditorium ",
+        "data": "09/26/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -234,11 +225,10 @@
         "description": "Proton therapy is an increasingly relevant form of radiotherapy because it enables areduction in the total dose compared to photons, preserving critical structures whilesimultaneously delivering higher and better-conformed doses to the tumor volume. Thiseffect is achieved through the superposition of several weighted Bragg curves with differentincident energies, resulting in a broadened Bragg peak, known as the Spread-Out BraggPeak (SOBP).\nAlthough already considered technologically mature, proton therapy still presents importantchallenges that need to be investigated. Among these, the precise calculation of the relativebiological effectiveness (RBE) stands out, defined as the ratio between the doses requiredfor two different types of radiation to produce the same biological effect. This aspect isdirectly linked to the physical interaction processes between the proton and matter.\nWhen a proton with kinetic energy passes through a medium, it interacts with electrons andnuclei of the target, causing its deceleration. These interactions are known as electronicstopping and nuclear stopping, respectively. The stopping power describes the force themedium exerts on the ion, corresponding to the average energy loss per unit path length. Inthe case of proton-matter interaction, electronic stopping is dominant.\nThis energy loss dynamic is fundamental to understanding the dose deposition profile. Asthe proton slows down, the energy transferred to biological tissue per unit path lengthincreases, reaching a maximum at a specific depth. This region, known as the Bragg peak,coincides with the maximum stopping power and represents the area of greatest interest forclinical applications. Therefore, its precise positioning is critical during treatment planning.To study these processes in greater detail, advanced approaches have been employed, suchas real-time Time-Dependent Density Functional Theory (TDDFT). This is a non-perturbative method based on modern quantum simulations, which has proven particularlyuseful for investigating electronic stopping in complex systems like water and DNA,bringing computational modeling closer to the real conditions found in biological tissues."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "13:30",
+        "local": "Lumina Auditorium ",
+        "data": "09/25/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -255,11 +245,10 @@
         "description": "This talk addresses some general aspects of the phenomenon of thermally stimulated luminescence, known as thermoluminescence, such as its explanation using the energy band model, its kinetics, the characteristics of the glow curve, and its application in ionizing radiation dosimetry."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "11:30",
+        "local": "Lumina Auditorium ",
+        "data": "09/23/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -277,11 +266,10 @@
         "description": "This study investigates an ethical approach to biodosimetry, utilizing plants as a sustainable alternative to traditional animal models. Plants, known for their sensitivity to environmental stressors such as radiation, provide a valuable platform for identifying genotoxic agents while reducing reliance on animal testing. The research highlights the utility of the onion (Allium cepa) as an in vivo model for assessing radiation-induced genetic and chromosomal damage. While Allium cepa is a widely recognized standard in environmental contamination studies, it remains underexplored as a tool for radiation detection. A comprehensive evaluation of radiation effects and their temporal progression is made possible by analyzing key variables, including linear energy transfer, dose, and dose rate. The study also examines the potential of photobiomodulation to enhance biological recovery in tissues damaged by radiation, offering a novel intervention strategy. To ensure robustness, findings from the Allium cepa model are cross-validated against other in vivo, in vitro, and in silico systems, establishing its efficacy as an ethical and effective alternative for radiation biodosimetry."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "08:40",
+        "local": "Lumina Auditorium ",
+        "data": "09/26/2025",
+        "duracao": "40 minutes"
       },
       "isWinner": false
     },
@@ -298,11 +286,10 @@
         "description": ""
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "10:30",
+        "local": "Lumina Auditorium ",
+        "data": "09/25/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     }
@@ -323,11 +310,10 @@
         "description": "This course covers the principles of solid-state dosimetry, focusing on materials such as OSL (Optically Stimulated Luminescence) and their advanced applications in radiation protection and environmental monitoring."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "13:00",
+        "local": "Lattice Auditorium",
+        "data": "09/22/2025",
+        "duracao": ""
       },
       "isWinner": false
     },
@@ -342,11 +328,10 @@
         "description": "Throughout the course, we will explore different types of radiation detectors, their operating principles, and criteria for their proper selection and use. The goal is to provide students with a solid foundation that enables them to identify the most suitable equipment for each situation and use it efficiently, maximizing both measurement accuracy and radiological protection."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "08:00",
+        "local": "Lattice Auditorium",
+        "data": "09/22/2025",
+        "duracao": "2 hours"
       },
       "isWinner": false
     },
@@ -361,11 +346,10 @@
         "description": "Se presentarán las bases de la física de una imagen por resonancia magnética y su relación con el radio diagnóstico. La seguridad en resonancia magnética que evita complicaciones y accidentes que con la continua capacitación disminuyen notablemente. Así como las técnicas nuevas que están incluyendo inteligencia artificial para un mejor diagnóstico por imagen."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "13:00",
+        "local": "Spectrum Auditorium ",
+        "data": "09/22/2025",
+        "duracao": ""
       },
       "isWinner": false
     },
@@ -386,11 +370,10 @@
         "description": "This course covers the basics of PET radiopharmaceuticals-production, clinical applications, and their impact on nuclear medicine-while showcasing CDTN's cutting-edge technologies and their role in enhancing diagnostics and patient care in Brazil. \n \nDr. Marina Bicalho - Theoretical Aspects and State of the Art in PET Radiopharmaceuticals. \nDr. Emerson Bernardes - Advances in new PET Radiopharmaceuticals. \nDr. Isabel Dregely - Artificial Intelligence Applied to PET Imaging."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "08:00",
+        "local": "Spectrum Auditorium ",
+        "data": "09/22/2025",
+        "duracao": "2 hours"
       },
       "isWinner": false
     }
@@ -409,10 +392,10 @@
         "description": "Radon in the environment: Tracer Applications and Public Health Risks."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir"
+        "hora": "13:30",
+        "local": "Lattice Auditorium",
+        "data": "09/23/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -428,10 +411,10 @@
         "description": "This roundtable will convene leading experts to explore the pivotal role of leadership in advancing nuclear scientific and technological research. The discussion will address key challenges, including regulatory frameworks, ethical considerations, nuclear applications, diversity and inclusion, effective communication, and the integration of the next generation into the global nuclear sector. By examining how leadership drives innovation, navigates complex challenges, and shapes the future of nuclear science and technology, this session aims to foster meaningful dialogue. Participants will gain insights into emerging technologies, explore strategic leadership approaches, and strengthen collaboration among researchers, policymakers, and industry leaders."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir"
+        "hora": "16:00",
+        "local": "Lumina Auditorium ",
+        "data": "09/25/2025",
+        "duracao" : "1 hour"
       },
       "isWinner": false
     },
@@ -448,11 +431,10 @@
         "description": "Considering the rapid changes occurring in the nuclear sector, driven by climate-related issues, and the growing recognition of the importance of diversity and inclusion within this context, we examine the contributions of authors such as Astrid C. Homan (2019), who, in her research on inclusive leadership, emphasizes the need for initiatives aimed at the professional development of women. Based on this framework, we propose the creation of a mentorship program designed to foster the exchange of experiences between experienced professionals and women at the beginning of their careers, as well as female academics in the nuclear field. The goal is to address the gender gap and propel the formation of the next generation of leaders in the sector.\nThe program, titled the Helen Khoury Mentorship in honor of one of the pioneers of nuclear physics in Brazil, offers individualized guidance by connecting mentees with experienced professionals in the nuclear sector, with an emphasis on continuous development. Its structure comprises one-on-one meetings between mentors and mentees, in addition to six monthly collective sessions focused on formative themes, all conducted online. Throughout the program, a final mentorship product is developed—such as an event, lecture, article, project, or enhancement of an existing initiative—jointly defined by the participants. This approach aligns with the perspectives of authors such as Juan M. Madera, Linnea Ng, Jane M. Sundermann, and Mikki Hebl, who emphasize the importance of critical reflection and practical action in the context of organizational learning, reinforcing the role of mentorship in fostering creative solutions and advancing inclusive leadership.\nLasting for six months, the program aims to develop both technical and interpersonal skills, build networking opportunities, and strengthen the confidence of the participants, as argued by Ibarra (2022), who explored the impact of networking and mentorship relationships on career advancement.\nThe expected outcomes include professional growth, innovation, and the strengthening of female leadership in the nuclear sector, as well as ensuring the continuity of technical knowledge across generations, which is crucial for the long-term success of the sector, according to studies Nonaka and Takeuchi (1997) on knowledge management. Ultimately, the initiative seeks to contribute to building a more equitable and prosperous future for the global nuclear industry."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "16:00",
+        "local": "Spectrum Auditorium ",
+        "data": "09/25/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     },
@@ -477,11 +459,10 @@
         "description": "The roundtable is part of the Tech Area on Artificial Intelligence, an innovative space within ISSSD 2025 dedicated to the convergence of technology, healthcare, and innovation. Its main goal is to foster dialogue among startups, researchers, healthcare professionals, and investors, encouraging the use of AI in clinical practice.\nDuring the session, strategic topics will be discussed, such as:\nChallenges and opportunities of AI in clinical radiology\nExplainability and ethics of diagnostic algorithms\nAutomation and integration of hospital workflows\nSuccess stories from innovative startups\nTrends for the next 5 years in medical AI\nThe roundtable will feature multidisciplinary experts — including radiologists, data scientists, entrepreneurs, and regulators — and will be moderated by professionals with experience in healthcare innovation. There will also be room for audience interaction, with guided questions designed to stimulate debate."
       },
       "presentation":{
-        "hora": "A definir",
-        "idioma": "A definir",
-        "local": "A definir",
-        "data": "A definir",
-        "duracao": "A definir"
+        "hora": "14:30",
+        "local": "Lumina Auditorium ",
+        "data": "09/23/2025",
+        "duracao": "1 hour"
       },
       "isWinner": false
     }
