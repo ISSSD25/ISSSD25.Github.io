@@ -144,7 +144,7 @@ const renderImageGrid = (profileImg, isWinner = false) => {
                     {row.map((img, imgIndex) => (
                         <div key={imgIndex} style={avatarWrapperStyle}>
                             <div className="avatar-glow"></div>
-                            <img src={img} alt="Foto do Palestrante" style={avatarImageStyle} />
+                            <img src={img} alt="Foto do Palestrante" loading="lazy" style={avatarImageStyle} />
                         </div>
                     ))}
                 </div>
@@ -216,16 +216,13 @@ const PdfViewerWithModal = (props) => {
 
 // --- CARD DE PARTICIPANTE (FINAL) ---
 const Card = (props) => {
-    const { participant, isWinner } = props;
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const openModal = () => setIsModalOpen(true);
-    const closeModal = () => setIsModalOpen(false);
+    const { participant, isWinner, marginTop, onOpenModal } = props;
     const cardClass = isWinner ? "winner-card-glass" : "non-winner-card-glass";
     const authorStyle = { fontWeight: 'bold', fontSize: '1.1rem', margin: '0 0 5px 0', color: isWinner ? 'rgba(255, 255, 255, 0.9)' : '#333' };
     const titleStyle = { margin: '0 0 10px 0', color: isWinner ? 'rgba(255, 255, 255, 0.9)' : '#444' };
 
     return (
-        <div className="row" style={{ marginTop: props.marginTop, padding: 0 }}>
+        <div className="row" style={{ marginTop: marginTop, padding: 0 }}>
             <div className={cardClass} style={{ position: 'relative' }}>
                 <div className="light-effect"></div>
                 <div className="winner-content">
@@ -235,7 +232,7 @@ const Card = (props) => {
                     <div className="winner-info">
                         {isWinner ? (
                             <h2>
-                                {participant.author.split('\\n')[0]}
+                                {participant.author.split('\n')[0]}
                                 <span className="winner-tag">#1 Champion</span>
                             </h2>
                         ) : (
@@ -244,7 +241,7 @@ const Card = (props) => {
                         {renderTextField(participant.project.title, titleStyle)}
                         <div className="winner-actions">
                             <div className="button-group">
-                                <button className="modern-btn profile-btn" onClick={openModal}>
+                                <button className="modern-btn profile-btn" onClick={() => onOpenModal(participant)}>
                                     View Poster & Chat
                                     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" /></svg>
                                 </button>
@@ -253,7 +250,6 @@ const Card = (props) => {
                     </div>
                 </div>
             </div>
-            {isModalOpen && <PdfViewerWithModal closeModal={closeModal} participant={participant} />}
         </div>
     );
 };
@@ -265,6 +261,7 @@ const BattleMap = () => {
     const [currentListIndex, setCurrentListIndex] = useState(0);
     const [selectedList, setSelectedList] = useState('');
     const [loading, setLoading] = useState(true);
+    const [modalParticipant, setModalParticipant] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -289,6 +286,13 @@ const BattleMap = () => {
         setSelectedList(listKeys[index]);
     };
 
+    const handleOpenModal = (participant) => {
+        setModalParticipant(participant);
+    };
+    const handleCloseModal = () => {
+        setModalParticipant(null);
+    };
+
     const currentItems = info[selectedList] || [];
 
     if (loading) {
@@ -297,6 +301,9 @@ const BattleMap = () => {
 
     return (
         <div style={{ position: 'relative', minHeight: '100vh' }}>
+            {modalParticipant && (
+                <PdfViewerWithModal closeModal={handleCloseModal} participant={modalParticipant} />
+            )}
             <div style={{
                 marginBottom: '2rem', marginTop: '9rem', display: 'flex', gap: '16px', justifyContent: 'center',
                 flexWrap: 'wrap', padding: '16px',
@@ -324,7 +331,8 @@ const BattleMap = () => {
                                 key={`${selectedList}-${index}`} 
                                 participant={item} 
                                 isWinner={item.isWinner}
-                                marginTop={index === 0 ? '2rem' : '1rem'} 
+                                marginTop={index === 0 ? '2rem' : '1rem'}
+                                onOpenModal={handleOpenModal}
                             />
                         )
                 )}
