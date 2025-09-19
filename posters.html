@@ -1283,6 +1283,13 @@
   <script src="./js/menu.js"></script>
   <script src="./firebase.js"></script> 
   <script type="text/babel" src="./js/posters.js"></script>
+
+  <script>
+  fetch("data.json?v=" + Date.now())
+    .then(r => r.json())
+    .then(dados => console.log(dados));
+  </script>
+
   
   </body>
 </html>
