@@ -269,7 +269,7 @@ const BattleMap = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`./data/posters.json`);
+                const response = await fetch(`data/posters.json`);
                 const data = await response.json();
                 setInfo(data);
                 const keys = Object.keys(data);
