@@ -439,18 +439,16 @@
       "isWinner": false
     },
     {
-      "author": "Dra. Telma C. F. Fonseca. DEN/UFMG, BH, Brazil\nDra. Rita Sebastiao. UFMG, BH, Brazil\nMelina Castro. Biominas Brasil, BH, Brazil\nDra. Ana Carolina Costa da Silva. Siemens Healthineers, SP, Brazil\nDr. Andre Henrique Alves Carneiro, USP, SP, Brazil",
+      "author": "Dra. Telma C. F. Fonseca. DEN/UFMG, BH, Brazil\nDra. Rita Sebastiao. UFMG, BH, Brazil\nDra. Ana Carolina Costa da Silva. Siemens Healthineers, SP, Brazil\nDr. Andre Henrique Alves Carneiro, USP, SP, Brazil",
       "profileImg": [
         "../img/img_convidados/telma.webp",
         "../img/img_convidados/rita.webp",
-        "../img/img_convidados/melina.webp",
         "../img/img_convidados/ana.webp",
         "../img/img_convidados/andre.jpeg"
       ],
       "socialMedia": {
         "Dra. Telma": "http://lattes.cnpq.br/3139727297057976",
         "Dra. Rita": "https://www.linkedin.com/in/rita-sebastiao-1a7104246/",
-        "Melina": "http://linkedin.com/in/melinacastrob",
         "Dr. André" : "https://www.linkedin.com/in/andrehcarneiro/"
         
       },
