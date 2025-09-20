@@ -416,10 +416,22 @@
       "profileImg": "img/img_posters/Marcelo Luís.jpg",
       "project": {
         "id": "G08-003",
-        "title": "Development of CaSO₄:Li Composites by Different Synthesis Routes for Applications in TL and OSL Dosimetry;\nStudy of CaSO4:Tm,Li Based Luminescent Composites Applied to TL/OSL Dosimetry in Mammography.",
+        "title": "Development of CaSO₄:Li Composites by Different Synthesis Routes for Applications in TL and OSL Dosimetry.",
         "description": " ",
         "audioUrl": "",
         "pdfUrl": "drive/posters_grupo/G8/G08-003- Marcelo Luís.pdf"
+      }
+    },
+    {
+      "isWinner": false,
+      "author": "Marcelo Luís dos Santos Filho",
+      "profileImg": "img/img_posters/Marcelo Luís.jpg",
+      "project": {
+        "id": "",
+        "title": "Study of CaSO4:Tm,Li Based Luminescent Composites Applied to TL/OSL Dosimetry in Mammography.",
+        "description": " ",
+        "audioUrl": "",
+        "pdfUrl": ""
       }
     }
   ]
