@@ -109,6 +109,30 @@
         "audioUrl": "",
         "pdfUrl": "drive/posters_grupo/G2/G2-016-Marcelo Franklin da Silva Santos - MARCELO FRANKLIN DA SILVA SANTOS.pdf"
       }
+    },
+    {
+        "isWinner": false,
+        "author": "EDWAR ALONZZO CANAZA MAMANI",
+    "profileImg": "drive/posters/img/EDWAR ALONZZO CANAZA MAMANI.webp",
+        "project": {
+            "id": "poster-1",
+            "title": "OSL-SAR dating and technological characterization of archaeological ceramics from the Tupiguarani ceramic tradition groups: Pirajuí I and Arataca II, Pernambuco, Brazil",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/EDWAR ALONZZO CANAZA MAMANI.mp3",
+            "pdfUrl": "drive/posters/pdfs/EDWAR ALONZZO CANAZA MAMANI.pdf"
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "Marco Aurélio de Sousa Lacerda",
+    "profileImg": "drive/posters/img/Marco Aurélio de Sousa Lacerda.webp",
+        "project": {
+            "id": "poster-2",
+            "title": "Monte Carlo characterization of neutron personal dosimeter based on TLD 600 and TLD 700 irradiated with 252 Cf neutron source on the ISO phantom at LPN CIEMAT",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Marco Aurélio de Sousa Lacerda.ogg",
+            "pdfUrl": "drive/posters/pdfs/Marco Aurélio de Sousa Lacerda.pdf"
+        }
     }
   ],
   "G3 - Ionizing and non-ionizing radiation": [
@@ -135,6 +159,78 @@
         "audioUrl": "",
         "pdfUrl": "drive/posters_grupo/G3/G03-005-SamaraMendes - Samara Mendes.pdf"
       }
+    },
+    {
+        "isWinner": false,
+        "author": "Watila Lins silva ",
+    "profileImg": "drive/posters/img/Watila Lins.webp",
+        "project": {
+            "id": "poster-19",
+            "title": "Reference Measurements of Thermal Neutron Flux Using a Cadmium-Encapsulated ⁶LiI (Eu) Detector at the Neutron Metrology Laboratory",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Watila Lins.mp3",
+            "pdfUrl": "drive/posters/pdfs/Watila Lins.pdf"
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "Wallacy Viana",
+    "profileImg": "drive/posters/img/Wallacy.webp",
+        "project": {
+            "id": "poster-20",
+            "title": "Analysis of the characteristics of the Ingeo™ 3D850 polymer in the context of its use in visual inspections in the Triga IPR-R1 nuclear reactor",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Wallacy.mp3",
+            "pdfUrl": "drive/posters/pdfs/Wallacy.pdf"
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "Fábio Sabará Dias",
+    "profileImg": "drive/posters/img/Fábio Sabará Dias.webp",
+        "project": {
+            "id": "poster-21",
+            "title": "Survey of Radiation Exposure from Portable X-Ray Fluorescence",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Fábio Sabará Dias.mp3",
+            "pdfUrl": "drive/posters/pdfs/Fábio Sabará Dias.pdf"
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "Hericka Oliveira Kenup-Hernandes",
+    "profileImg": "drive/posters/img/Hericka Kenup.webp",
+        "project": {
+            "id": "poster-22",
+            "title": "Gadolinium Adsorption by Functionalized Mesoporous Silicas (MCM 41/SBA-15): A Proposal for Volume and Dose Reduction in Radioactive Waste",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Hericka Kenup.mp3",
+            "pdfUrl": "drive/posters/pdfs/Hericka Kenup.pdf"
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "Hericka Oliveira Kenup-Hernandes",
+    "profileImg": "drive/posters/img/Hericka Kenup(1).webp",
+        "project": {
+            "id": "poster-23",
+            "title": "Computational Modeling for Radiological Risk Assessment: Simulation of Plume Dispersion in Radioactive Waste Fires Using HotSpot \n",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Hericka Kenup.mp3",
+            "pdfUrl": "drive/posters/pdfs/Hericka Kenup.pdf"
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "Akemi Yagui",
+    "profileImg": "drive/posters/img/Akemi Yagui.webp",
+        "project": {
+            "id": "poster-24",
+            "title": "Evaluation of Radiation Exposure in Pediatric Interventional Cardiology Procedures",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Akemi Yagui.mp3",
+            "pdfUrl": "drive/posters/pdfs/Akemi Yagui.pdf"
+        }
     }
   ],
   "G4 - Medical Physics": [
@@ -245,6 +341,42 @@
         "audioUrl": "",
         "pdfUrl": "drive/posters_grupo/G4/G04-030-RaissaGuassu - Raissa Guassu.pdf"
       }
+    },
+    {
+        "isWinner": false,
+        "author": "Gabriel Tura Echeverria",
+    "profileImg": "drive/posters/img/Gabriel Tura.webp",
+        "project": {
+            "id": "poster-25",
+            "title": "Identification and Quantification of K, Na and Mn in Textured Soy Protein Sold in the City of Rio de Janeiro Using the Argonauta Research Reactor of IEN/CNEN and the Techniques of Instrumental Neutron Activation Analysis and γ-ray Spectrometry",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Gabriel Tura.mp3",
+            "pdfUrl": "drive/posters/pdfs/Gabriel Tura.pdf"
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "GLÁUCIA DE OLIVEIRA BARRETO",
+    "profileImg": "drive/posters/img/Rogerio.webp",
+        "project": {
+            "id": "poster-26",
+            "title": "Axial neutron flux mapping in the Argonauta Research Reactor at IEN-CNEN using neutron activation and γ-ray spectrometry techniques.",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Rogerio.mp3",
+            "pdfUrl": "drive/posters/pdfs/Rogerio.pdf"
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "João Pedro Carvalho Andrade",
+    "profileImg": "drive/posters/img/João Pedro.webp",
+        "project": {
+            "id": "poster-27",
+            "title": "Determination of the mass attenuation coefficient of polymers using Monte Carlo N-Particle simulation",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/João Pedro.mp3",
+            "pdfUrl": "drive/posters/pdfs/João Pedro.pdf"
+        }
     }
   ],
   "G5 - Radiological Protection": [
@@ -319,6 +451,18 @@
         "audioUrl": "",
         "pdfUrl": "drive/posters_grupo/G5/G05-008-AkemiYagui - Akemi Yagui.pdf"
       }
+    },
+    {
+        "isWinner": false,
+        "author": "Yasmym Sarmento Pereira",
+    "profileImg": "drive/posters/img/Yasmym Sarmento Pereira.webp",
+        "project": {
+            "id": "poster-28",
+            "title": "Radiometric analysis of sediments and water from the Lagoons of East Fluminense, Rio de Janeiro.",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Yasmym Sarmento Pereira.mp3",
+            "pdfUrl": "drive/posters/pdfs/Yasmym Sarmento Pereira.pdf"
+        }
     }
   ],
   "G6 - Radiation Sources": [
@@ -408,7 +552,43 @@
         "description": " ",
         "audioUrl": "",
         "pdfUrl": "drive/posters_grupo/G8/G08-003- Marcelo Luís.pdf"
-      }
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "Caroline Pereira dos Santos",
+    "profileImg": "drive/posters/img/Caroline Pereira dos Santos.webp",
+        "project": {
+            "id": "poster-29",
+            "title": "Unraveling the physical properties of pure and lithium thulium iondoped calcium sulfate",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Caroline Pereira dos Santos.ogg",
+            "pdfUrl": "drive/posters/pdfs/Caroline Pereira dos Santos.pdf"
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "Andre Luiz Tavares e Silva",
+    "profileImg": "drive/posters/img/TavareSolutions.webp",
+        "project": {
+            "id": "poster-30",
+            "title": "Unsupervised Learning in preparation for Pattern Recognition in k-Feldspar Using Cathodoluminescence Emission and EDX Composition Mapping\n",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/TavareSolutions.mp3",
+            "pdfUrl": "drive/posters/pdfs/TavareSolutions.pdf"
+        }
+    },
+    {
+        "isWinner": false,
+        "author": "Marcelo Luís dos Santos Filho",
+    "profileImg": "drive/posters/img/Marcelo Luís.webp",
+        "project": {
+            "id": "poster-31",
+            "title": "Development of CaSO₄:Li Composites by Different Synthesis Routes for Applications in TL and OSL Dosimetry;\nStudy of CaSO4:Tm,Li Based Luminescent Composites Applied to TL/OSL Dosimetry in Mammography.",
+            "description": " ",
+            "audioUrl": "drive/posters/audios/Marcelo Luís.mp3",
+            "pdfUrl": "drive/posters/pdfs/Marcelo Luís.pdf"
+        }
     }
   ]
 }
