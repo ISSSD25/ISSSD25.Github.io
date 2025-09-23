@@ -154,7 +154,7 @@
         "id": "G02-016",
         "title": "G02-016: Synthesis and Luminescent Characterization of CaSO₄:Tm,Li via Slow Evaporation, Co-precipitation, and Solid-State Diffusion Routes",
         "description": " ",
-        "audioUrl": "",
+        "audioUrl": "drive/posters/audios/MARCELO FRANKLIN DA SILVA SANTOS.mp3",
         "pdfUrl": "posters/posters_grupo/G2/G2-016-Marcelo Franklin da Silva Santos - MARCELO FRANKLIN DA SILVA SANTOS.pdf"
       }
     },
@@ -180,6 +180,18 @@
         "description": " ",
         "audioUrl": "posters/posters_audio/G2/G02_025_RANULFO-DA-SILVA-DIAS - Ranulfo Dias.mp3",
         "pdfUrl": "posters/posters_grupo/G2/G02_025_RANULFO DA SILVA DIAS - Ranulfo Dias.pdf"
+      }
+    },
+        {
+      "isWinner": false,
+      "author": "Alessandra Vaz",
+      "profileImg": "drive/posters/img/G02-027-AlessandraVaz.jpeg",
+      "project": {
+        "id": "G02-027",
+        "title": "G02-027: System for Visual Detection of Individual Dosimeters Using Convolutional Neural Networks",
+        "description": " ",
+        "audioUrl": "drive/posters/audios/G2/G02-027-AlessandraVaz.mp3",
+        "pdfUrl": "drive/posters_grupo/G2/G02-027-AlessandraVaz.pdf"
       }
     },
     {
@@ -276,6 +288,18 @@
         "description": " ",
         "audioUrl": "posters/posters_audio/G2/G02-073-Nadia - Nadia Rodrigues.mp3",
         "pdfUrl": "posters/posters_grupo/G2/G02-073-Nadia - Nadia Rodrigues.pdf"
+      }
+    },
+        {
+      "isWinner": false,
+      "author": "Felipe Mamed",
+      "profileImg": "drive/posters/img/G02-081-FelipeMamed.jpeg",
+      "project": {
+        "id": "G02-081",
+        "title": "G02-081: SMS Notification System for Potential Radiological Risk Scenarios",
+        "description": " ",
+        "audioUrl": "drive/posters/audios/G2/G02-081-FelipeMamed.mp3",
+        "pdfUrl": "drive/posters_grupo/G2/G02-081-FelipeMamed.pdf"
       }
     },
     {
@@ -609,7 +633,7 @@
         "title": "G07-016: Radiometric characterization of Erythrina verna Vell.: A study of natural radioactivity in plant tissues",
         "description": " ",
         "audioUrl": "posters/posters_audio/G7/G07_016_GabrielaRodé.m4a",
-        "pdfUrl": "drive/posters/pdfs/Gabriela Rodé.pdf"
+        "pdfUrl": "drive/posters_grupo/G7/G07_016- GabrielaRodé.pdf"
       }
     }
   ],
