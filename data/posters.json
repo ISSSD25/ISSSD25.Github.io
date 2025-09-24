@@ -39,13 +39,13 @@
    {
       "isWinner": false,
       "author": "Jardel Thalhofer",
-      "profileImg": "posters/img_posters/G02-015-Jardel(1).jpg",
+      "profileImg": "../drive/posters/img/G02-015-Jardel (1).jpg",
       "project": {
         "id": "G01-015",
         "title": "G01-015: Radiometric Profile Analysis of Soils from the São José de Itaboraí Paleontological Natural Park",
         "description": " ",
-        "audioUrl": "posters/img/G02-015-Jardel Thalhofer. (1).mp3",
-        "pdfUrl": "posters/img/G02-015-Jardel Thalhofer. sem grav (1).pdf"
+        "audioUrl": "../drive/posters/audios/G02-015-Jardel Thalhofer. (1).mp3",
+        "pdfUrl": "../drive/posters/pdfs/G02-015-Jardel Thalhofer. sem grav (1).pdf"
       }
     },
     {
