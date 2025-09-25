@@ -36,6 +36,18 @@
         "pdfUrl": "posters/posters_grupo/G1/G01-013-XXVISSSD Hassan Salah - hassan salah.pdf"
       }
     },
+   {
+      "isWinner": false,
+      "author": "Jardel Thalhofer",
+      "profileImg": "../drive/posters/img/G02-015-Jardel (1).jpg",
+      "project": {
+        "id": "G01-015",
+        "title": "G01-015: Radiometric Profile Analysis of Soils from the São José de Itaboraí Paleontological Natural Park",
+        "description": " ",
+        "audioUrl": "../drive/posters/audios/G02-015-Jardel Thalhofer. (1).mp3",
+        "pdfUrl": "../drive/posters/pdfs/G02-015-Jardel Thalhofer. sem grav (1).pdf"
+      }
+    },
     {
       "isWinner": false,
       "author": "Mohammed Alkhorayef",
