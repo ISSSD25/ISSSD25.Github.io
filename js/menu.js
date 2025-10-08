@@ -97,10 +97,8 @@ const NavMenu = () => {
         <li style={styles.navSeparator}>|</li>
         <li style={styles.navItem}><a href="/#invited-speakers" style={styles.navLink}>INVITED SPEAKERS</a></li>
         <li style={styles.navSeparator}>|</li>
-        <li style={styles.navItem}><a href="/#history" style={styles.navLink}>HISTORY</a></li>
+        <li style={styles.navItem}><a href="gallery.html" style={styles.navLink}>GALLERY</a></li>
         <li style={styles.navSeparator}>|</li>
-        {/* <li style={styles.navItem}><a href="gallery.html" style={styles.navLink}>GALLERY</a></li>
-        <li style={styles.navSeparator}>|</li> */}
         <li style={styles.navItem}><a href="../committe.html" style={styles.navLink}>COMMITTEE</a></li>
         <li style={styles.navSeparator}>|</li>
         <li style={styles.navItem}><a href="../type_of_presentation.html" style={styles.navLink}>FOR PRESENTERS</a></li>
@@ -111,8 +109,8 @@ const NavMenu = () => {
         <li style={styles.navSeparator}>|</li>
         <li style={styles.navItem}><a href="../posters.html" style={styles.navLink}>PANEL ONLINE</a></li>
         <li style={styles.navSeparator}>|</li>
-        {/* <li style={styles.navItem}><a href="../bookOfProceding.html" style={styles.navLink}>Book of Proceedings</a></li>
-        <li style={styles.navSeparator}>|</li> */}
+        <li style={styles.navItem}><a href="../bookOfProceding.html" style={styles.navLink}>PROCEEDINGS</a></li>
+        <li style={styles.navSeparator}>|</li>
         <li style={styles.navItem}><a href="/#contact" style={styles.navLink}>CONTACT</a></li>
       </ul>
     </nav>

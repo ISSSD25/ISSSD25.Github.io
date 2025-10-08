@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./files/css2" rel="stylesheet">
+<link rel="stylesheet" href="./files/all.min.css">
+<link rel="stylesheet" href="./files/bootstrap.css">
+<link rel="stylesheet" href="./files/style.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,95 +23,49 @@
             font-family: 'Segoe UI', sans-serif;
             background-color: #fafafa;
             padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #333;
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            margin-top: 4rem;
         }
 
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-auto-rows: minmax(100px, auto);
-            gap: 8px;
-            max-width: 900px;
-            margin: 5rem auto;
-        }
-
-        .gallery-item {
-            position: relative;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
-
-        .gallery-item:hover {
-            transform: scale(0.98);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 100%;
+        .main-image {
+            max-width: 90vw;
+            max-height: 60vh;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+            margin-bottom: 2rem;
             object-fit: cover;
-            display: block;
         }
 
-        /* Layout quebra-cabeça */
-        .gallery-item:nth-child(1) {
-            grid-row: span 2;
-            grid-column: span 1;
+        .gallery-link {
+            font-size: 1.2rem;
+            color: #fff;
+            background: #3897f0;
+            padding: 0.75em 1.5em;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background 0.2s;
+            font-weight: 500;
         }
 
-        .gallery-item:nth-child(2) {
-            grid-row: span 1;
-            grid-column: span 1;
+        .gallery-link:hover {
+            background: #256bb5;
         }
 
-        .gallery-item:nth-child(3) {
-            grid-row: span 1;
-            grid-column: span 1;
-        }
-
-        .gallery-item:nth-child(4) {
-            grid-row: span 1;
-            grid-column: span 2;
-        }
-
-        .gallery-item:nth-child(5) {
-            grid-row: span 2;
-            grid-column: span 1;
-        }
-
-        .gallery-item:nth-child(6) {
-            grid-row: span 1;
-            grid-column: span 1;
-        }
-
-        .gallery-item:nth-child(7) {
-            grid-row: span 1;
-            grid-column: span 1;
-        }
-
-        @media (max-width: 768px) {
-            .gallery {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 480px) {
-            .gallery {
-                grid-template-columns: 1fr;
-            }
-
-            .gallery-item {
-                grid-column: span 1 !important;
-                grid-row: span 1 !important;
-                aspect-ratio: 1/1;
-            }
+        .main-text {
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+            color: #333;
+            text-align: center;
         }
     </style>
 </head>
@@ -112,31 +73,14 @@
 <body>
     <div id="menu-container"></div>
 
-    <div class="gallery">
+    <div class="main-content">
         <!-- Sua imagem principal -->
-        <div class="gallery-item">
-            <img src="./img/gallery/photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Encontro casual em café ao ar livre">
+        <img class="main-image"
+            src="./img/gallery/photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Encontro casual em café ao ar livre">
+        <div class="main-text">
+            Access the full gallery <a href="https://drive.google.com/drive/folders/1FmrZJVcuahuXfSBnheqxn-HoQ6kIihnM?usp=drive_link" target="_blank" rel="noopener" >here</a>
         </div>
-
-        <!-- Outras imagens complementares -->
-
-                <div class="gallery-item">
-            <img src="./img/gallery/photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Encontro casual em café ao ar livre">
-        </div>
-
-                <div class="gallery-item">
-            <img src="./img/gallery/photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Encontro casual em café ao ar livre">
-        </div>
-        <div class="gallery-item">
-            <img src="./img/gallery/photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Encontro casual em café ao ar livre">
-        </div>
-
- 
-
     </div>
 
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
