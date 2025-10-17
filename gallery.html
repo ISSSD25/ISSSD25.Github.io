@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<link rel="preconnect" href="https://fonts.googleapis.com/">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-<link href="./files/css2" rel="stylesheet">
-<link rel="stylesheet" href="./files/all.min.css">
-<link rel="stylesheet" href="./files/bootstrap.css">
-<link rel="stylesheet" href="./files/style.css">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria Estilo Instagram</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./files/all.min.css">
+    <link rel="stylesheet" href="./files/bootstrap.css">
+    <link rel="stylesheet" href="./files/style.css">
+
     <style>
         * {
             margin: 0;
@@ -35,6 +36,7 @@
             justify-content: center;
             flex: 1;
             margin-top: 4rem;
+            padding: 0 1rem; /* Adicionado para evitar que o conteúdo toque as bordas em telas pequenas */
         }
 
         .main-image {
@@ -42,31 +44,27 @@
             max-height: 60vh;
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+            margin-top: 3rem;
             margin-bottom: 2rem;
             object-fit: cover;
         }
-
-        .gallery-link {
-            font-size: 1.2rem;
-            color: #fff;
-            background: #3897f0;
-            padding: 0.75em 1.5em;
-            border-radius: 6px;
-            text-decoration: none;
-            transition: background 0.2s;
-            font-weight: 500;
-        }
-
-        .gallery-link:hover {
-            background: #256bb5;
-        }
-
+        
         .main-text {
             margin-bottom: 1.5rem;
             font-size: 1.3rem;
             color: #333;
             text-align: center;
         }
+
+        /* ✨ ESTILO ADICIONADO PARA O IFRAME ✨ */
+        iframe {
+            margin-top: 3rem; /* Espaço acima do vídeo */
+            margin-bottom: 2.5rem; /* Espaço abaixo do vídeo */
+            max-width: 90vw; /* Garante que o vídeo não ultrapasse a largura da tela */
+            border-radius: 12px; /* Bordas arredondadas para combinar com a imagem */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12); /* Sombra para combinar com a imagem */
+        }
+
     </style>
 </head>
 
@@ -74,13 +72,28 @@
     <div id="menu-container"></div>
 
     <div class="main-content">
-        <!-- Sua imagem principal -->
         <img class="main-image"
             src="./img/gallery/photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Encontro casual em café ao ar livre">
         <div class="main-text">
-            Access the full gallery <a href="https://drive.google.com/drive/folders/1FmrZJVcuahuXfSBnheqxn-HoQ6kIihnM?usp=drive_link" target="_blank" rel="noopener" >here</a>
+            Access the full photo gallery <a href="https://drive.google.com/drive/folders/1FmrZJVcuahuXfSBnheqxn-HoQ6kIihnM?usp=drive_link" target="_blank" rel="noopener" >here</a>
         </div>
+
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/videoseries?si=_G8SqC01uRfebWOM&amp;list=PL97RRob4chXlPItYf-bcLafW7uvvi6JwP" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen
+        ></iframe>
+
+        <div class="main-text">
+            Access the video recording playlist <a href="https://drive.google.com/drive/folders/1FmrZJVcuahuXfSBnheqxn-HoQ6kIihnM?usp=drive_link" target="_blank" rel="noopener" >here</a>
+        </div>
+        
     </div>
 
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
